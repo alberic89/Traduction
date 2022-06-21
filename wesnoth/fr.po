@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: Wesnoth-1.12\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-05-29 13:14+0300\n"
-"PO-Revision-Date: 2022-04-17 21:06+0200\n"
-"Last-Translator: demario\n"
+"PO-Revision-Date: 2022-06-21 11:51+0200\n"
+"Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -212,7 +212,6 @@ msgstr ""
 "cette option est désactivée. De plus, le domaine associé au journal de "
 "dépréciation permet de contrôler combien de messages sont affichés."
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [unstore_unit]
 #. [lua]: set_status
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_The_Desert_of_Death.cfg:365
@@ -233,7 +232,6 @@ msgstr "trident des tempêtes"
 msgid "Gold carryover:"
 msgstr "Or conservé :"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [note]
 #. [lua]: generate_objectives
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/15_A_New_Land.cfg:248
@@ -3578,7 +3576,6 @@ msgstr "Caverne"
 msgid "Fungus"
 msgstr "Champignons"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=village
 #: data/core/team-colors.cfg:195 src/terrain/terrain.cpp:188
 msgid "Village"
@@ -3609,13 +3606,11 @@ msgstr "Impraticable"
 msgid "Impassable"
 msgstr "Infranchissable"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=fog
 #: data/core/team-colors.cfg:231 src/game_initialization/lobby_data.cpp:446
 msgid "Fog"
 msgstr "Brouillard"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=shroud
 #: data/core/team-colors.cfg:237 src/game_initialization/lobby_data.cpp:449
 #: src/game_initialization/lobby_data.cpp:452
@@ -4009,7 +4004,6 @@ msgstr "Oui"
 msgid "No"
 msgstr "Non"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=title
 #: data/gui/window/screenshot_notification.cfg:95
 #: src/hotkey/command_executor.cpp:633
@@ -4042,7 +4036,6 @@ msgid "(Note: You should use $replacement instead in new code)"
 msgstr ""
 "(Note : Vous devriez utiliser $replacement à la place, dans le nouveau code)"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: wesnoth.deprecate_api
 #: data/lua/core/_initial.lua:28 src/deprecation.cpp:69
 msgid "Invalid deprecation level $level (should be 1-4)"
@@ -4053,31 +4046,26 @@ msgstr "Niveau de dépréciation invalide $level (devrait être entre 1 et 4)"
 msgid "Invalid deprecation level (should be 1-4)"
 msgstr "Niveau de dépréciation invalide (devrait être entre 1 et 4)"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml/harm_unit.lua:126 src/actions/attack.cpp:1075
 msgid "female^poisoned"
 msgstr "empoisonnée"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml/harm_unit.lua:128 src/actions/attack.cpp:1082
 msgid "female^slowed"
 msgstr "ralentie"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml/harm_unit.lua:128 src/actions/attack.cpp:1082
 msgid "slowed"
 msgstr "ralenti"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml/harm_unit.lua:129 src/actions/attack.cpp:1088
 msgid "female^petrified"
 msgstr "pétrifiée"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml/harm_unit.lua:129 src/actions/attack.cpp:1088
 msgid "petrified"
@@ -4093,14 +4081,12 @@ msgstr "insoignable"
 msgid "unhealable"
 msgstr "insoignable"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: wesnoth.wml_actions.message
 #: data/lua/wml/message.lua:432 src/scripting/game_lua_kernel.cpp:3019
 #: src/scripting/game_lua_kernel.cpp:3054
 msgid "input"
 msgstr "entrée"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: generate_objectives
 #: data/lua/wml/objectives.lua:36 src/game_initialization/mp_game_utils.cpp:76
 msgid "Victory:"
@@ -6170,6 +6156,9 @@ msgid ""
 "to advance to ‘$higher_level’; please ask the add-on author to use "
 "[modify_unit_type] instead."
 msgstr ""
+"Erreur : [advancefrom] ne fonctionne plus. Les unités '$lower_level' ne "
+"peuvent pas passer à '$higher_level' ; veuillez demander à l'auteur du "
+"module complémentaire d'utiliser [modify_unit_type] à la place."
 
 #: src/game_config_manager.cpp:563
 msgid "instead, use the macro with the same name in the [campaign] tag"
