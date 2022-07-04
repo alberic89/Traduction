@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.3\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-05-29 10:14 UTC\n"
-"PO-Revision-Date: 2022-05-27 15:50+0200\n"
+"PO-Revision-Date: 2022-07-04 11:49+0200\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnoth@ml.free.fr>\n"
 "Language: fr\n"
@@ -626,7 +626,6 @@ msgstr "frénésie berserk"
 
 #. [unit_type]: id=Dwarvish Masked Dragonguard, race=dwarf
 #: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Masked_Dragonguard.cfg:17
-#, fuzzy
 msgid ""
 "It is not clear why the Dragonguards are called what they are, a name given "
 "by their dwarven brethren. Some speculate that the name comes from their "
@@ -854,7 +853,6 @@ msgstr "bâton de tonnerre"
 
 #. [unit_type]: id=Dwarvish Masked Thunderguard, race=dwarf
 #: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Masked_Thunderguard.cfg:18
-#, fuzzy
 msgid ""
 "The Dwarven Thunderguards are famed for their curious weaponry, these "
 "strange staves of wood and iron that make a thunderous noise in their anger. "
@@ -876,7 +874,7 @@ msgstr ""
 "s'agit de nourriture pour la bête emprisonnée à l'intérieur.\n"
 "\n"
 "Même si un seul tir de ces « bâtons de tonnerre » peut nécessiter plusieurs "
-"minutes de préparation, pour les nains le résultat vaut le coup d'attendre."
+"minutes de préparation, pour les nains, le résultat vaut le coup d'attendre."
 
 #. [unit_type]: id=Dwarvish Masked Ulfserker, race=dwarf
 #. [unit_type]: id=Dwarvish Ulfserker, race=dwarf
@@ -2124,7 +2122,6 @@ msgstr "Nomade"
 
 #. [unit_type]: id=Dune Rover, race=dunefolk
 #: data/core/units/dunefolk/Rover.cfg:20
-#, fuzzy
 msgid ""
 "Originating from the nomadic wanderers of the open deserts, rovers are the "
 "representation of the most well-balanced Dunefolk soldier: flexible, mobile, "
@@ -2135,12 +2132,16 @@ msgid ""
 "readily to warfare. Their unique trait of fighting best at dawn or dusk "
 "corresponds with the time when desert temperatures are the most habitable."
 msgstr ""
-"Les vadrouilleurs sont pour bien des raisons l'unité ammorite idéale : "
-"polyvalents, mobiles, aussi efficaces en attaque qu'en défense et à distance "
-"qu'au corps-à-corps. Ils préfèrent combattre en terrain connu, dans les "
-"déserts et les collines de leur Sud natal. De plus, ils se battent le mieux "
-"à l'aube et au crépuscule, aux heures où les températures du désert sont les "
-"plus raisonnables."
+"Originaires des nomades du désert, les vadrouilleurs sont pour bien des "
+"raisons l'unité ammorite idéale : polyvalents, mobiles, aussi efficaces en "
+"attaque qu'en défense et à distance qu'au corps-à-corps. Ce sont des "
+"chasseurs et des traqueurs expérimentés, des habitants robustes des déserts "
+"et des collines où ils ont élu domicile. Bien qu'ils n'aient pas reçu "
+"d'entraînement en tant que troupes officielles, les compétences que ces "
+"vadrouilleurs utilisent pour survivre dans le désert se retrouvent "
+"facilement sur le champ de bataille. Leur caractéristique unique de se "
+"battre le mieux à l'aube ou au crépuscule correspond au moment où les "
+"températures du désert sont les plus habitables."
 
 #. [unit_type]: id=Dune Scorcher, race=dunefolk
 #: data/core/units/dunefolk/Scorcher.cfg:9
@@ -2392,7 +2393,6 @@ msgstr "Pionnier"
 
 #. [unit_type]: id=Dune Wayfarer, race=dunefolk
 #: data/core/units/dunefolk/Wayfarer.cfg:21
-#, fuzzy
 msgid ""
 "From the journal of Balah, the Dune Watcher:\n"
 "\n"
@@ -2424,21 +2424,21 @@ msgid ""
 "the other Wayfarers again. My tale might not be that impressive to them, but "
 "at least it is an improvement over my previous encounter with the wyvern...”"
 msgstr ""
-"Extraits du journal de Balah, l'Observateur des ammorites : \\n\n"
-"\\n\n"
+"Extraits du journal de Balah, l'Observateur des ammorites : \n"
+"\n"
 "\"... Aujourd'hui était le sixième jour. Six jours de poursuite dans le "
 "désert, sans sommeil, sans repos... mais je n'ai besoin d'aucun des deux. Le "
 "Roc Sanguinaire a volé trop de membres de mon troupeau pour satisfaire son "
 "vorace appétit. Je dois m'en débarrasser avant que la caravane ne meure de "
 "faim. Je l'ai traqué jusqu'ici, et peu importe jusqu'où il s'enfuit, je le "
 "suivrai.\n"
-"\\n\n"
+"\n"
 "... tirez dessus ! La créature n'était qu'à deux cents pas, mais j'avais le "
 "soleil dans les yeux ! J'ai réussi à décocher quelques flèches sur la bête, "
 "mais seulement de quoi la ralentir. Pourtant, elle semble se fatiguer plus "
 "vite que moi. Avec un peu de chance, je l'attraperai avant qu'elle "
 "n'atteigne les montagnes.\n"
-"\\n\n"
+"\n"
 "... Onzième jour. J'ai coincé la créature après qu'elle ait atterri sur la "
 "colline, mais il y a trois autres rocs avec lui, ce que je n'avais pas "
 "prévus. Les rocs sont des créatures féroces en combat rapproché. En "
@@ -2448,7 +2448,7 @@ msgstr ""
 "blessure de ma jambe se referme avant de retourner tuer les deux derniers. "
 "Peut-être qu'alors je pourrai enfin trouver le temps de manger et de me "
 "reposer.\n"
-"\\n\n"
+"\n"
 "... Même moi, je suis surpris d'avoir parcouru presque la moitié des Dunes "
 "du Nord au cours de mon expédition de vingt-et-un jours. Il faudrait à la "
 "caravane près de trois mois pour faire ce trajet, mais je suppose que les "
@@ -2457,7 +2457,7 @@ msgstr ""
 "route, ce qui devrait faire un bon repas pour les enfants. Il sera également "
 "agréable de revoir certains des autres pionniers. Mon histoire ne sera peut-"
 "être pas très impressionnante pour eux, mais au moins, c'est bien mieux que "
-"ma dernière rencontre avec la vouivre...\"\n"
+"ma dernière rencontre avec la vouivre...\""
 
 #. [unit_type]: id=Dune Windbolt, race=dunefolk
 #: data/core/units/dunefolk/Windbolt.cfg:8
@@ -2672,7 +2672,6 @@ msgstr "Sentinelle naine"
 
 #. [unit_type]: id=Dwarvish Sentinel, race=dwarf
 #: data/core/units/dwarves/Sentinel.cfg:19
-#, fuzzy
 msgid ""
 "Champions among their fellow troops, the dwarven sentinels form the bulwark "
 "of their battle lines. Leading a direct assault against a line that they "
@@ -2681,12 +2680,12 @@ msgid ""
 "armor, these dwarves are masters of the melee and can hold a patch of earth "
 "with the single-minded tenacity of an oak."
 msgstr ""
-"Champions parmi leurs camarades soldats, les sentinelles naines forment le "
-"rempart des lignes de batailles. Mener un assaut frontal contre les rangs "
-"qu'ils renforcent est souvent hors de question ; cela ressemble plus à un "
-"suicide qu'à une attaque efficace. Ces nains sont des maîtres du corps à "
-"corps et peuvent s'agripper à un carré de terre aussi obstinément qu'un "
-"chêne."
+"Champions parmi leurs camarades de troupes, les sentinelles naines forment "
+"le rempart de leurs lignes de bataille. Mener un assaut direct contre une "
+"ligne qu'elles fortifient, est souvent hors de question ; cela tend à être "
+"suicidaire, plutôt que simplement inefficace. Équipés de la plus solide "
+"armure de Knalgan, ces nains sont des maîtres de la mêlée et peuvent tenir "
+"une parcelle de terre avec la ténacité d'un chêne."
 
 #. [unit_type]: id=Dwarvish Stalwart, race=dwarf
 #: data/core/units/dwarves/Stalwart.cfg:4
@@ -2790,7 +2789,6 @@ msgstr "Vengeur elfe"
 
 #. [unit_type]: id=Elvish Avenger, race=elf
 #: data/core/units/elves/Avenger.cfg:20
-#, fuzzy
 msgid ""
 "The curious name of the Elvish ‘Avengers’ comes from a tactic often employed "
 "by these master rangers. The enemy is allowed to break through a feint "
@@ -2800,24 +2798,22 @@ msgid ""
 "vengeance for their brethren lost earlier in the battle. While not so base "
 "in design, it is not at all inaccurate."
 msgstr ""
-"Le curieux nom des « vengeurs » elfes vient d'une tactique souvent employée "
-"par ces maîtres rôdeurs. Ils laissent l'ennemi pénétrer un semblant de "
-"défense et, quand les troupes vulnérables de l'arrière de la ligne de front "
-"arrivent, ces archers se découvrent et attaquent, brisant les lignes de "
-"soutien et encerclant l'ennemi en un seul mouvement.\n"
-"\n"
-"Cela a parfois été interprété comme une façon de venger leurs frères "
-"disparus dans la bataille. Bien que ce ne soit pas la raison première, ce "
-"n'est pas inexact."
+"Le curieux nom des \"vengeurs\" elfes provient d'une tactique souvent "
+"employée par ces maîtres rangers. Ils laissent l'ennemi franchir une ligne "
+"de défense feinte et lorsque les troupes vulnérables derrière la ligne de "
+"front les suivent, ces archers se mettent à couvert et attaquent, coupant "
+"les lignes de ravitaillement et encerclant l'ennemi d'un seul coup.\n"
+"Cela a parfois été interprété comme une forme de vengeance pour leurs frères "
+"perdus plus tôt dans la bataille. Bien que ce ne soit pas aussi simple, ce "
+"n'est pas tout à fait inexact."
 
 #. [special_note]
 #: data/core/units/elves/Avenger.cfg:22
-#, fuzzy
 msgid ""
 "Elvish Avengers are well-traveled and adept at traversing harsh terrains "
 "like sand, water, and mountains."
 msgstr ""
-"Les vengeurs elfiques sont de grands voyageurs et capables de traverser des "
+"Les vengeurs elfes sont de grands voyageurs et capables de traverser des "
 "terrains difficiles comme le sable, l'eau et les montagnes."
 
 #. [female]
@@ -2934,7 +2930,6 @@ msgstr "Enchanteresse elfe"
 # "corresponding enchantresses": ce n'est pas très clair à quoi correspondent les enchanteresses,
 #. [unit_type]: id=Elvish Enchantress, race=elf
 #: data/core/units/elves/Enchantress.cfg:19
-#, fuzzy
 msgid ""
 "In the context of Elven magic, the notion of enchanting is a little bit "
 "misleading since it almost always refers to manipulation of an object’s "
@@ -2956,7 +2951,7 @@ msgstr ""
 "mystérieux sont sous la protection de gardiens tout aussi énigmatiques, qui "
 "se tiennent le plus souvent à l'écart des regards indiscrets. Bien qu'ils "
 "soient plutôt réservés et peu sociables, ces elfes sont bien considérés par "
-"la plupart des membres de leur famille et on fait parfois appel à alles "
+"la plupart des membres de leur famille et on fait parfois appel à elles "
 "comme conseillères, surtout en cas de problèmes inhabituels ou étranges."
 
 #. [attack]: type=impact
@@ -3201,12 +3196,11 @@ msgstr ""
 
 #. [special_note]
 #: data/core/units/elves/Ranger.cfg:21
-#, fuzzy
 msgid ""
 "Elvish Rangers are well-traveled and adept at traversing harsh terrains like "
 "sand, water, and mountains."
 msgstr ""
-"Les rôdeurs elfs sont de grands voyageurs et capables de traverser des "
+"Les rôdeurs elfes sont de grands voyageurs et capables de traverser des "
 "terrains difficiles comme le sable, l'eau et les montagnes."
 
 #. [female]
@@ -4271,10 +4265,9 @@ msgstr ""
 
 #. [special_note]
 #: data/core/units/humans/Loyalist_Royal_Guard.cfg:25
-#, fuzzy
 msgid "Compared to other loyalists, Royal Guards have more movement points."
 msgstr ""
-"Comparativement aux autres loyalistes, les gardes royaux possèdent plus de "
+"Par rapport aux autres loyalistes, les gardes royaux possèdent plus de "
 "points de mouvements."
 
 #. [unit_type]: id=Sergeant, race=human
@@ -5600,7 +5593,6 @@ msgstr ""
 
 #. [unit_type]: id=Swamp Lizard, race=monster
 #: data/core/units/monsters/Crocodile.cfg:13
-#, fuzzy
 msgid "Swamp Lizard"
 msgstr "Lézard des marais"
 
@@ -5630,7 +5622,6 @@ msgstr "rôdeur des marais"
 
 #. [hides]: id=swamp_lurk
 #: data/core/units/monsters/Crocodile.cfg:145
-#, fuzzy
 msgid "female^swamp lurk"
 msgstr "Lézarde des marais"
 
@@ -6186,7 +6177,6 @@ msgstr ""
 
 #. [unit_type]: id=Roc, race=monster
 #: data/core/units/monsters/Roc.cfg:4
-#, fuzzy
 msgid "Roc"
 msgstr "Roc"
 
@@ -6477,7 +6467,6 @@ msgstr "chakri"
 
 #. [female]
 #: data/core/units/nagas/Dirkfang.cfg:93
-#, fuzzy
 msgid "Nagini Dirkfang"
 msgstr "Daguencroque"
 
@@ -6624,9 +6613,8 @@ msgstr ""
 
 #. [attack]: type=blade
 #: data/core/units/nagas/Ophidian.cfg:27 data/core/units/nagas/Sicarius.cfg:28
-#, fuzzy
 msgid "curved blade"
-msgstr "lame de guerre"
+msgstr "lame courbe"
 
 #. [attack]: type=pierce
 #: data/core/units/nagas/Ophidian.cfg:36 data/core/units/nagas/Sicarius.cfg:41
@@ -6786,7 +6774,6 @@ msgstr ""
 
 #. [female]
 #: data/core/units/nagas/Zephyr.cfg:111
-#, fuzzy
 msgid "Nagini Zephyr"
 msgstr "Zéphyre"
 
@@ -6886,7 +6873,6 @@ msgstr "Grognard orc"
 
 #. [unit_type]: id=Orcish Grunt, race=orc
 #: data/core/units/orcs/Grunt.cfg:17
-#, fuzzy
 msgid ""
 "True orcs are well known for their raw strength and ferocity, as well as "
 "their propensity toward aggressive combat. These traits mean that even the "
@@ -6896,13 +6882,14 @@ msgid ""
 "overcome. What makes an orcish horde most threatening, however, is the sheer "
 "numbers in which these fighters can be fielded."
 msgstr ""
-"Les grognards sont l'un des piliers de l'armée orc. Composés des orcs les "
-"plus grands et les plus forts que le clan peut rassembler, ils reçoivent "
-"l'équipement le plus simple puis sont envoyés sur le champ de bataille. La "
-"moindre recrue représente une masse de muscle dangereuse pour ses "
-"adversaires et peut subir de nombreuses blessures avant de tomber. Le nombre "
-"de guerriers qu'une horde peut envoyer au combat représente une menace "
-"effrayante pour qui se trouve sur son chemin."
+"Les vrais orcs sont connus pour leur force brute et leur férocité, ainsi que "
+"pour leur propension au combat agressif. Ces caractéristiques font que même "
+"les grognards les plus inexpérimentés et les plus mal équipés peuvent être "
+"difficiles à affronter sur le champ de bataille. Un seul orc est capable de "
+"porter à lui seul un nombre impressionnant de coups, et peut encaisser un "
+"grand nombre de coups en retour avant d'être vaincu. Ce qui rend une horde "
+"d'orcs plus menaçante, cependant, c'est le nombre de combattants qu'elle "
+"peut rassembler."
 
 #. [unit_type]: id=Orcish Leader, race=orc
 #: data/core/units/orcs/Leader.cfg:4
@@ -6911,7 +6898,6 @@ msgstr "Meneur orc"
 
 #. [unit_type]: id=Orcish Leader, race=orc
 #: data/core/units/orcs/Leader.cfg:18
-#, fuzzy
 msgid ""
 "Unusually cunning orcs tend to find themselves as the leaders of warrior "
 "bands. Although not necessarily possessed of the same loyalty-inspiring "
@@ -7008,7 +6994,6 @@ msgstr "Cranequinier orc"
 
 #. [unit_type]: id=Orcish Slurbow, race=orc
 #: data/core/units/orcs/Slurbow.cfg:20
-#, fuzzy
 msgid ""
 "The basic design of a crossbow gives rise to the arbalest or ‘slurbow’, a "
 "much more intricate device complete with a hand-turned cranequin to recock "
@@ -7023,7 +7008,7 @@ msgstr ""
 "Le principe de l’arbalète a été amélioré pour développer l’arme du "
 "cranequinier : plus complexe, avec une crémaillère à manivelle pour la "
 "réarmer et souvent une gouttière de bois stratifié ou d’os qui maintient le "
-"carreau. Un tel objet est plus facile à manier et beaucoup plus puissant "
+"carreau. Une telle arme est plus facile à manier et beaucoup plus puissante "
 "qu’une simple arbalète ; sa fabrication dépasse les compétences des orcs.\n"
 "\n"
 "Les orcs prisent de telles armes, qu’ils peuvent employer lors des pillages. "
@@ -7456,7 +7441,6 @@ msgstr "Nécrophage"
 
 #. [unit_type]: id=Necrophage, race=undead
 #: data/core/units/undead/Corpse_Necrophage.cfg:18
-#, fuzzy
 msgid ""
 "The necrophage, or ‘devourer of the dead’, is a monstrous, corpulent thing, "
 "which bears only a crude resemblance to a man. They appear to be quite "
@@ -7804,7 +7788,6 @@ msgstr "Décocheur d'os"
 
 #. [unit_type]: id=Bone Shooter, race=undead
 #: data/core/units/undead/Skele_Bone_Shooter.cfg:16
-#, fuzzy
 msgid ""
 "Of a dark sorcerer’s creations, some take more strongly to the false life "
 "given them. The potency of their unlife is given equipment to match; "
@@ -8171,9 +8154,8 @@ msgstr ""
 
 #. [unit_type]: id=Wose Sapling, race=wose
 #: data/core/units/wose/Wose_Sapling.cfg:4
-#, fuzzy
 msgid "Wose Sapling"
-msgstr "Jeune Wose"
+msgstr "Pousse de Wose"
 
 #. [unit_type]: id=Wose Shaman, race=wose
 #: data/core/units/wose/Wose_Shaman.cfg:4
@@ -8182,7 +8164,6 @@ msgstr "Chaman Wose"
 
 #. [unit_type]: id=Wose Shaman, race=wose
 #: data/core/units/wose/Wose_Shaman.cfg:21
-#, fuzzy
 msgid ""
 "These woses are able to command forest plants such as vines and creepers to "
 "hinder their enemies."
