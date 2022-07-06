@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.3\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-05-29 10:14 UTC\n"
+"POT-Creation-Date: 2022-05-08 01:42 UTC\n"
 "PO-Revision-Date: 2022-07-04 11:49+0200\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnoth@ml.free.fr>\n"
@@ -1836,7 +1836,6 @@ msgstr ""
 "suffisamment qualifiés pour être des flanqueurs efficaces ou de vrais "
 "attaquants de choc."
 
-#. [unit_type]: id=Dune Falconer, race=dunefolk
 #: data/core/units/dunefolk/Falconer.cfg:15
 msgid "female^Dune Falconer"
 msgstr "Fauconnière"
@@ -2670,8 +2669,12 @@ msgstr ""
 msgid "Dwarvish Sentinel"
 msgstr "Sentinelle naine"
 
+# Ici, "Knalgan armor" est un peu étrange.
+# "Knalgan" veut dire "de Knalga" qui est une grande ville naine. "Knalgan alliance" est l'alliance des nains et des hors-la-loi signée à Knalga.
+# À l'évidence, il n'y a pas d'armure "knalgane", puisque les hors-la-loi n'ont pas reçu d'équipement nain suite à leur alliance (voir les résistances des unités hors-la-loi).
 #. [unit_type]: id=Dwarvish Sentinel, race=dwarf
 #: data/core/units/dwarves/Sentinel.cfg:19
+#, fuzzy
 msgid ""
 "Champions among their fellow troops, the dwarven sentinels form the bulwark "
 "of their battle lines. Leading a direct assault against a line that they "
@@ -2680,12 +2683,12 @@ msgid ""
 "armor, these dwarves are masters of the melee and can hold a patch of earth "
 "with the single-minded tenacity of an oak."
 msgstr ""
-"Champions parmi leurs camarades de troupes, les sentinelles naines forment "
-"le rempart de leurs lignes de bataille. Mener un assaut direct contre une "
-"ligne qu'elles fortifient, est souvent hors de question ; cela tend à être "
-"suicidaire, plutôt que simplement inefficace. Équipés de la plus solide "
-"armure de Knalgan, ces nains sont des maîtres de la mêlée et peuvent tenir "
-"une parcelle de terre avec la ténacité d'un chêne."
+"Champions parmi leurs camarades de troupe, les sentinelles naines forment le "
+"rempart de leurs lignes de bataille. Mener un assaut direct contre une ligne "
+"qu'elles renforcent, est souvent hors de question ; cela revient à être "
+"suicidaire, bien plus que simplement inefficace. Équipés de la plus solide "
+"armure de Knalga, ces nains sont des maîtres de la mêlée et peuvent tenir "
+"une parcelle de terre avec la résistance d'un chêne."
 
 #. [unit_type]: id=Dwarvish Stalwart, race=dwarf
 #: data/core/units/dwarves/Stalwart.cfg:4
@@ -2789,6 +2792,7 @@ msgstr "Vengeur elfe"
 
 #. [unit_type]: id=Elvish Avenger, race=elf
 #: data/core/units/elves/Avenger.cfg:20
+#, fuzzy
 msgid ""
 "The curious name of the Elvish ‘Avengers’ comes from a tactic often employed "
 "by these master rangers. The enemy is allowed to break through a feint "
@@ -2802,10 +2806,10 @@ msgstr ""
 "employée par ces maîtres rangers. Ils laissent l'ennemi franchir une ligne "
 "de défense feinte et lorsque les troupes vulnérables derrière la ligne de "
 "front les suivent, ces archers se mettent à couvert et attaquent, coupant "
-"les lignes de ravitaillement et encerclant l'ennemi d'un seul coup.\n"
-"Cela a parfois été interprété comme une forme de vengeance pour leurs frères "
-"perdus plus tôt dans la bataille. Bien que ce ne soit pas aussi simple, ce "
-"n'est pas tout à fait inexact."
+"les lignes de ravitaillement et encerclant l'ennemi d'un seul coup. Cela a "
+"parfois été interprété comme une forme de vengeance pour leurs frères perdus "
+"plus tôt dans la bataille. Bien que ce ne soit pas aussi simple, ce n'est "
+"pas tout à fait inexact."
 
 #. [special_note]
 #: data/core/units/elves/Avenger.cfg:22
@@ -2846,8 +2850,8 @@ msgstr ""
 "et sont spécialisés dans les manœuvres défensives. Typiquement, les "
 "capitaines dirigent de petites équipes qui restent ensemble pendant de "
 "longues périodes, leur permettant de tisser des liens d'amitiés et de "
-"mentorats avec leurs troupes. Ils dirigent généralement avec amitié et "
-"camaraderie, mais conservent tout de même le respect des leurs."
+"mentorats avec leurs troupes. Ils dirigent généralement avec amabilité et "
+"camaraderie, mais imposent toujours le respect aux leurs."
 
 #. [unit_type]: id=Elvish Champion, race=elf
 #: data/core/units/elves/Champion.cfg:4
@@ -2873,12 +2877,12 @@ msgstr ""
 "n'attaqueront qu'en représailles pour certains actes répréhensibles qui leur "
 "sont infligés. Cependant, certains elfes se délectent de la gloire de la "
 "bataille et recherchent délibérément le combat - à dessein ou non - pour "
-"leur propre plaisir. Naturellement, la plupart de ces guerriers vivent de "
-"courtes vies consacrées à perfectionner leur maîtrise de l’épée dans le but "
-"de conquérir les champs de bataille : seuls les plus talentueux sont "
-"capables de survivre à des combats incessants et de gagner le titre de « "
-"Champion ». Ayant passé toute leur vie à affiner leurs prouesses avec la "
-"lame, ces elfes sont exceptionnellement dangereux et ne doivent jamais être "
+"leur propre satisfaction. Naturellement, la plupart de ces guerriers vivent "
+"de courtes vies consacrées à perfectionner leur maîtrise de l’épée dans le "
+"but de conquérir les champs de bataille : seuls les plus talentueux sont "
+"capables de survivre à ces combats incessants et de gagner le titre de « "
+"Champion ». Ayant passé toute leur vie à accomplir des prouesses avec leur "
+"épée, ces elfes sont exceptionnellement dangereux et ne doivent jamais être "
 "sous-estimés."
 
 #. [unit_type]: id=Elvish Druid, race=elf
@@ -2902,19 +2906,18 @@ msgid ""
 "the druids’ careful tending, the forest kindles their magics in turn, "
 "symbiotically enhancing the already potent powers that these elves possess."
 msgstr ""
-"Certains elfes choisissent d'approfondir leur lien avec le monde matériel, "
+"Certaines elfes choisissent d'approfondir leur lien avec le monde matériel, "
 "renforçant ainsi leurs capacités déjà puissantes à stimuler et manipuler les "
 "énergies naturelles. L'effet le plus notable de la magie de ces druides est "
 "sans doute la sensation marquée de mouvement dans les forêts profondes "
-"qu'ils préservent. Les étrangers qui se promènent dans les forêts elfiques "
+"qu'elles préservent. Les étrangers qui se promènent dans les forêts elfiques "
 "parlent souvent de racines et de lianes enchevêtrées, qui se déplacent "
 "presque aussi vite que le pas de marche d'un guerrier, ou du grincement des "
 "arbres anciens, qui traversent des camps entiers en une seule nuit. La forêt "
 "et la terre deviennent presque une entité connectée, quelque chose qui vit "
 "et respire comme un seul organisme massif. Alors qu'elle s'épanouit sous les "
 "soins attentifs des druides, la forêt alimente leurs magies à son tour, "
-"renforçant de manière symbiotique les pouvoirs déjà puissants que possèdent "
-"ces elfes."
+"renforçant de manière symbiotique les pouvoirs déjà puissants des ces elfes."
 
 #. [attack]: type=impact
 #: data/core/units/elves/Druid.cfg:35 data/core/units/elves/Lady.cfg:27
@@ -5546,8 +5549,8 @@ msgid ""
 "gets too close, a bear will reliably attack."
 msgstr ""
 "Les ours des cavernes sont de lourdes et puissantes bêtes dotées de griffes "
-"acérées et de grandes dents. Adaptés à l'errance dans les cavernes sombres, "
-"ils ont un odorat et une ouïe très développés, mais une piètre vue. "
+"acérées et de crocs menaçants. Adaptés à l'errance dans les cavernes "
+"sombres, ils ont un odorat et une ouïe très développés, mais une piètre vue. "
 "Lorsqu'un autre prédateur ou une quelconque menace s'approche trop près de "
 "lui, l'ours attaque sans hésiter."
 
@@ -5593,6 +5596,7 @@ msgstr ""
 
 #. [unit_type]: id=Swamp Lizard, race=monster
 #: data/core/units/monsters/Crocodile.cfg:13
+#, fuzzy
 msgid "Swamp Lizard"
 msgstr "Lézard des marais"
 
@@ -5622,6 +5626,7 @@ msgstr "rôdeur des marais"
 
 #. [hides]: id=swamp_lurk
 #: data/core/units/monsters/Crocodile.cfg:145
+#, fuzzy
 msgid "female^swamp lurk"
 msgstr "Lézarde des marais"
 
@@ -5667,10 +5672,10 @@ msgid ""
 "Stronger and faster than their younger kin, they are rumored to hit with "
 "enough force to remove an enemy’s head."
 msgstr ""
-"Les faucons aînés arborent les cicatrices d'un vétéran, qu'ils ont gagnées "
-"en protégeant leurs maîtres, sans jamais hésiter en plonger dans la mêlée. "
-"Plus forts et plus rapides que leurs jeunes congénères, ils sont capables, "
-"dit-on, d'arracher la tête d'un ennemi par la force de leur coups."
+"Les faucons aînés arborent les cicatrices révélatrices du vétéran, qu'ils "
+"ont gagnées en protégeant leurs maîtres, sans jamais hésiter en plonger dans "
+"la mêlée. Plus forts et plus rapides que leurs jeunes congénères, ils sont "
+"capables, dit-on, d'arracher la tête d'un ennemi par la force de leur coups."
 
 #. [attack]: type=pierce
 #. [attack]: type=blade
@@ -5819,12 +5824,12 @@ msgstr ""
 msgid "ice claw"
 msgstr "griffes de feu"
 
-#. [unit_type]: id=Giant Stoat # wmllint: noconvert
+#. [unit_type]: id=Giant Stoat
 #: data/core/units/monsters/Frost_Stoat.cfg:169
 msgid "Giant Stoat"
 msgstr "Hermine géante"
 
-#. [unit_type]: id=Giant Stoat # wmllint: noconvert
+#. [unit_type]: id=Giant Stoat
 #: data/core/units/monsters/Frost_Stoat.cfg:170
 msgid "Giant Stoats are obsolete, use Frost Stoat."
 msgstr "Les hermines géantes sont obsolètes, utilisez les hermines du gel."
@@ -6177,6 +6182,7 @@ msgstr ""
 
 #. [unit_type]: id=Roc, race=monster
 #: data/core/units/monsters/Roc.cfg:4
+#, fuzzy
 msgid "Roc"
 msgstr "Roc"
 
@@ -6467,6 +6473,7 @@ msgstr "chakri"
 
 #. [female]
 #: data/core/units/nagas/Dirkfang.cfg:93
+#, fuzzy
 msgid "Nagini Dirkfang"
 msgstr "Daguencroque"
 
@@ -6873,6 +6880,7 @@ msgstr "Grognard orc"
 
 #. [unit_type]: id=Orcish Grunt, race=orc
 #: data/core/units/orcs/Grunt.cfg:17
+#, fuzzy
 msgid ""
 "True orcs are well known for their raw strength and ferocity, as well as "
 "their propensity toward aggressive combat. These traits mean that even the "
@@ -6885,11 +6893,10 @@ msgstr ""
 "Les vrais orcs sont connus pour leur force brute et leur férocité, ainsi que "
 "pour leur propension au combat agressif. Ces caractéristiques font que même "
 "les grognards les plus inexpérimentés et les plus mal équipés peuvent être "
-"difficiles à affronter sur le champ de bataille. Un seul orc est capable de "
-"porter à lui seul un nombre impressionnant de coups, et peut encaisser un "
-"grand nombre de coups en retour avant d'être vaincu. Ce qui rend une horde "
-"d'orcs plus menaçante, cependant, c'est le nombre de combattants qu'elle "
-"peut rassembler."
+"difficiles à affronter sur le champ de bataille. Un orc est capable de "
+"porter seul des volées de coups brutaux, et peut encaisser un grand nombre "
+"de coups en retour avant d'être vaincu. Ce qui rend une horde d'orcs plus "
+"menaçante, cependant, c'est le nombre de combattants qu'elle peut rassembler."
 
 #. [unit_type]: id=Orcish Leader, race=orc
 #: data/core/units/orcs/Leader.cfg:4
@@ -6898,6 +6905,7 @@ msgstr "Meneur orc"
 
 #. [unit_type]: id=Orcish Leader, race=orc
 #: data/core/units/orcs/Leader.cfg:18
+#, fuzzy
 msgid ""
 "Unusually cunning orcs tend to find themselves as the leaders of warrior "
 "bands. Although not necessarily possessed of the same loyalty-inspiring "
@@ -6905,11 +6913,11 @@ msgid ""
 "certain rapport with their kin, especially goblins, and can inspire them to "
 "fight with uncharacteristic boldness."
 msgstr ""
-"Les meneurs orcs vraiment astucieux tendent souvent à devenir chefs de "
-"bande. Ils emportent un arc en cas de nécessité, mais sont bien plus habiles "
-"à l'épée ; ces guerriers redoutables, très puissants en combat, ont aussi "
-"une certaine autorité sur leurs semblables, surtout les gobelins, qu'ils "
-"peuvent pousser à combattre avec une hardiesse inhabituelle."
+"Les orcs les plus rusés tendent souvent à devenir les chefs de bande de "
+"guerriers. Bien qu'ils ne possèdent pas le genre de charisme qui inspire la "
+"loyauté que les humains et les elfes placent au-dessus de tout, ces orcs ont "
+"souvent une certaine autorité sur leurs semblables, surtout les gobelins, "
+"qu'ils peuvent pousser à combattre avec une hardiesse inhabituelle."
 
 #. [unit_type]: id=Orcish Nightblade, race=orc
 #: data/core/units/orcs/Nightblade.cfg:4
@@ -6994,6 +7002,7 @@ msgstr "Cranequinier orc"
 
 #. [unit_type]: id=Orcish Slurbow, race=orc
 #: data/core/units/orcs/Slurbow.cfg:20
+#, fuzzy
 msgid ""
 "The basic design of a crossbow gives rise to the arbalest or ‘slurbow’, a "
 "much more intricate device complete with a hand-turned cranequin to recock "
@@ -7011,7 +7020,7 @@ msgstr ""
 "carreau. Une telle arme est plus facile à manier et beaucoup plus puissante "
 "qu’une simple arbalète ; sa fabrication dépasse les compétences des orcs.\n"
 "\n"
-"Les orcs prisent de telles armes, qu’ils peuvent employer lors des pillages. "
+"Les orcs prisent de telles armes, qu’ils peuvent saisir lors des pillages. "
 "Elles servent évidemment à équiper les plus forts et les plus rusés de leurs "
 "archers."
 
@@ -7441,6 +7450,7 @@ msgstr "Nécrophage"
 
 #. [unit_type]: id=Necrophage, race=undead
 #: data/core/units/undead/Corpse_Necrophage.cfg:18
+#, fuzzy
 msgid ""
 "The necrophage, or ‘devourer of the dead’, is a monstrous, corpulent thing, "
 "which bears only a crude resemblance to a man. They appear to be quite "
@@ -7455,8 +7465,8 @@ msgstr ""
 "corpulente qui ne ressemble plus que de loin à un homme. Ils ressemblent à "
 "une masse pourrie qui pourrait se déplacer ; ils sévissent avec la maladie "
 "et l'empoisonnement du sang, et répandent une odeur infecte. Le fait le plus "
-"répugnant, visible seulement de ceux percevant la magie funeste les "
-"habitant, est qu'ils ont été constitués à partir d'hommes vivants ; presque "
+"répugnant, visible seulement de ceux percevant la magie funeste qui les "
+"habite, est qu'ils ont été constitués à partir d'hommes vivants ; presque "
 "rien n'est connu de ce processus, qui doit être totalement cauchemardesque."
 
 #. [variation]
@@ -7788,6 +7798,7 @@ msgstr "Décocheur d'os"
 
 #. [unit_type]: id=Bone Shooter, race=undead
 #: data/core/units/undead/Skele_Bone_Shooter.cfg:16
+#, fuzzy
 msgid ""
 "Of a dark sorcerer’s creations, some take more strongly to the false life "
 "given them. The potency of their unlife is given equipment to match; "
@@ -7797,12 +7808,12 @@ msgid ""
 "unfortunate enemies."
 msgstr ""
 "Certaines créations des nécromanciens s'adaptent mieux que d'autres à la "
-"pseudo-vie qui leur est accordée, et s'équipent pour profiter au maximum du "
-"potentiel acquis de leur vivant. Ceci est particulièrement vrai pour les "
-"archers, souvent armés de façon ignoble : leurs carquois sont remplis de "
-"flèches faites non pas de bois, mais des os de leurs victimes. C’est "
-"pourquoi leurs infortunés ennemis les surnomment simplement « décocheurs "
-"d'os »."
+"pseudo-vie qui leur est accordée, et elles s'équipent pour profiter "
+"pleinement du potentiel de leur immortalité. Ceci est particulièrement vrai "
+"pour les archers, souvent armés de façon ignoble : leurs carquois sont "
+"remplis de flèches faites non pas de bois, mais des os de leurs victimes. "
+"C’est pourquoi leurs infortunés ennemis les surnomment simplement "
+"« décocheurs d'os »."
 
 #. [unit_type]: id=Chocobone, race=undead
 #: data/core/units/undead/Skele_Chocobone.cfg:4
@@ -8155,15 +8166,21 @@ msgstr ""
 #. [unit_type]: id=Wose Sapling, race=wose
 #: data/core/units/wose/Wose_Sapling.cfg:4
 msgid "Wose Sapling"
-msgstr "Pousse de Wose"
+msgstr "Pousse de wose"
 
 #. [unit_type]: id=Wose Shaman, race=wose
 #: data/core/units/wose/Wose_Shaman.cfg:4
+#, fuzzy
 msgid "Wose Shaman"
 msgstr "Chaman Wose"
 
+# "forest plants" - on pourrait lire cela de deux façons : plantes des forêts ou plantes ligneuses ( une plante ligneuse est une plante "qui utilise le bois dans le cadre de son support structurel" ). Les plantes ligneuses se distinguent des plantes herbacées ; elles sont plus solides et donc conviendraient mieux pour immobiliser.
+# "vines" - à nouveau deux significations possibles : au sens botanique, la vigne est une classe de plante dont la vigne commune et la liane font partie ; au sens commun, la vigne porte du raisin.
+# Donc : si « forest plants » est traduit par « plantes forestières », alors « vines » peut être traduit par vigne au sens général ( la vigne commune ne pousse pas en forêt ) et « lianes » est alors une redondance. Si on garde « plantes forestières » on peut s'écarter du texte original et dire « vignes ou ronces ».
+# Si "forest plants" est traduit par «  plantes ligneuses » ( ce serait "woody plants" en anglais ), alors on peut garder « vignes » ( dans les deux sens ) et ajouter « lierres ». « Plantes grimpantes » pourrait être une traduction alternative valable dans ce cas.
 #. [unit_type]: id=Wose Shaman, race=wose
 #: data/core/units/wose/Wose_Shaman.cfg:21
+#, fuzzy
 msgid ""
 "These woses are able to command forest plants such as vines and creepers to "
 "hinder their enemies."
