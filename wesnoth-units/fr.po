@@ -13,16 +13,16 @@ msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-05-08 01:42 UTC\n"
-"PO-Revision-Date: 2022-08-24 15:20+0200\n"
-"Last-Translator: alberic89 <alberic89@gmx.com>\n"
+"PO-Revision-Date: 2022-08-27 19:15+0800\n"
+"Last-Translator: demario\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.2.1\n"
-"X-Poedit-Bookmarks: -1,625,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #. [attack]: type=impact
 #. [attack]: type=arcane
@@ -2365,9 +2365,8 @@ msgstr "coup de cimeterre vigoureux"
 # 'balanced' pourrait-il être traduit plutôt en 'équilibré', 'assumé', ou autre ?
 #. [attack]: type=blade
 #: data/core/units/dunefolk/Swordsman.cfg:35
-#, fuzzy
 msgid "balanced scimitar slash"
-msgstr "coup de cimetere balancé"
+msgstr "coupe affutée au cimeterre"
 
 #. [unit_type]: id=Dune Warmaster, race=dunefolk
 #: data/core/units/dunefolk/Warmaster.cfg:8
@@ -2442,8 +2441,8 @@ msgstr ""
 "n'atteigne les montagnes.\n"
 "\n"
 "... Onzième jour. J'ai coincé la créature après qu'elle ait atterri sur la "
-"colline, mais il y a trois autres rocks avec lui, ce que je n'avais pas "
-"prévus. Les rocks sont des créatures féroces en combat rapproché. En "
+"colline, mais il y a trois autres rokhs avec lui, ce que je n'avais pas "
+"prévus. Les rokhs sont des créatures féroces en combat rapproché. En "
 "combattre un n'est déjà pas une mince affaire, mais quatre en même temps ? "
 "J'ai de la chance d'avoir apporté ma deuxième hache, sinon j'aurais été "
 "gravement blessé pendant cette bataille. En ce moment, j'attends que la "
@@ -2455,7 +2454,7 @@ msgstr ""
 "du Nord au cours de mon expédition de vingt-et-un jours. Il faudrait à la "
 "caravane près de trois mois pour faire ce trajet, mais je suppose que les "
 "conditions de mon voyage étaient vraiment trop exténuantes. Le bon côté des "
-"choses, c'est que j'ai pu me procurer de la viande de Rock salée en cours de "
+"choses, c'est que j'ai pu me procurer de la viande de rokh salée en cours de "
 "route, ce qui devrait faire un bon repas pour les enfants. Il sera également "
 "agréable de revoir certains des autres pionniers. Mon histoire ne sera peut-"
 "être pas très impressionnante pour eux, mais au moins, c'est bien mieux que "
@@ -5522,7 +5521,7 @@ msgid ""
 "earth to the tops of tall mountains. Though normally not hostile, they can "
 "bite at close range."
 msgstr ""
-"Les fourmis géantes sont présentes un peu partout, dans les cavernes des "
+"Les fourmis géantes sont présentes un peu partout, dans les grottes des "
 "profondeurs de la terre comme au sommet des grandes montagnes. Bien qu'elles "
 "ne soient normalement pas hostiles, elles peuvent mordre un homme qui "
 "s'approche trop près."
@@ -5568,14 +5567,12 @@ msgstr ""
 #: data/core/units/monsters/Boar.cfg:59
 #: data/core/units/undead/Corpse_Soulless.cfg:338
 #: data/core/units/undead/Corpse_Walking.cfg:337
-#, fuzzy
 msgid "tusk"
 msgstr "défenses"
 
 #. [unit_type]: id=Piglet, race=monster
 #. the child of a wild boar, rather than the child of a domesticated pig
 #: data/core/units/monsters/Boar_Piglet.cfg:5
-#, fuzzy
 msgid "Piglet"
 msgstr "Marcassin"
 
@@ -5779,7 +5776,7 @@ msgstr ""
 "Les esprits du feu sont faits de flammes et de fumée. Personne ne sait "
 "exactement d'où ils viennent, mais ils peuvent être invoqués et commandés "
 "par des mages puissants. L'étrange armure qu'ils portent laisse penser "
-"qu'ils ont eu une vie ou un créateur antérieur, dernière trace d'une "
+"qu'ils ont eu un créateur ou une vie antérieure, dernière trace d'une "
 "civilisation ancienne inconnue des historiens."
 
 #. [unit_type]: id=Frost Stoat, race=monster
@@ -5927,7 +5924,6 @@ msgstr "Scorpion géant"
 # [modifié]
 #. [unit_type]: id=Giant Scorpling, race=monster
 #: data/core/units/monsters/Giant_Scorpling.cfg:27
-#, fuzzy
 msgid ""
 "One of the most potent known venoms is that of the monstrous scorpions of "
 "the frontier. Fetching a high price by assassins and apothecaries alike, "
@@ -5942,7 +5938,7 @@ msgid ""
 "can be broken with heavy blows."
 msgstr ""
 "Les scorpions monstrueux qui vivent aux frontières du monde connu possèdent "
-"l'un des plus puissants venin connu. Très prisé des assassins et des "
+"l'un des plus puissants venins connus. Très prisé des assassins et des "
 "apothicaires, ce venin est souvent considéré comme une manière de gagner "
 "rapidement de l'argent, ce qui incite les chasseurs téméraires à tenter "
 "l'aventure dans les terres sauvages pour le récolter. Cependant, la piqûre "
@@ -6021,7 +6017,6 @@ msgstr ""
 # À vérifier avec la description (Ils ne laissent aucun signe)
 #. [unit_type]: id=Dark Horse
 #: data/core/units/monsters/Horse.cfg:140
-#, fuzzy
 msgid "Dark Horse"
 msgstr "Cheval des ténèbres"
 
@@ -6041,16 +6036,14 @@ msgstr ""
 #. [attack]: type=cold
 #: data/core/units/monsters/Horse.cfg:179
 #: data/core/units/monsters/Horse_Black.cfg:50
-#, fuzzy
 msgid "whinny"
-msgstr "hennissements"
+msgstr "hennissement"
 
 # À syncroniser avec la traduction de Dark Horse (si elle change)
 #. [male]
 #. [female]
 #: data/core/units/monsters/Horse.cfg:214
 #: data/core/units/monsters/Horse.cfg:218
-#, fuzzy
 msgid "female^Dark Horse"
 msgstr "Jument des ténèbres"
 
@@ -6100,7 +6093,6 @@ msgstr ""
 
 #. [unit_type]: id=Icemonax, race=monster
 #: data/core/units/monsters/Icemonax.cfg:4
-#, fuzzy
 msgid "Icemonax"
 msgstr "Marmotte givrée"
 
@@ -6116,9 +6108,8 @@ msgstr ""
 
 #. [unit_type]: id=Great Icemonax, race=monster
 #: data/core/units/monsters/Icemonax_Greater.cfg:4
-#, fuzzy
 msgid "Great Icemonax"
-msgstr "Marmotte géante"
+msgstr "Marmotte givrée géante"
 
 #. [unit_type]: id=Great Icemonax, race=monster
 #: data/core/units/monsters/Icemonax_Greater.cfg:35
@@ -6148,14 +6139,13 @@ msgstr ""
 # les Djinns utilisent cette attaque
 #. [attack]: type=impact
 #: data/core/units/monsters/Jinn.cfg:99
-#, fuzzy
 msgid "desert windblast"
-msgstr "vent du désert"
+msgstr "bourrasque du désert"
 
 #. [attack]: type=fire
 #: data/core/units/monsters/Jinn.cfg:108
 msgid "desert lightning"
-msgstr "foudre"
+msgstr "foudre du désert"
 
 #. [unit_type]: id=Mudcrawler, race=monster
 #: data/core/units/monsters/Mudcrawler.cfg:4
@@ -6227,11 +6217,10 @@ msgid ""
 "stinger, but instead spray their enemies with a noxious, volatile stream."
 msgstr ""
 
-# Jet d'eau pour Scorpion des roches: à vérifier
 #. [attack]: type=impact
 #: data/core/units/monsters/Rock_Scorpion.cfg:61
 msgid "spray"
-msgstr "jet d'eau"
+msgstr "giclée"
 
 #. [unit_type]: id=Horned Scarab, race=monster
 #: data/core/units/monsters/Scarab.cfg:4
@@ -6361,7 +6350,7 @@ msgid ""
 "up as a primitive offshoot of the Nagas. What is certain is that it is wise "
 "to avoid waters where they are known to congregate."
 msgstr ""
-"Les savants  s'interrogent quant à l'origine des serpents d'eau. Certains "
+"Les savants s'interrogent quant à l'origine des serpents d'eau. Certains "
 "considèrent qu'ils sont les jeunes immatures, ou des cousins matures, des "
 "serpents de mer. D'autres les prennent pour une branche primitive des nagas. "
 "Ce qui est certain, c'est qu'il est sage d'éviter les eaux dans lesquelles "
@@ -6447,6 +6436,7 @@ msgstr "Daguencroc"
 
 #. [unit_type]: id=Naga Dirkfang, race=naga
 #: data/core/units/nagas/Dirkfang.cfg:18
+#, fuzzy
 msgid ""
 "In contrast to the heavily melee-focused style of their northern brethren, "
 "young Naga of the southern waters prefer to soften their prey from afar "
@@ -6457,6 +6447,14 @@ msgid ""
 "by the northern Naga warriors, these fighters are nonetheless effective when "
 "it comes time to engage in warfare."
 msgstr ""
+"Contrairement à leurs congénères du nord fortement portés vers le corps-à-"
+"corps, les jeunes nagas des mers méridionales préfèrent affaiblir leur proie "
+"à distance. Le petit chakri à lancer peut être porté au poignet ou à la "
+"ceinture sans désagrément. Bien que le coup fatal doit être porté de près, "
+"ce style de combat combiné leur permet de vivre assez longtemps pour "
+"apprendre et s'améliorer. Parfois considérés  comme des lâches par les "
+"guerriers nagas du nord, ces combattant sont cependant très efficaces quand "
+"les temps les appellent à faire la guerre."
 
 # Il s'agit d'un petit chakram.
 #. [attack]: type=blade
@@ -6502,6 +6500,7 @@ msgstr "Garde naga"
 
 #. [unit_type]: id=Naga Guard, race=naga
 #: data/core/units/nagas/Guard.cfg:22
+#, fuzzy
 msgid ""
 "Nagas tend to value agility and grace on the battlefield, but the slower, "
 "stronger individuals play a key role in defending important positions. These "
@@ -6509,6 +6508,12 @@ msgid ""
 "mercenary activities. They are said to have a strong code of honor, though "
 "like all things naga, it is mostly a mystery to outsiders."
 msgstr ""
+"Si les nagas profitent de leur grâce et leur agilité sur le champs de "
+"bataille, les individus plus lents et robustes jouent un rôle-clé dans la "
+"défense des positions stratégiques. Ces gardes se rencontrent peu car  ils "
+"ne participent pas aux raids ou aux activités de mercenaire. Ils sont connus "
+"pour suivre un code d'honneur stricte qui, comme tout ce qui concerne les "
+"nagas, reste assez mystérieux pour les étrangers."
 
 #. [unit_type]: id=Naga High Guard, race=naga
 #: data/core/units/nagas/Guard_High.cfg:4
@@ -6517,6 +6522,7 @@ msgstr "Grand garde naga"
 
 #. [unit_type]: id=Naga High Guard, race=naga
 #: data/core/units/nagas/Guard_High.cfg:23
+#, fuzzy
 msgid ""
 "The elite naga guards are a rigid barrier to any invaders of a naga "
 "stronghold. They have powerful strikes and, like the lesser Shield Guard, "
@@ -6525,6 +6531,12 @@ msgid ""
 "attacks, but the nagas can usually seek better terrain advantage in such "
 "situations."
 msgstr ""
+"L'élite constituée des grands gardes nagas forme une lourde barrière pour "
+"les attaquants d'une place forte naga. Leurs frappes sont puissantes et ils "
+"sont difficiles à déloger de leur poste grâce à leur maîtrise des techniques "
+"de bouclier au corps-à-corps. Ces tactiques sont peu efficaces contre les "
+"attaques à distance, mais les nagas peuvent alors souvent chercher à "
+"profiter des avantages du terrain."
 
 #. [attack]: type=impact
 #: data/core/units/nagas/Guard_High.cfg:45
@@ -6539,12 +6551,17 @@ msgstr "Bouclier naga"
 
 #. [unit_type]: id=Naga Shield Guard, race=naga
 #: data/core/units/nagas/Guard_Shield.cfg:22
+#, fuzzy
 msgid ""
 "The veteran naga guards are more difficult to dislodge from their posts "
 "because of effective use of a shield in melee techniques. This tactic does "
 "nothing against ranged attacks, but the nagas can usually seek better "
 "terrain advantage in such situations."
 msgstr ""
+"Les gardes nagas vétérans sont plus difficile à déloger de leur poste grâce "
+"au maniement efficace de leur bouclier au corps-à-corps. Ces techniques ne "
+"parent pas contre les attaques à distance, mais les nagas peuvent alors "
+"souvent chercher à profiter des avantages du terrain."
 
 #. [unit_type]: id=Naga Myrmidon, race=naga
 #: data/core/units/nagas/Myrmidon.cfg:4
@@ -6595,6 +6612,7 @@ msgstr "Ophidien"
 
 #. [unit_type]: id=Naga Ophidian, race=naga
 #: data/core/units/nagas/Ophidian.cfg:18
+#, fuzzy
 msgid ""
 "Experienced warriors of the Southern Naga often find work as mercenaries, "
 "usually hired by neighboring Dunefolk to control key waterways near the "
@@ -6609,6 +6627,18 @@ msgid ""
 "encourage a healthy amount of competition among the surface factions, "
 "ensuring their services are valued by one tribe or another."
 msgstr ""
+"Les guerriers expérimentés des nagas du sud sont souvent occupés comme "
+"mercenaires, souvent au service d'ammorites voisins pour le contrôle des "
+"voies maritimes le long des côtes. Suite aux confrontations régulières avec "
+"les cavaliers ennemis, les ophidiens ont rangé les lames circulaires de leur "
+"jeunesse et ils ont adopté le jarid, un javelot de petite taille que les "
+"nagas ont rendu plus mortel en le lestant de plomb trouvé dans les épaves. "
+"Bien qu'il soit amiable avec ses riches employeurs, cette amitié ne vaut pas "
+"loyauté, et l'ophidien est connu pour sa propension à changer de camp pour "
+"une cité-état rivale au début de la saison des livraisons où la demande en "
+"escorte maritime est la plus forte. Coalisés, ces nagas encouragent une "
+"compétition saine entre les factions terrestres, garantissant que leurs "
+"services soient toujours prisés de quelque tribu."
 
 #. [attack]: type=blade
 #: data/core/units/nagas/Ophidian.cfg:27 data/core/units/nagas/Sicarius.cfg:28
@@ -6617,9 +6647,8 @@ msgstr "lame courbe"
 
 #. [attack]: type=pierce
 #: data/core/units/nagas/Ophidian.cfg:36 data/core/units/nagas/Sicarius.cfg:41
-#, fuzzy
 msgid "jarid"
-msgstr "javelot"
+msgstr "javelot jarid"
 
 #. [female]
 #: data/core/units/nagas/Ophidian.cfg:91
@@ -6633,12 +6662,18 @@ msgstr "Lanceur de chakrams"
 
 #. [unit_type]: id=Naga Ringcaster, race=naga
 #: data/core/units/nagas/Ringcaster.cfg:18
+#, fuzzy
 msgid ""
 "The chakram, a greater blade ring than the chakri, is the signature weapon "
 "of the southern Naga and their renowned Ringcasters. Well balanced chakrams "
 "are useful for throwing, but the rejected blades make a good fist-load "
 "weapon, similar to a sharp-bladed tekko or knuckleduster."
 msgstr ""
+"Le chakram, anneau tranchant de plus grande taille que le chakri, est l'arme "
+"de prédilection des nagas du sud et de leurs célèbres lanceurs de chakrams. "
+"Des chakrams bien équilibrés sont utiles au lancer, mais les anneaux qui "
+"sont irréguliers restent de bonnes armes de poing, semblables à des tekkos "
+"des arts  martiaux ou à des poings américains aux bords tranchants."
 
 #. [attack]: type=blade
 #: data/core/units/nagas/Ringcaster.cfg:34
@@ -6657,8 +6692,10 @@ msgstr "Lanceuse de chakrams"
 msgid "Naga Sicarius"
 msgstr "Sicaire"
 
+# "sellswords" : traduit par "lames à engager"
 #. [unit_type]: id=Naga Sicarius, race=naga
 #: data/core/units/nagas/Sicarius.cfg:19
+#, fuzzy
 msgid ""
 "While they sometimes still stand in as sellswords for potential Dunefolk "
 "allies, Naga Sicarii are more often the keepers of trade routes and resource "
@@ -6674,6 +6711,19 @@ msgid ""
 "for they can anticipate many enemy strikes, and use their heavy, curved "
 "blade to deflect or distract at the critical moment."
 msgstr ""
+"Bien qu'ils servent parfois comme lames à engager pour des alliés potentiels "
+"ammorites, les sicaires sont plus souvent les gardiens des routes de "
+"commerce et des zones côtières riches en ressources. En échange d'un bon "
+"salaire ou de biens, un sicaire garantira un transport sûr ou l'accès libre "
+"aux ressources précieuses sur son territoire. Si un accord est rompu, le "
+"sicaire devient alors un ennemi redoutable, non par ses seules qualités au "
+"combat, mais par les nombreux alliés qu'il peut ameuter pour contenir toute "
+"nuisance potentielle. Ils peuvent être de bons guerriers quand les temps "
+"l'exigent mais ces mercenaires expérimentés savent que les façons de ceux "
+"qui accumulent des richesses ne sont pas de se mettre en danger. Quand le "
+"danger s'approche, ils se servent de leur ruse manipulatrice, ils anticipent "
+"plusieurs coups ennemis et utilisent leur lourde épée courbe pour parer ou "
+"esquiver au moment critique."
 
 #. [female]
 #: data/core/units/nagas/Sicarius.cfg:95
@@ -6732,6 +6782,7 @@ msgstr "Zéphyr"
 
 #. [unit_type]: id=Naga Zephyr, race=naga
 #: data/core/units/nagas/Zephyr.cfg:19
+#, fuzzy
 msgid ""
 "The Southern Naga commonly recount a curious story about the Wind Spirit, "
 "Zefra and the aetherial chakram:\n"
@@ -6771,6 +6822,44 @@ msgid ""
 "thrown blade, this doesn't mean they are weak in melee combat, as the "
 "unbalanced chakram can be enhanced with spikes and smaller blades.\n"
 msgstr ""
+"Les nagas du sud rappellent souvent une curieuse histoire de Zefra, l'esprit "
+"du vent, et du chakram éthéré :\n"
+"\n"
+"Dans un passé lointain, était un manieur de chakram au talent exceptionnel. "
+"On disait qu'il pouvait couper la mer elle-même en deux dans un flux "
+"d'anneaux ; pouvait abattre une centaine d'ennemis avant que le premier coup "
+"ne l'atteigne et pouvait parer un millier de flèches sans être touché. Il se "
+"faisait appeler Xylrix, la tempête, et son talent n'avait d'égal que dans "
+"son arrogance. Il était toujours prêt à vanter ses prouesses à tous ceux qui "
+"étaient disposés à l'écouter. Un jour, alors qu'il cherchait à épater un "
+"groupe de jeunes nagas, il pris comme cible une arbre allnai sacré\n"
+"\n"
+"« Regardez », beugla-t-il, et il fendit d'un coup l'arbre en deux.\n"
+"\n"
+"À ce moment un vent puissant l'enveloppa et la voix de l'esprit du vent "
+"parvint à ses oreilles. « Tu te crois assez puissant pour abattre un de mes "
+"enfants bien malheureux ? Quand bien même tu as du talent, nul mortel ne "
+"doit chercher noise à la divinité qui les guide. »\n"
+"\n"
+"Il répliqua, « Viens, esprit. Je n'ai pas peur. Aucune arme, métal, eau ou "
+"vent ne se dressera devant mes anneaux. »\n"
+"\n"
+"Le vent tourbillonna de plus en plus vite, un torrent de force éolienne "
+"tournant et tournant dans une danse virevoltante de furie. Il se sentit "
+"quitter le sol, tournant à grande vitesse, rendu complètement impuissant à "
+"la merci de la colère de Zefra. Saisi de terreur, il lâcha ses anneaux et "
+"soudain il vit dans la tempête tourbillonnante ses chakrams animés d'un "
+"mouvement tournoyant, faisant corps avec le vent lui-même.\n"
+"\n"
+"Aussi rapidement que la tempête vint, elle disparut, laissant Xylrix seul "
+"avec ses armes brisées. Quand  enfin il retourna à sa maison plusieurs jours "
+"plus tard, il présenta son nouveau nom : Zéphyr, le guerrier qui sert le "
+"vent qui porte ses anneaux.\n"
+"\n"
+"Si les contes ancestraux poussent les guerriers d'élite à suivre cette "
+"destinée en se concentrant sur les lames volantes, ils ne sont pourtant pas "
+"faibles en combat au corps-à-corps, le chakram irrégulier au vol  peut être "
+"amélioré avec des pointes et des lames additionnelles.\n"
 
 #. [female]
 #: data/core/units/nagas/Zephyr.cfg:111
@@ -6840,7 +6929,6 @@ msgstr "Assassin orc"
 
 #. [unit_type]: id=Orcish Assassin, race=orc
 #: data/core/units/orcs/Assassin.cfg:20
-#, fuzzy
 msgid ""
 "While many orcs prefer brute force as their modus operandi, the highly "
 "practical nature of their warfare promotes cutthroat tactics that are "
@@ -6850,14 +6938,14 @@ msgid ""
 "same weapon is readily turned to espionage and assassination, a commonplace "
 "occurrence between feuding orcish clans or even within a single clan itself."
 msgstr ""
-"Alors que de nombreux orcs préfèrent la force brute comme \"modus operandi"
-"\", le caractère très terre à terre de leur guerre favorise des tactiques "
-"vicieuses qui sont généralement désapprouvées par les autres factions. Le "
+"Alors que de nombreux orcs préfèrent la force brute comme mode opératoire, "
+"le caractère très terre à terre de leur combat favorise des tactiques "
+"vicieuses qui sont généralement désapprouvées par les autres races. Le "
 "poison est l'un des piliers de la stratégie orque, employé généreusement "
-"pour ramollir les adversaires coriaces sur le champ de bataille et paralyser "
-"les forces ennemies sans risquer un assaut direct. La même arme est "
-"facilement utilisée pour l'espionnage et l'assassinat, un phénomène courant "
-"entre les clans orcs en conflit ou même au sein d'un même clan."
+"pour faire plier des adversaires coriaces sur le champ de bataille et "
+"affaiblir les forces ennemies sans risquer un assaut direct. La même arme "
+"est facilement utilisée pour l'espionnage et l'assassinat, un phénomène "
+"courant entre les clans orcs en conflit ou même au sein d'un même clan."
 
 #. [unit_type]: id=Orcish Crossbowman, race=orc
 #: data/core/units/orcs/Crossbowman.cfg:4
@@ -6866,7 +6954,6 @@ msgstr "Arbalétrier orc"
 
 #. [unit_type]: id=Orcish Crossbowman, race=orc
 #: data/core/units/orcs/Crossbowman.cfg:17
-#, fuzzy
 msgid ""
 "Despite the heavy importance placed on combat prowess by most orcs, very few "
 "tribes have any semblance of formal training in any of the warring arts. "
@@ -6876,12 +6963,12 @@ msgid ""
 "still be deadly even when handled roughly by inexperienced warriors."
 msgstr ""
 "Malgré la grande importance accordée aux prouesses au combat par la plupart "
-"des orcs, très peu de tribus ont un semblant de formation réelle dans les "
-"arts de la guerre. Pour cette raison, les archers orcs sont plutôt "
-"inefficaces pour manier les arcs longs des archers humains ou des elfes, "
+"des orcs, très peu de tribus ont un semblant d'entrainement organisé dans l' "
+"art de la guerre. Pour cette raison, les archers orcs sont plutôt "
+"inefficaces pour manier les arcs longs des archers humains ou elfes, "
 "préférant s'armer d'arbalètes plus faciles à manier. Simples, mais "
 "puissantes, ces armes peuvent être mortelles, même lorsqu'elles sont maniées "
-"de manière brutale par des guerriers inexpérimentés."
+"de manière grossière par des guerriers inexpérimentés."
 
 #. [unit_type]: id=Orcish Grunt, race=orc
 #: data/core/units/orcs/Grunt.cfg:4
@@ -6902,7 +6989,7 @@ msgstr ""
 "Les vrais orcs sont connus pour leur force brute et leur férocité, ainsi que "
 "pour leur propension au combat agressif. Ces caractéristiques font que même "
 "les grognards les plus inexpérimentés et les plus mal équipés peuvent être "
-"difficiles à affronter sur le champ de bataille. Un orc est capable de "
+"difficiles à affronter sur le champ de bataille. Un grognard est capable de "
 "porter seul des volées de coups brutaux, et peut encaisser un grand nombre "
 "de coups en retour avant d'être vaincu. Ce qui rend une horde d'orcs plus "
 "menaçante, cependant, c'est le nombre de combattants qu'elle peut rassembler."
@@ -6934,7 +7021,6 @@ msgstr "Lames de la nuit"
 
 #. [unit_type]: id=Orcish Nightblade, race=orc
 #: data/core/units/orcs/Nightblade.cfg:21
-#, fuzzy
 msgid ""
 "The most seasoned orcish assassins usually operate as mercenaries "
 "specializing in “resolving internal conflicts” and rarely participate in "
@@ -6953,7 +7039,7 @@ msgstr ""
 "particulière, offrant plutôt leurs services au plus offrant. Une fois le "
 "contrat passé et les fournitures nécessaires obtenues, l'assassin frappe "
 "rapidement et silencieusement sa cible, l'éliminant discrètement sous le "
-"couvert de l'obscurité. Un contrat avec une Lame de la nuit est presque "
+"couvert de l'obscurité. Un contrat avec une lame de la nuit est presque "
 "toujours une condamnation à mort pour la victime, c'est la raison du prix "
 "élevé de leurs services."
 
@@ -6975,7 +7061,6 @@ msgstr "Seigneur orc"
 # coercition = contrainte
 #. [unit_type]: id=Orcish Ruler, race=orc
 #: data/core/units/orcs/Ruler.cfg:18
-#, fuzzy
 msgid ""
 "A common misconception about the hierarchy of orcish clans is the notion "
 "that orcs only value brute strength. Although the leader of a smaller orcish "
@@ -6988,9 +7073,9 @@ msgstr ""
 "Une fausse idée très répandue sur la hiérarchie des clans orcs est la notion "
 "selon laquelle les orcs ne valorisent que la force brute. Bien que le chef "
 "d'une petite troupe d'orcs puisse être le plus fort combattant parmi eux, le "
-"dirigeant d'une grande tribu a la tâche difficile d'étouffer les querelles "
+"seigneur d'une grande tribu a la tâche difficile d'étouffer les querelles "
 "internes et les luttes intestines - ce qui ne peut être accompli par la "
-"seule force. Un tel orc est inévitablement le plus rusé et le plus "
+"force seule. Un tel orc est inévitablement le plus rusé et le plus "
 "perspicace de ses pairs et a gagné le respect de ses frères par son autorité "
 "plutôt que par la coercition."
 
