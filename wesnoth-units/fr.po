@@ -13,16 +13,15 @@ msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-05-08 01:42 UTC\n"
-"PO-Revision-Date: 2022-08-27 19:15+0800\n"
-"Last-Translator: demario\n"
+"PO-Revision-Date: 2022-08-29 13:48+0200\n"
+"Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.6.10\n"
-"X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. [attack]: type=impact
 #. [attack]: type=arcane
@@ -3331,6 +3330,7 @@ msgstr "Sorcière elfe"
 
 #. [unit_type]: id=Elvish Sorceress, race=elf
 #: data/core/units/elves/Sorceress.cfg:19
+#, fuzzy
 msgid ""
 "Elven magic most commonly diverges among two paths — manipulation of the "
 "natural, or corporeal world, and divination into the arcane plane. The "
@@ -3344,6 +3344,18 @@ msgid ""
 "nonetheless hold the arcane flame in high regard and are careful to utilize "
 "it with judicious caution."
 msgstr ""
+"La magie elfique diverge le plus souvent entre deux voies : la manipulation "
+"du monde naturel, ou corporel, et la divination dans le plan des arcanes. "
+"Cette dernière, considérée comme pouvoir difficile à contrôler et mal "
+"compris même par la plupart de ses pratiquants, n'est pas souvent recherchée "
+"par les Elfes. Les adeptes de l'arcane prennent des risques importants en "
+"étudiant la nature volatile de leur discipline et apprennent rapidement à "
+"maîtriser le pouvoir perturbateur de leur art. Cette nature destructrice se "
+"manifeste le plus souvent par des jets de \"feu féerique\", qui est l'une "
+"des compétences les plus faciles à maîtriser pour une sorcière elfe. Bien "
+"qu'il s'agisse d'une application plutôt superficielle de cet art, les Elfes "
+"tiennent néanmoins la flamme arcanique en haute estime et veillent à "
+"l'utiliser avec une prudence judicieuse."
 
 #. [unit_type]: id=Elvish Sylph, race=elf
 #: data/core/units/elves/Sylph.cfg:4
@@ -3352,6 +3364,7 @@ msgstr "Sylphide elfe"
 
 #. [unit_type]: id=Elvish Sylph, race=elf
 #: data/core/units/elves/Sylph.cfg:21
+#, fuzzy
 msgid ""
 "Tremendously powerful in unfathomable ways, the sage-like Sylphs are masters "
 "of manipulating the bridge between the mundane and arcane worlds. Long years "
@@ -3369,6 +3382,23 @@ msgid ""
 "‘reflection pools’ and steer them is one of her greatest — and most feared — "
 "abilities."
 msgstr ""
+"D'une efficacité redoutable et d'une puissance insondable, les sages "
+"Sylphides sont des maîtres de la manipulation du lien entre les mondes "
+"terrestre et arcanique. De longues années passées à scruter le royaume "
+"éthéré ont érodé la capacité de ces elfes à voir le monde physique ; en "
+"retour, ils sont dotés d'une vision abstraite, gagnant la capacité de voir "
+"un ou même plusieurs aspects différents de l'essence de la réalité. Comme "
+"les nombreux éclats d'un miroir brisé, les myriades de fractures du monde "
+"matériel reflètent la lumière de l'arcane à travers ses nombreuses facettes "
+"différentes. Un entrainement assidu permet de suivre ces brins de lumière "
+"d'une facette à l'autre, observant comment le dénouement de la réalité "
+"physique évolue avec chaque choix fait par le libre arbitre. Bien que le "
+"tissage direct du tissu de connexion soit généralement impossible à "
+"réaliser, la manipulation indirecte est possible par le biais d'une "
+"machination dans le plan corporel où la réflexion du plan arcanique est la "
+"plus forte. L'habileté d'une Sylphide à localiser ces \"bassins de réflexion"
+"\" et à les diriger est l'une de ses plus grandes - et plus redoutées - "
+"capacités."
 
 #. [attack]: type=impact
 #: data/core/units/elves/Sylph.cfg:41
@@ -5602,10 +5632,13 @@ msgstr ""
 
 #. [special_note]
 #: data/core/units/monsters/Crocodile.cfg:124
+#, fuzzy
 msgid ""
 "This unit can move unseen through swamp water, keeping most of its body "
 "submerged."
 msgstr ""
+"Cette unité peut se déplacer sans être vue dans l'eau des marais, en gardant "
+"la majeure partie de son corps submergée."
 
 #. [hides]: id=swamp_lurk
 #: data/core/units/monsters/Crocodile.cfg:144
@@ -5619,6 +5652,7 @@ msgstr "rôdeuse des marais"
 
 #. [hides]: id=swamp_lurk
 #: data/core/units/monsters/Crocodile.cfg:146
+#, fuzzy
 msgid ""
 "This unit can hide in swamp, and remain undetected by its enemies.\n"
 "\n"
@@ -5626,6 +5660,12 @@ msgid ""
 "units next to it. Any enemy unit that first discovers this unit immediately "
 "loses all its remaining movement."
 msgstr ""
+"Cette unité peut se camoufler dans un marécage, et rester invisible pour ses "
+"ennemis.\n"
+"\n"
+"Les unités ennemies ne peuvent pas voir cette unité lorsqu'elle est dans le "
+"marais, sauf si elles ont des unités à côté d'elle. Toute unité ennemie qui "
+"découvre cette unité perd immédiatement tout son mouvement restant."
 
 #. [unit_type]: id=Cuttle Fish, race=monster
 #: data/core/units/monsters/Cuttle_Fish.cfg:4
@@ -5909,11 +5949,16 @@ msgstr "Saboteur des sables"
 
 #. [variation]
 #: data/core/units/monsters/Giant_Scorpion.cfg:117
+#, fuzzy
 msgid ""
 "Making their homes in sandy dunes, these critters are an odd mix of mundane "
 "creature and elemental beast. Though usually timid, Sand Scuttlers sometimes "
 "attack unwary travelers, especially when startled."
 msgstr ""
+"Installées dans les dunes, ces monstres sont un étrange mélange de bêtes "
+"ordinaires et de créatures élémentaires. Bien que généralement timides, les "
+"saboteurs attaquent parfois les voyageurs imprudents, surtout lorsqu'ils "
+"sont surpris."
 
 #. [unit_type]: id=Giant Scorpling, race=monster
 #: data/core/units/monsters/Giant_Scorpling.cfg:4
@@ -6229,10 +6274,13 @@ msgstr "Scarabé cornu"
 
 #. [special_note]
 #: data/core/units/monsters/Scarab.cfg:21
+#, fuzzy
 msgid ""
 "This unit can burrow under loose dirt, sand, or leaves, concealing itself if "
 "it does not change location."
 msgstr ""
+"Cette unité peut s'enfouir sous de la terre meuble, du sable ou des "
+"feuilles, se camouflant si elle ne se déplace pas."
 
 #. [unit_type]: id=Horned Scarab, race=monster
 #: data/core/units/monsters/Scarab.cfg:25
@@ -6627,18 +6675,18 @@ msgid ""
 "encourage a healthy amount of competition among the surface factions, "
 "ensuring their services are valued by one tribe or another."
 msgstr ""
-"Les guerriers expérimentés des nagas du sud sont souvent occupés comme "
-"mercenaires, souvent au service d'ammorites voisins pour le contrôle des "
-"voies maritimes le long des côtes. Suite aux confrontations régulières avec "
-"les cavaliers ennemis, les ophidiens ont rangé les lames circulaires de leur "
-"jeunesse et ils ont adopté le jarid, un javelot de petite taille que les "
-"nagas ont rendu plus mortel en le lestant de plomb trouvé dans les épaves. "
-"Bien qu'il soit amiable avec ses riches employeurs, cette amitié ne vaut pas "
-"loyauté, et l'ophidien est connu pour sa propension à changer de camp pour "
-"une cité-état rivale au début de la saison des livraisons où la demande en "
-"escorte maritime est la plus forte. Coalisés, ces nagas encouragent une "
-"compétition saine entre les factions terrestres, garantissant que leurs "
-"services soient toujours prisés de quelque tribu."
+"Les guerriers expérimentés des nagas du sud sont souvent employés comme "
+"mercenaires, la plupart du temps au service d'ammorites voisins pour le "
+"contrôle des voies maritimes le long des côtes. Suite aux confrontations "
+"régulières avec les cavaliers ennemis, les ophidiens ont rangé les lames "
+"circulaires de leur jeunesse et ils ont adopté le jarid, un javelot de "
+"petite taille que les nagas ont rendu plus mortel en le lestant de plomb "
+"trouvé dans les épaves. Bien qu'il soit amiable avec ses riches employeurs, "
+"cette amitié ne vaut pas loyauté, et l'ophidien est connu pour sa propension "
+"à changer de camp pour une cité-état rivale au début de la saison des "
+"livraisons où la demande en escorte maritime est la plus forte. Coalisés, "
+"ces nagas encouragent une compétition saine entre les factions terrestres, "
+"garantissant que leurs services soient toujours prisés de quelque tribu."
 
 #. [attack]: type=blade
 #: data/core/units/nagas/Ophidian.cfg:27 data/core/units/nagas/Sicarius.cfg:28
@@ -6912,6 +6960,7 @@ msgstr "Archer orc"
 
 #. [unit_type]: id=Orcish Archer, race=orc
 #: data/core/units/orcs/Archer.cfg:17
+#, fuzzy
 msgid ""
 "Although bows are sometimes regarded as cowardly armaments among orcs, the "
 "pragmatic nature of orcish warfare makes frequent use of these weapons, "
@@ -6921,6 +6970,15 @@ msgid ""
 "brethren to finish off on the frontlines. While typically poorly equipped "
 "themselves, these orcs can nonetheless be quite effective in large numbers."
 msgstr ""
+"Bien que les arcs soient parfois considérés comme des armes lâches chez les "
+"orcs, la nature pragmatique de la guerre orque fait qu'ils utilisent "
+"fréquemment ces armes, qui conviennent bien aux personnes de plus faible "
+"stature ou de petite taille. Une des tactiques favorites des archers orcs "
+"est l'utilisation de flèches enflammées pour semer le chaos dans les lignes "
+"ennemies, affaiblissant les adversaires coriaces pour que leurs frères plus "
+"grands et plus forts puissent les achever au corps-à-corps. Bien que "
+"généralement mal équipés, ces orcs peuvent néanmoins être très efficaces en "
+"groupe."
 
 #. [unit_type]: id=Orcish Assassin, race=orc
 #: data/core/units/orcs/Assassin.cfg:4
