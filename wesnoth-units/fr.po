@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-05-08 01:42 UTC\n"
-"PO-Revision-Date: 2022-08-31 14:12+0200\n"
+"PO-Revision-Date: 2022-08-29 13:48+0200\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
@@ -1923,6 +1923,7 @@ msgstr "Virvolteuse"
 
 #. [unit_type]: id=Dune Harrier, race=dunefolk
 #: data/core/units/dunefolk/Harrier.cfg:25
+#, fuzzy
 msgid ""
 "While harriers can fulfill a similar role to striders in hampering enemy "
 "forces, their epithet is actually derived from the harrier hawks they employ "
@@ -1935,6 +1936,17 @@ msgid ""
 "thrust of spears is often enough to severely cripple the target, allowing "
 "the main Dunefolk force to close in and finish the job."
 msgstr ""
+"Les virvolteuses peuvent offrir les mêmes services que les tourbillonneuses "
+"pour entraver les forces ennemies, mais leur nom leur vient des faucons "
+"qu'elles utilisent pour garder le contact avec le gors des troupes "
+"ammorites. Les virvolteuses opèrent communément au-delà des lignes ennemies, "
+"collectant de l'information sur les positions et mouvements de l'ennemi qui "
+"permet aux armées ammorites de supplanter leur adversaire. Au moment "
+"crucial, ces guerrières très agiles se regroupent et frappent les arrières "
+"ou les flancs des forces ennemies affaiblies. Une pluie de bolas, suivie "
+"d'une poussée de lances, permettre de paralyser leurs cibles, les laissant "
+"vulnérables à une attaque de la force ammorite principale qui achèvera le "
+"travail."
 
 #. [unit_type]: id=Dune Herbalist, race=dunefolk
 #: data/core/units/dunefolk/Herbalist.cfg:8
@@ -2289,6 +2301,7 @@ msgstr "Traqueuse"
 
 #. [unit_type]: id=Dune Sky Hunter, race=dunefolk
 #: data/core/units/dunefolk/Sky_Hunter.cfg:38
+#, fuzzy
 msgid ""
 "Often mistaken for young Rocs, desert eagles are large, majestic birds of "
 "prey who are notoriously aggressive and nearly impossible to tame. In the "
@@ -2301,6 +2314,17 @@ msgid ""
 "tools for combat, the eagles can live for up to a few decades and are often "
 "precious companions to their dunefolk partners."
 msgstr ""
+"Facile à confondre avec des jeunes rokhs, les aigles du désert sont de "
+"grands oiseaux de proie, au vol majestueux qui sont connus pour être "
+"agressifs et difficilement domesticables. À l’état sauvage, ils se "
+"nourrissent de proies de grande taille comme des loups, des petits chevaux "
+"et, dit-on, des enfants qui ne sont pas sages. La puissance de ces oiseaux "
+"rend périlleuse toute approche, et seules les fauconnières  ammorites les "
+"plus expérimentées s'y risquent. Dans le cas où un aigle se laisse "
+"apprivoiser, la relation entre la dompteuse et la bête est plus un lien "
+"solide entre égaux qu'une relation d'une maîtresse à son animal domestique. "
+"Les aigles peuvent vivre plusieurs dizaines d’années et, bien plus qu'une "
+"arme au combat, ils sont les précieux compagnons de leur partenaire ammorite."
 
 #. [attack]: type=blade
 #: data/core/units/dunefolk/Sky_Hunter.cfg:150
@@ -2343,6 +2367,7 @@ msgstr "Garde-lance ammorite"
 
 #. [unit_type]: id=Dune Spearguard, race=dunefolk
 #: data/core/units/dunefolk/Spearguard.cfg:20
+#, fuzzy
 msgid ""
 "The push and pull of any battle requires varying degrees of offense and "
 "defense. The Dunefolk no doubt value offense as the greater of the two and "
@@ -2355,6 +2380,18 @@ msgid ""
 "combat than their sword-wielding brethren, they are highly skilled with "
 "spear and shield and more than capable of repelling most advances."
 msgstr ""
+"Dans toute bataille, la succession d’avancées et de retraits exige la "
+"maîtrise combinées de techniques offensives et défensives. Les ammorites "
+"favorisent les tactiques qui supportent l'offensive et cela s'illustre dans "
+"leurs efforts pour former des épéistes compétents. Cependant, dans chaque "
+"groupe de combattants, certains abandonneront leur glaive et l’échangeront "
+"pour remplir les fonctions de défenseurs. En défendant les lignes "
+"d'approvisionnement et les points d'observation, les gardes-lances sont "
+"souvent légèrement en retrait des lignes de front, fournissant les troupes "
+"en support et dissuadant des attaques adverses sur les flancs. Si ces "
+"guerriers sont moins souvent dans la mêlée des combats que leurs frères "
+"usant de la lame, ils sont très compétents dans le maniement de la lance et "
+"du bouclier et savent repousser un grand nombre d'attaques."
 
 #. [unit_type]: id=Dune Spearmaster, race=dunefolk
 #: data/core/units/dunefolk/Spearmaster.cfg:8
@@ -6101,6 +6138,7 @@ msgstr "Saboteur des sables"
 
 #. [variation]
 #: data/core/units/monsters/Giant_Scorpion.cfg:117
+#, fuzzy
 msgid ""
 "Making their homes in sandy dunes, these critters are an odd mix of mundane "
 "creature and elemental beast. Though usually timid, Sand Scuttlers sometimes "
@@ -6323,6 +6361,7 @@ msgstr "Djinn"
 
 #. [unit_type]: id=Jinn, race=monster
 #: data/core/units/monsters/Jinn.cfg:23
+#, fuzzy
 msgid ""
 "The Jinn are mysterious spirits, with no known relation to souls of the "
 "departed. They are often sighted from a distance, drifting across the desert "
@@ -6331,6 +6370,13 @@ msgid ""
 "felt the Jinn were watching over them, driving off malign forces of the "
 "night."
 msgstr ""
+"Les djinns sont des génies mystérieux qui n'ont aucune attache avec les âmes "
+"de disparus. Ils sont facilement aperçus à distance, vagabonds flottant sur "
+"les collines désertiques et les dunes, mais rarement observables à "
+"proximité. Toutes les rapports de rencontre s'accordent sur une nature "
+"hostile, à l'exception de récits de voyageurs qui décrivent la sensation "
+"d'un djinn qui les protège et écarte le danger de forces maléfiques dans la "
+"nuit désertique."
 
 # les Djinns utilisent cette attaque
 #. [attack]: type=impact
@@ -6561,6 +6607,7 @@ msgstr "Vouivre sauvage"
 
 #. [unit_type]: id=Wild Wyvern, race=monster
 #: data/core/units/monsters/Wild_Wyvern.cfg:44
+#, fuzzy
 msgid ""
 "Wyverns are large reptiles that resemble dragons, but are not the "
 "intelligent, magical creatures. However, the fact that they are just wild "
@@ -6573,6 +6620,16 @@ msgid ""
 "behavior may be an adaptation to the harsh desert environments they often "
 "inhabit."
 msgstr ""
+"Les vouivres sont de grands reptiles, semblables à des dragons, relativement "
+"peu intelligentes et sans nature magique. Leur caractère sauvage ne doit pas "
+"inciter les voyageurs à baisser la garde car elles sont rapides et féroces "
+"si elles se sentent menacées ou affamées.\n"
+"\n"
+"Les  vouivres sont des créatures sociales, voyageant souvent en couple ou en "
+"petit groupe. Leur habitudes cynégétiques et alimentaires sont mal comprises "
+"car elles peuvent coopérer avec des espèces inférieures qui peuvent paraître "
+"comme des proies potentielles. Ce comportement assez étonnant peut trouver "
+"son origine dans le milieu difficile des déserts qu'elles occupent."
 
 #. [unit_type]: id=Wolf, race=wolf
 #: data/core/units/monsters/Wolf.cfg:4
