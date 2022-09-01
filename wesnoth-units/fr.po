@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-05-08 01:42 UTC\n"
-"PO-Revision-Date: 2022-08-29 13:48+0200\n"
+"PO-Revision-Date: 2022-09-01 13:13+0200\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
@@ -1923,7 +1923,6 @@ msgstr "Virvolteuse"
 
 #. [unit_type]: id=Dune Harrier, race=dunefolk
 #: data/core/units/dunefolk/Harrier.cfg:25
-#, fuzzy
 msgid ""
 "While harriers can fulfill a similar role to striders in hampering enemy "
 "forces, their epithet is actually derived from the harrier hawks they employ "
@@ -1938,10 +1937,10 @@ msgid ""
 msgstr ""
 "Les virvolteuses peuvent offrir les mêmes services que les tourbillonneuses "
 "pour entraver les forces ennemies, mais leur nom leur vient des faucons "
-"qu'elles utilisent pour garder le contact avec le gors des troupes "
+"qu'elles utilisent pour maintenir le contact avec le gros des troupes "
 "ammorites. Les virvolteuses opèrent communément au-delà des lignes ennemies, "
-"collectant de l'information sur les positions et mouvements de l'ennemi qui "
-"permet aux armées ammorites de supplanter leur adversaire. Au moment "
+"collectant de l'information sur les positions et les mouvements de l'ennemi "
+"qui permet aux armées ammorites de supplanter leur adversaire. Au moment "
 "crucial, ces guerrières très agiles se regroupent et frappent les arrières "
 "ou les flancs des forces ennemies affaiblies. Une pluie de bolas, suivie "
 "d'une poussée de lances, permettre de paralyser leurs cibles, les laissant "
@@ -1992,7 +1991,6 @@ msgstr "Flèche ammorite"
 
 #. [unit_type]: id=Dune Horse Archer, race=dunefolk
 #: data/core/units/dunefolk/Horse_Archer.cfg:21
-#, fuzzy
 msgid ""
 "Though relatively few in number, some riders favor archery as their "
 "technique of choice for battle. Fleet and elusive, these horsemen are "
@@ -2007,7 +2005,7 @@ msgstr ""
 "sont des experts dans l'art de harceler les cibles moins mobiles et de "
 "poursuivre les fuyards ennemis à distance avec des rafales de flèches. Bien "
 "que peu formées pour l'infiltration ou l'espionnage, la capacité de ces "
-"unités montées à passer au long court des messages attachés à leurs flèches "
+"unités montées à passer au long cours des messages attachés à leurs flèches "
 "est très utile pour maintenir une communication entre les armées ammorites."
 
 #. [unit_type]: id=Dune Luminary, race=dunefolk
@@ -2017,7 +2015,6 @@ msgstr "Éclairé"
 
 #. [unit_type]: id=Dune Luminary, race=dunefolk
 #: data/core/units/dunefolk/Luminary.cfg:25
-#, fuzzy
 msgid ""
 "On the surface, it is not entirely clear what distinguishes a Luminary from "
 "other healers among the Dunefolk. Certainly, a Luminary may be marginally "
@@ -2045,7 +2042,7 @@ msgstr ""
 "Certains d'entre eux, les éminents, accumulent des connaissances interdites "
 "et conseillent beaucoup de chefs ammorites dans l'ombre. De telles "
 "spéculations n'ont jamais été prouvées mais il y a toujours des éclairés qui "
-"possèdent plus d'influence que leurs seules capacités ne peuvent expliquer. "
+"possèdent plus d'influence que leurs seules capacités ne peuvent expliquer."
 
 #. [unit_type]: id=Dune Marauder, race=dunefolk
 #: data/core/units/dunefolk/Marauder.cfg:11
@@ -2054,7 +2051,6 @@ msgstr "Maraudeur ammorite"
 
 #. [unit_type]: id=Dune Marauder, race=dunefolk
 #: data/core/units/dunefolk/Marauder.cfg:31
-#, fuzzy
 msgid ""
 "Some find themselves well suited to the life of a raider and may even form "
 "their own clans with like-minded individuals. Ever roaming the deserts for "
@@ -2070,17 +2066,17 @@ msgid ""
 msgstr ""
 "Certains ammorites se trouvent prédisposés à une vie de pillard et ils "
 "forment parfois leur propre clan avec des individus qui partagent leurs "
-"valeurs. Parcourant le désert dans tous les sens à le\a recherche de "
-"voyageurs imprudents ou de caravanes vulnérables, ces cavaliers vivent de "
-"pillage et autre chapardage. Sans aucune spécialité, les maraudeurs ne sont "
-"ni les guerriers les plus forts, ni les archers les plus habiles mais ils "
-"sont parmi les ennemis les plus dangereux que recèlent les déserts par leur "
-"pure maniabilité. Une attaque coordonnée de maraudeurs peut vider un camp de "
+"valeurs. Parcourant le désert dans tous les sens à la recherche de voyageurs "
+"imprudents ou de caravanes vulnérables, ces cavaliers vivent de pillage et "
+"autre chapardage. Sans aucune spécialité, les maraudeurs ne sont ni les "
+"guerriers les plus forts, ni les archers les plus habiles mais ils sont "
+"parmi les ennemis les plus dangereux que recèlent les déserts par leur pure "
+"maniabilité. Une attaque coordonnée de maraudeurs peut vider un camp de "
 "taille moyenne avant qu'une réaction soit possible et les tactiques de "
 "guérilla peuvent leur permettre de prendre le dessus sur des ennemis plus "
 "forts quand une charge brutale mènerait à une défaite. C'est pour cette "
 "raison qu'ils sont parfois engagés par des armées en manque de combattants "
-"ou par des caravanes pour une protection contre les raids."
+"ou par des caravanes désirant une protection contre les raids."
 
 #. [attack]: type=fire
 #: data/core/units/dunefolk/Marauder.cfg:61
@@ -2096,7 +2092,6 @@ msgstr "Parangon"
 
 #. [unit_type]: id=Dune Paragon, race=dunefolk
 #: data/core/units/dunefolk/Paragon.cfg:22
-#, fuzzy
 msgid ""
 "In many Dunefolk city-states, the procedure for selecting the next "
 "generation of leaders is a long process that takes place over many years. In "
@@ -2126,21 +2121,22 @@ msgstr ""
 "pour suivre un apprentissage particulier. Repas, sommeil et entraînements : "
 "ces recrues apprennent à vivre et respirer selon les lois de l’épéiste, "
 "faisant de leur lame plus qu'une extension de leur personne, leur nouvelle "
-"identité. Dès l'adolescence, une dizaine d’année d’entraînement intense mène "
-"à un test final, composé d'une série de duels mortels avec leurs camarades. "
-"À la conclusion du processus, seuls huit survivants restent. Ils reçoivent "
-"alors individuellement le titre de kal et collectivement celui de kalai.\n"
+"identité. Dès l'adolescence, une dizaine d’années d’entraînement intense "
+"mène à un test final, composé d'une série de duels mortels avec leurs "
+"camarades. Au terme de cette formation, seuls huit survivants subsistent. "
+"Ils reçoivent alors individuellement le titre de kal et collectivement celui "
+"de kalai.\n"
 "\n"
 "Chez les ammorites, si le haut commandement doit savoir les voies de l’épée, "
 "la classe dirigeante doit maîtriser plus que les règles de l'escrime. Leur "
 "formation éreintante est souvent suivie par plusieurs années de patrouille "
 "dans le désert ou d'étude consciencieuse de la science dans le but de "
 "trouver leur propre voie de l'esprit vers la lumière. Quelle que soit la "
-"voie, au terme de la seconde période de formation le kalai rentre et apporte "
-"les preuves de ses connaissances aux anciens de la classe dirigeante. Ceux "
-"qui en sont dignes, sont alors appelés parangons, guerriers de la plus "
-"grande force et acuité qui seront les candidats pour diriger la nouvelle "
-"génération ammorite."
+"voie, au terme de la seconde période de formation, le kalai rentre et "
+"apporte les preuves de ses connaissances aux anciens de la classe "
+"dirigeante. Ceux qui en sont dignes, sont alors appelés parangons, guerriers "
+"de la plus grande force et acuité qui seront les candidats pour diriger la "
+"nouvelle génération ammorite."
 
 #. [attack]: type=impact
 #: data/core/units/dunefolk/Paragon.cfg:42
@@ -2154,7 +2150,6 @@ msgstr "Pillard ammorite"
 
 #. [unit_type]: id=Dune Raider, race=dunefolk
 #: data/core/units/dunefolk/Raider.cfg:30
-#, fuzzy
 msgid ""
 "Though rarely found in organized armies, raiders are a staple among the "
 "nomadic Dunefolk, who regularly ambush rival caravans and camps at night. In "
@@ -2182,7 +2177,6 @@ msgstr "Chevaucheur des dunes"
 
 #. [unit_type]: id=Dune Rider, race=dunefolk
 #: data/core/units/dunefolk/Rider.cfg:21
-#, fuzzy
 msgid ""
 "The Dunefolk are prominent horse breeders who raise many different varieties "
 "of mounts to fulfill various purposes. Those who are used for hard labor are "
@@ -2241,7 +2235,6 @@ msgstr "Incandescent"
 
 #. [unit_type]: id=Dune Scorcher, race=dunefolk
 #: data/core/units/dunefolk/Scorcher.cfg:22
-#, fuzzy
 msgid ""
 "The scorcher’s moniker is derived not from the destruction they wreak on "
 "adversarial formations, but on their own singed appearances. By "
@@ -2255,7 +2248,7 @@ msgstr ""
 "qu'elles sèment sur les formations adverses, mais de leur apparence cramée. "
 "En faisant continuellement des expériences avec leur matériel, la plupart "
 "des incandescentes dépassent inévitablement les limites de leur art et sont "
-"marquées par le Sanbaar sap volatile qui imbibe leurs armes. Affichant "
+"marquées par la sève de Sanbaar volatile qui imbibe leurs armes. Affichant "
 "fièrement leurs brûlures comme la marque de leur ardeur, ses archères "
 "adorent faire flamber de larges étendues du champ de bataille, même si cela "
 "mène parfois de manière incontrôlable à des victimes alliées."
@@ -2301,7 +2294,6 @@ msgstr "Traqueuse"
 
 #. [unit_type]: id=Dune Sky Hunter, race=dunefolk
 #: data/core/units/dunefolk/Sky_Hunter.cfg:38
-#, fuzzy
 msgid ""
 "Often mistaken for young Rocs, desert eagles are large, majestic birds of "
 "prey who are notoriously aggressive and nearly impossible to tame. In the "
@@ -2319,7 +2311,7 @@ msgstr ""
 "agressifs et difficilement domesticables. À l’état sauvage, ils se "
 "nourrissent de proies de grande taille comme des loups, des petits chevaux "
 "et, dit-on, des enfants qui ne sont pas sages. La puissance de ces oiseaux "
-"rend périlleuse toute approche, et seules les fauconnières  ammorites les "
+"rend périlleuse toute approche, et seules les fauconnières ammorites les "
 "plus expérimentées s'y risquent. Dans le cas où un aigle se laisse "
 "apprivoiser, la relation entre la dompteuse et la bête est plus un lien "
 "solide entre égaux qu'une relation d'une maîtresse à son animal domestique. "
@@ -2338,7 +2330,6 @@ msgstr "Soldat ammorite"
 
 #. [unit_type]: id=Dune Soldier, race=dunefolk
 #: data/core/units/dunefolk/Soldier.cfg:20
-#, fuzzy
 msgid ""
 "While most Dunefolk castes serve an additional practical purpose beyond only "
 "direct warfare, cities and caravans usually train a group of soldiers "
@@ -2358,7 +2349,7 @@ msgstr ""
 "typique utilise cette capacité en plaçant les soldats dans un maillage "
 "rapproché, et leur permet de porter l'assaut et de briser les lignes "
 "ennemies surchargées car chaque soldat se bat aussi librement que s'il était "
-"en combat singulier"
+"en combat singulier."
 
 #. [unit_type]: id=Dune Spearguard, race=dunefolk
 #: data/core/units/dunefolk/Spearguard.cfg:8
@@ -2367,7 +2358,6 @@ msgstr "Garde-lance ammorite"
 
 #. [unit_type]: id=Dune Spearguard, race=dunefolk
 #: data/core/units/dunefolk/Spearguard.cfg:20
-#, fuzzy
 msgid ""
 "The push and pull of any battle requires varying degrees of offense and "
 "defense. The Dunefolk no doubt value offense as the greater of the two and "
@@ -2381,7 +2371,7 @@ msgid ""
 "spear and shield and more than capable of repelling most advances."
 msgstr ""
 "Dans toute bataille, la succession d’avancées et de retraits exige la "
-"maîtrise combinées de techniques offensives et défensives. Les ammorites "
+"maîtrise combinée de techniques offensives et défensives. Les ammorites "
 "favorisent les tactiques qui supportent l'offensive et cela s'illustre dans "
 "leurs efforts pour former des épéistes compétents. Cependant, dans chaque "
 "groupe de combattants, certains abandonneront leur glaive et l’échangeront "
@@ -2400,7 +2390,6 @@ msgstr "Maître-lance ammorite"
 
 #. [unit_type]: id=Dune Spearmaster, race=dunefolk
 #: data/core/units/dunefolk/Spearmaster.cfg:21
-#, fuzzy
 msgid ""
 "Among Dunefolk armies, the highest prestige goes to the master swordsmen "
 "leading every assault. Though honored for their service in battle, those who "
@@ -2448,7 +2437,6 @@ msgstr "Tourbillonneuse"
 
 #. [unit_type]: id=Dune Strider, race=dunefolk
 #: data/core/units/dunefolk/Strider.cfg:21
-#, fuzzy
 msgid ""
 "The power of any Dunefolk assault is inhibited by one major drawback: "
 "organized Dunefolk forces tend to be rather slow. Because of this, enemy "
@@ -2513,7 +2501,6 @@ msgstr "Épéiste ammorite"
 
 #. [unit_type]: id=Dune Swordsman, race=dunefolk
 #: data/core/units/dunefolk/Swordsman.cfg:20
-#, fuzzy
 msgid ""
 "In a direct clash of large armies, the Dunefolk commonly encounter either "
 "densely packed ‘shield walls’ or heavily fortified enemy positions. Striking "
@@ -2532,11 +2519,11 @@ msgstr ""
 "lignes très organisées est souvent difficile car les interstices dans la "
 "formation entre les boucliers et les armures sont réduits, juste suffisants "
 "pour laisser passer une riposte de lances et de projectiles. L'escrime "
-"ammorite place donc d'importance dans la puissance et la précision "
-"primordiale. Un guerrier n'aura peut-être qu'une chance de porter un coup à "
-"son ennemi mais un épéiste expérimenté sera sûr de saisir cette ouverture et "
-"de faire mouche. Affûtés pour atteindre une précision surnaturelle, un "
-"contingent d'épéistes est capable de briser les défenses les plus solides."
+"ammorite met donc fortement en avant la puissance et surtout la précision. "
+"Un guerrier n'aura peut-être qu'une chance de porter un coup à son ennemi "
+"mais un épéiste expérimenté sera sûr de saisir cette ouverture et de faire "
+"mouche. Affûtés pour atteindre une précision surnaturelle, un contingent "
+"d'épéistes est capable de briser les défenses les plus solides."
 
 #. [attack]: type=blade
 #: data/core/units/dunefolk/Swordsman.cfg:26
@@ -2556,7 +2543,6 @@ msgstr "Maître de guerre"
 
 #. [unit_type]: id=Dune Warmaster, race=dunefolk
 #: data/core/units/dunefolk/Warmaster.cfg:24
-#, fuzzy
 msgid ""
 "In direct contrast with other Dunefolk commanders, many high-ranking "
 "generals focus heavily on rousing their troops and maintaining high morale. "
@@ -2568,16 +2554,16 @@ msgid ""
 "rather than formal training. Said to be a veteran of a thousand battles, a "
 "warmaster is an expert leader that should never be underestimated."
 msgstr ""
-"À la différence des autres commandants ammorites, des généraux de haut-rang "
-"cherchent avant-tout à motiver leurs troupes et maintenir un bon moral. Les "
-"maîtres de guerre sont souvent en première-ligne dans les batailles, se "
+"À la différence des autres commandants ammorites, des généraux de haut rang "
+"cherchent avant tout à motiver leurs troupes et maintenir un bon moral. Les "
+"maîtres de guerre sont souvent en première ligne dans les batailles, se "
 "battant et soufrant avec leurs soldats. Bien qu'ils laissent les détails de "
 "stratégie aux capitaines sous leur commandement, ils sont aussi des "
-"tacticiens compétents et beaucoup de victoires ont été remportées par une "
+"tacticiens compétents, et beaucoup de victoires ont été remportées par une "
 "manœuvre surprise inventive tirée plutôt de leur expérience sur le champ de "
 "bataille que d'études théoriques. Le maître de guerre, un vétéran qui a "
-"livré bataille par millier, est un chef éclairé qu'il ne faut jamais sous-"
-"estimé."
+"livré des milliers de batailles, est un chef éclairé qu'il ne faut jamais "
+"sous-estimer."
 
 #. [unit_type]: id=Dune Wayfarer, race=dunefolk
 #: data/core/units/dunefolk/Wayfarer.cfg:8
@@ -6127,18 +6113,17 @@ msgstr "pinces"
 #: data/core/units/monsters/Giant_Scorpion.cfg:111
 #, fuzzy
 msgid "scuttler"
-msgstr "saboteur"
+msgstr "sapeur"
 
 # Variation du scorpion géant.
 #. [variation]
 #: data/core/units/monsters/Giant_Scorpion.cfg:112
 #, fuzzy
 msgid "Sand Scuttler"
-msgstr "Saboteur des sables"
+msgstr "Sapeur des dunes"
 
 #. [variation]
 #: data/core/units/monsters/Giant_Scorpion.cfg:117
-#, fuzzy
 msgid ""
 "Making their homes in sandy dunes, these critters are an odd mix of mundane "
 "creature and elemental beast. Though usually timid, Sand Scuttlers sometimes "
@@ -6361,7 +6346,6 @@ msgstr "Djinn"
 
 #. [unit_type]: id=Jinn, race=monster
 #: data/core/units/monsters/Jinn.cfg:23
-#, fuzzy
 msgid ""
 "The Jinn are mysterious spirits, with no known relation to souls of the "
 "departed. They are often sighted from a distance, drifting across the desert "
@@ -6370,13 +6354,12 @@ msgid ""
 "felt the Jinn were watching over them, driving off malign forces of the "
 "night."
 msgstr ""
-"Les djinns sont des génies mystérieux qui n'ont aucune attache avec les âmes "
-"de disparus. Ils sont facilement aperçus à distance, vagabonds flottant sur "
-"les collines désertiques et les dunes, mais rarement observables à "
-"proximité. Toutes les rapports de rencontre s'accordent sur une nature "
-"hostile, à l'exception de récits de voyageurs qui décrivent la sensation "
-"d'un djinn qui les protège et écarte le danger de forces maléfiques dans la "
-"nuit désertique."
+"Les djinns sont des génies mystérieux qui n'ont aucun lien avec les âmes de "
+"disparus. Ils sont souvent aperçus de loin, vagabonds flottant sur les "
+"collines désertiques et les dunes, mais rarement observables de près. Tous "
+"les rapports de rencontre s'accordent sur une nature hostile, à l'exception "
+"de récits de voyageurs qui décrivent la sensation d'un djinn qui les protège "
+"et écarte le danger de forces maléfiques dans la nuit désertique."
 
 # les Djinns utilisent cette attaque
 #. [attack]: type=impact
@@ -6607,7 +6590,6 @@ msgstr "Vouivre sauvage"
 
 #. [unit_type]: id=Wild Wyvern, race=monster
 #: data/core/units/monsters/Wild_Wyvern.cfg:44
-#, fuzzy
 msgid ""
 "Wyverns are large reptiles that resemble dragons, but are not the "
 "intelligent, magical creatures. However, the fact that they are just wild "
@@ -6625,11 +6607,11 @@ msgstr ""
 "inciter les voyageurs à baisser la garde car elles sont rapides et féroces "
 "si elles se sentent menacées ou affamées.\n"
 "\n"
-"Les  vouivres sont des créatures sociales, voyageant souvent en couple ou en "
-"petit groupe. Leur habitudes cynégétiques et alimentaires sont mal comprises "
+"Les vouivres sont des créatures sociales, voyageant souvent en couple ou en "
+"petit groupe. Leurs habitudes de chasse et alimentaires sont mal comprises "
 "car elles peuvent coopérer avec des espèces inférieures qui peuvent paraître "
-"comme des proies potentielles. Ce comportement assez étonnant peut trouver "
-"son origine dans le milieu difficile des déserts qu'elles occupent."
+"comme des proies potentielles. Ce comportement assez étonnant pourrait être "
+"une adaptation aux rudes déserts qu'elles occupent."
 
 #. [unit_type]: id=Wolf, race=wolf
 #: data/core/units/monsters/Wolf.cfg:4
