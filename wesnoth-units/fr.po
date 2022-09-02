@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-05-08 01:42 UTC\n"
-"PO-Revision-Date: 2022-09-01 13:13+0200\n"
+"PO-Revision-Date: 2022-09-02 18:53+0200\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
@@ -3172,6 +3172,7 @@ msgstr "Héros elfe"
 
 #. [unit_type]: id=Elvish Hero, race=elf
 #: data/core/units/elves/Hero.cfg:18
+#, fuzzy
 msgid ""
 "Accomplished Elvish warriors are sometimes called ‘Sárcan’, roughly meaning "
 "‘one who has sacrificed in defense’ or ‘one transfigured by experience’. "
@@ -3188,6 +3189,21 @@ msgid ""
 "service, such a status is not one often sought after by the majority of "
 "Elvenkind."
 msgstr ""
+"Les guerriers elfiques accomplis sont parfois appelés \"Sárcan\", ce qui "
+"correspond à peu près à \"celui qui s'est sacrifié pour la défense\" ou "
+"\"celui qui a été transfiguré par l'expérience\". Généralement traduit par "
+"\"Héros elfe\" dans la langue humaine, ce nom indique un certain niveau de "
+"prestige, mais n'est pas destiné à glorifier la position. Les héros elfiques "
+"sont ceux qui ont survécu à de nombreuses guerres et ont survécu à beaucoup "
+"de leurs amis tombés dans les batailles précédentes. Souvent parmi les rares "
+"survivants du champ de bataille, ces soldats aguerris sont au courant des "
+"nombreuses atrocités de la guerre - les orcs et les humains brûlant et "
+"rasant leurs maisons dans les forêts, les nains pillant les précieux "
+"artefacts des morts, les nécromanciens soulevant leurs propres camarades "
+"pour les combattre, ou même leur propre espèce massacrant des innocents sans "
+"soucis ni pitié. Si les elfes sont conscients de la nécessité d'une force "
+"militaire et honorent les \"Sárcanet\" comme des héros pour leurs services, "
+"ce statut n'est habituellement pas recherché par la majorité des elfes."
 
 #. [unit_type]: id=Elvish High Lord, race=elf
 #: data/core/units/elves/High_Lord.cfg:4
@@ -3196,6 +3212,7 @@ msgstr "Haut seigneur elfe"
 
 #. [unit_type]: id=Elvish High Lord, race=elf
 #: data/core/units/elves/High_Lord.cfg:18
+#, fuzzy
 msgid ""
 "While the duality of Elven magic manifests itself most strongly in the split "
 "paths between the corporeal and arcane worlds, the same dichotomy is "
@@ -3214,6 +3231,24 @@ msgid ""
 "lords is invaluable for maintaining the prosperity of Elvish rule, whether "
 "or not they sit at the top of the chain of command."
 msgstr ""
+"Si la dualité de la magie elfique se manifeste le plus fortement dans les "
+"chemins séparés entre les mondes corporel et arcanique, la même dichotomie "
+"se reflète dans les rangs de la noblesse elfique. En partie à cause de leur "
+"utilisation du feu féerique, la plupart des seigneurs se retrouvent "
+"étroitement liés aux enchanteresses, s'associant ainsi aux aspects de la "
+"clairvoyance et de la destruction. Bien que n'étant pas égale à sa sagesse, "
+"l'intuition d'un seigneur doit généralement être respectée, et sa colère, "
+"redoutée. Cela ne devient que plus vrai avec l'âge, car le temps apporte de "
+"l'acuité à l'esprit et aux sens de l'elfe.\n"
+"\n"
+"L'idée des étrangers qu'il existe une classe supérieure de \"grands seigneurs"
+"\" est souvent une erreur résultant de la grande disparité de perception et "
+"de pouvoir que possèdent ces elfes expérimentés. En réalité, la hiérarchie "
+"du pouvoir elfique diffère selon les enclaves et selon les situations, entre "
+"les périodes de paix et de guerre. La seule chose que l'on puisse dire avec "
+"certitude, c'est que la perspicacité de ces seigneurs est inestimable pour "
+"maintenir la prospérité du pouvoir elfique, qu'ils soient ou non assis au "
+"sommet de la chaîne de commandement."
 
 #. [unit_type]: id=Elvish Lady, race=elf
 #: data/core/units/elves/Lady.cfg:4
@@ -3222,6 +3257,7 @@ msgstr "Dame elfe"
 
 #. [unit_type]: id=Elvish Lady, race=elf
 #: data/core/units/elves/Lady.cfg:20
+#, fuzzy
 msgid ""
 "Usually strongly connected with the earthly aspect of Elven magic, noble "
 "ladies of the elvish enclaves are associated with wisdom and preservation. "
@@ -3235,6 +3271,18 @@ msgid ""
 "peacekeepers, holding high authority during times of amity and taking a "
 "lesser role in times of war."
 msgstr ""
+"Généralement liées à l'aspect physique de la magie elfique, les nobles dames "
+"des enclaves elfiques sont associées à la sagesse et à la préservation. "
+"Chargées de maintenir nombre des traditions elfiques les plus vénérées, "
+"elles jouent un rôle important dans la sauvegarde de la tranquillité et des "
+"merveilles naturelles de leurs sanctuaires forestiers réputés. Contrairement "
+"à leur contrepartie, les seigneurs - dont beaucoup acquièrent une grande "
+"connaissance individuelle grâce à leur utilisation de la magie des arcanes "
+"-, la plupart des dames répandent leur pouvoir à travers les ordres sociaux "
+"qu'elles guident, souvent au prix de leurs capacités personnelles. Pour "
+"cette raison, elles servent le plus souvent comme diplomates et gardiennes "
+"de la paix, détenant une haute autorité en temps de paix et jouant un rôle "
+"moins important en temps de guerre."
 
 #. [unit_type]: id=Elvish Lord, race=elf
 #: data/core/units/elves/Lord.cfg:4
@@ -3243,6 +3291,7 @@ msgstr "Seigneur elfe"
 
 #. [unit_type]: id=Elvish Lord, race=elf
 #: data/core/units/elves/Lord.cfg:18
+#, fuzzy
 msgid ""
 "Succession among the Elvish nobility is a complex process that varies "
 "somewhat between the different enclaves of Elvenkind. Typically, the future "
@@ -3262,6 +3311,25 @@ msgid ""
 "an absolute one, and they are expected to lead more by diplomacy and wisdom "
 "rather than force."
 msgstr ""
+"La succession au sein de la noblesse elfique est un processus complexe qui "
+"varie quelque peu entre les différentes envlaves de la société elfique. En "
+"général, les futurs chefs des elfes sont chargés de gouverner les trois "
+"aspects de la société elfique : les guerriers et les gardes forestiers qui "
+"défendent les forêts, les civils pacifiques qui évitent le combat, et le "
+"groupe collectif des guérisseurs et des mystiques qui étudient l'art de la "
+"magie des fées. Être capable de concilier les différences entre ces groupes "
+"et de diriger efficacement son peuple exige un talent exceptionnel et une "
+"connaissance approfondie des elfes de toutes sortes. À cette fin, les "
+"seigneurs sont généralement les seuls elfes masculins autorisés à apprendre "
+"la magie des fées, qui est traditionnellement enseignée uniquement aux "
+"chamanes féminines.\n"
+"\n"
+"Bien que certaines enclaves, comme la forêt septentrionale de Lintanir, "
+"conservent leur noblesse par la lignée, d'autres, comme les puissants elfes "
+"de Wesmere, élisent de nouveaux seigneurs à chaque nouvelle génération. Dans "
+"les deux cas, la position des nobles est rarement absolue, et on attend "
+"d'eux qu'ils dirigent par la diplomatie et la sagesse plutôt que par la "
+"force."
 
 #. [unit_type]: id=Elvish Marksman, race=elf
 #: data/core/units/elves/Marksman.cfg:4
@@ -3270,6 +3338,7 @@ msgstr "Tireur d'élite elfe"
 
 #. [unit_type]: id=Elvish Marksman, race=elf
 #: data/core/units/elves/Marksman.cfg:19
+#, fuzzy
 msgid ""
 "Elves have an intimate connection to the world of faerie, which innately "
 "imbues them with highly acute senses and incredibly keen vision. This, "
@@ -3280,6 +3349,15 @@ msgid ""
 "training the body to keep up with the eyes is no easy feat, and realizing "
 "this prodigious skill does come with the cost of weakness in close quarters."
 msgstr ""
+"Les elfes ont un lien intime avec le monde de la féerie, ce qui leur confère "
+"des sens très aigus et une vision incroyablement précise. Ceci, combiné à "
+"des années de chasse dans les forêts profondes, contribue grandement au "
+"succès des elfes à l'arc. Un elfe entraîné au tir est capable d'atteindre "
+"une cible de la taille d'un trou d'épingle à des dizaines de pas de distance "
+"et peut tirer assez rapidement et précisément pour fendre des branches en "
+"plein vol. Bien sûr, entraîner le corps à suivre les yeux n'est pas une "
+"mince affaire, et la maîtrise de cette prodigieuse maîtrise a pour prix une "
+"certaine faiblesse dans les combats rapprochés."
 
 #. [attack]: type=pierce
 #: data/core/units/elves/Marksman.cfg:38
@@ -3301,6 +3379,7 @@ msgstr "Maréchal elfe"
 
 #. [unit_type]: id=Elvish Marshal, race=elf
 #: data/core/units/elves/Marshal.cfg:26
+#, fuzzy
 msgid ""
 "Elves are not often the instigators of open war, but will not shy away when "
 "the time comes to do battle. To this end, they maintain a small number of "
@@ -3313,6 +3392,18 @@ msgid ""
 "task for any invasion force, precisely because of the skillful maneuvering "
 "of the marshals who are entrusted with the protection of their people."
 msgstr ""
+"Les elfes ne sont pas souvent les instigateurs d'une guerre ouverte, mais "
+"ils ne reculent pas devant le moment de se battre. À cette fin, ils "
+"maintiennent en permanence un petit nombre de maréchaux à l'esprit "
+"stratégique. Sélectionnés parmi les capitaines de patrouille les plus "
+"talentueux, ces commandants suivent une formation approfondie dans "
+"différents styles militaires, y compris ceux des humains et des orcs. Ce "
+"sont des stratèges brillants, mais peu orthodoxes, qui excellent dans la "
+"décomposition de grands fronts de bataille en petites escarmouches, "
+"transformant des campagnes ordinaires en guérillas dispersées. Affronter les "
+"elfes dans leurs propres terres est une tâche ardue pour toute force "
+"d'invasion, précisément en raison des manœuvres habiles des maréchaux "
+"chargés de la protection de leur peuple."
 
 #. [unit_type]: id=Elvish Outrider, race=elf
 #: data/core/units/elves/Outrider.cfg:4
@@ -3321,6 +3412,7 @@ msgstr "Escorteur elfe"
 
 #. [unit_type]: id=Elvish Outrider, race=elf
 #: data/core/units/elves/Outrider.cfg:19
+#, fuzzy
 msgid ""
 "There once was an elf by the name of Beirand, who set out on a journey to a "
 "distant land.\n"
@@ -3352,6 +3444,35 @@ msgid ""
 "The truth of this tale, one can only surmise, but doubtless, Outriders the "
 "fastest do comprise."
 msgstr ""
+"Il était une fois un elfe du nom de Beirand, qui entreprit un voyage vers "
+"une terre lointaine.\n"
+"Il chevaucha pendant treize jours, sans prendre de repos, jusqu'à ce qu'il "
+"entre dans la demeure d'une nymphe, au bord d'un lac.\n"
+"« Regarde là-bas, Narya ! cria-t-il avec joie. Vois-tu ce fameux pommier au "
+"loin ? »\n"
+"Elle répondit par un hennissement, sauta de joie, puis partit au galop.\n"
+"Il ne fallut pas attendre un instant pour qu'une rafale souffle tout autour "
+"et qu'une voix aérienne se fasse entendre :\n"
+"« Attends, elfe, ce bosquet est à moi. Je ne te donnerai aucun fruit, ni à "
+"toi ni à ton cheval. »\n"
+"Ce à quoi il répondit : « S'il te plaît, accorde-nous un répit. Nous avons "
+"longtemps voyagé, vois-tu comme nous sommes las ? »\n"
+"« De la fatigue, je perçois, elle est la vôtre, mais pour gagner ma grâce, "
+"disputons une course. »\n"
+"Le cavalier y consentit, et vers l'arbre, ils partirent.\n"
+"Un hurlement, une ruée, un souffle, le vent laissa le cavalier en arrière de "
+"lui.\n"
+"Mais, dans un éclair, un galop élégant, cheval et cavalier passèrent devant "
+"le vent.\n"
+"Pendant un long moment, ils firent des va-et-vient, jusqu'à ce qu'enfin, "
+"l'esprit elfe arrive face à eux.\n"
+"« Bien joué, dit l'esprit en soufflant. Je t'accorde ma grâce ainsi qu'à "
+"tous tes proches ».\n"
+"Beirand et Narya prirent donc congé, conservant à jamais la faveur de la "
+"nymphe.\n"
+"\n"
+"On ne peut qu'émettre des suppositions quant à la véracité de ce conte, mais "
+"sans aucun doute, les escorteurs elfes les plus rapides le comprennent."
 
 #. [unit_type]: id=Elvish Ranger, race=elf
 #: data/core/units/elves/Ranger.cfg:3
@@ -3360,6 +3481,7 @@ msgstr "Rôdeur elfe"
 
 #. [unit_type]: id=Elvish Ranger, race=elf
 #: data/core/units/elves/Ranger.cfg:19
+#, fuzzy
 msgid ""
 "The silent watchers of the forests, Elvish rangers are masters of stealth "
 "and reconnaissance. Many are explorers and loners, preferring to wander "
@@ -3371,6 +3493,17 @@ msgid ""
 "their size and will often compel attacking armies to withdraw rather than "
 "risk a game of prolonged guerrilla warfare in the forests."
 msgstr ""
+"Gardiens silencieux des forêts, les rôdeurs elfes sont des maîtres de la "
+"furtivité et de la reconnaissance. Nombre d'entre eux sont des explorateurs "
+"et des solitaires, préférant errer parmi les arbres imposants qui abritent "
+"la beauté naturelle de leurs maisons, dont ils sont farouchement "
+"protecteurs. Bien qu'ils possèdent des compétences considérables à la lame "
+"comme à l'arc, ces archers sont moins aptes à combattre d'autres guerriers à "
+"armes égales, préférant tendre des embuscades à leurs ennemis depuis les "
+"ombres des bois. Une attaque surprise des rangers peut paralyser une force "
+"plusieurs fois supérieure à leur taille et contraint souvent les armées "
+"attaquantes à se retirer plutôt que de risquer une guérilla prolongée dans "
+"les forêts."
 
 #. [special_note]
 #: data/core/units/elves/Ranger.cfg:21
@@ -3393,6 +3526,7 @@ msgstr "Cavalier elfe"
 
 #. [unit_type]: id=Elvish Rider, race=elf
 #: data/core/units/elves/Rider.cfg:21
+#, fuzzy
 msgid ""
 "The prevalence of guerrilla tactics in Elven strategy results in great "
 "emphasis on maintaining highly mobile units capable of fighting on an "
@@ -3408,6 +3542,20 @@ msgid ""
 "these riders are the oft unsung heroes of war, left supporting their "
 "brethren from the back lines."
 msgstr ""
+"La prévalence des tactiques de guérilla dans la stratégie elfique se traduit "
+"par une grande importance accordée au maintien d'unités hautement mobiles "
+"capables de combattre sur un front de bataille adaptable. Ce style de guerre "
+"exige une communication rapide entre les petits groupes d'escarmouche et la "
+"capacité de transférer rapidement les troupes entre les zones de combat. Les "
+"cavaliers elfes expérimentés le savent bien et consacrent donc la majeure "
+"partie de leur temps à améliorer leurs compétences équestres plutôt que "
+"leurs aptitudes individuelles au combat. La vitesse à laquelle ils se "
+"déplacent dans la forêt serait suicidaire pour toute autre cavalerie, et ils "
+"sont assez tenaces pour chevaucher pendant deux ou trois jours d'affilée "
+"sans se reposer. Bien que les renseignements et la communication fournis par "
+"ces cavaliers soient inestimables, leur manque de prouesses au combat et "
+"d'engagement en première ligne font d'eux les héros méconnus de la guerre, "
+"qui doivent soutenir leurs frères depuis les arrière-gardes."
 
 #. [unit_type]: id=Elvish Scout, race=elf
 #: data/core/units/elves/Scout.cfg:4
@@ -3449,6 +3597,7 @@ msgstr "Chamane elfe"
 
 #. [unit_type]: id=Elvish Shaman, race=elf
 #: data/core/units/elves/Shaman.cfg:19
+#, fuzzy
 msgid ""
 "With a little training, an elf’s inherent affinity with the natural world "
 "can be channeled into a material magic that affects the physical plane. "
@@ -3459,6 +3608,16 @@ msgid ""
 "peaceful by nature, these shamans rarely engage in combat, instead using "
 "their magic to command the earth itself to hinder or pacify their enemies."
 msgstr ""
+"Avec un peu d'entraînement, l'affinité inhérente d'un elfe avec le monde "
+"naturel peut être canalisée dans une magie matérielle qui affecte le plan "
+"physique. Les chamanes pratiquants cette discipline utilisent le plus "
+"souvent leurs compétences pour soigner la nature qui les relie à leurs "
+"pouvoirs, ce qui se traduit par des forêts exceptionnellement luxuriantes et "
+"verdoyantes autour de leurs maisons. La même magie se prête à des capacités "
+"remarquables et réputées dans les arts de la guérison. De nature "
+"profondément pacifique, ces chamanes se livrent rarement au combat, "
+"utilisant plutôt leur magie pour commander à la terre elle-même d'entraver "
+"ou de pacifier leurs ennemis."
 
 #. [unit_type]: id=Elvish Sharpshooter, race=elf
 #: data/core/units/elves/Sharpshooter.cfg:4
@@ -3467,6 +3626,7 @@ msgstr "Franc-tireur elfe"
 
 #. [unit_type]: id=Elvish Sharpshooter, race=elf
 #: data/core/units/elves/Sharpshooter.cfg:20
+#, fuzzy
 msgid ""
 "Though not a formal title, ‘Sharpshooter’ is the epithet given to the most "
 "gifted Elvish marksmen. These expert archers are capable of feats that, even "
@@ -3478,6 +3638,17 @@ msgid ""
 "sharpshooters of the elves have honed their art to its highest form and are "
 "the undisputed masters of archery."
 msgstr ""
+"Bien qu'il ne s'agisse pas d'un titre officiel, \"franc-tireur\" est "
+"l'épithète donnée aux tireurs elfiques les plus doués. Ces archers experts "
+"sont capables de prouesses qui, même selon les normes elfiques, frôlent le "
+"miracle ; ils ont la précision nécessaire pour séparer les flèches en plein "
+"vol et peuvent décocher une seconde flèche avant que la première ne touche "
+"le sol, tout en conservant une puissance suffisante pour endommager une "
+"armure complète. Une seule volée de leurs flèches suffit à abattre un "
+"cavalier à cheval, et même les fantassins lourdement armés ne survivront "
+"qu'à quelques tirs supplémentaires. Les franc-tireurs elfes ont perfectionné "
+"leur art jusqu'à sa forme la plus élevée et sont les maîtres incontestés du "
+"tir à l'arc."
 
 #. [female]
 #: data/core/units/elves/Sharpshooter.cfg:81
@@ -3486,6 +3657,7 @@ msgstr "Franc-tireuse elfe"
 
 #. [unit_type]: id=Elvish Shyde, race=elf
 #: data/core/units/elves/Shyde.cfg:22
+#, fuzzy
 msgid ""
 "As an elf maiden entwines herself more and more with nature, the essence of "
 "earth begins to transform her body. The butterfly wings that sprout on the "
@@ -3496,6 +3668,15 @@ msgid ""
 "for true faerie or ‘forest spirits’, these stewards of the forests epitomize "
 "their people’s mysterious connection with the natural order."
 msgstr ""
+"Au fur et à mesure qu'une jeune fille elfe se rapproche de la nature, "
+"l'essence de la terre commence à transformer son corps. Les ailes de "
+"papillon qui poussent sur le dos d'une nymphe sont une manifestation directe "
+"de son lien avec la féérie, lui conférant son aura éthérée caractéristique, "
+"à la fois sereine et craintive. Les nymphes sont des maîtres du monde "
+"ordinaire, guidés par un pouvoir qui est peu compris, mais très respecté par "
+"les autres membres de leur espèce. Souvent confondus avec de véritables fées "
+"ou des \"esprits de la forêt\", ces intendants des bois incarnent le lien "
+"mystérieux de leur peuple avec l'ordre naturel."
 
 #. [attack]: type=impact
 #: data/core/units/elves/Shyde.cfg:29 data/core/units/elves/Sylph.cfg:28
@@ -6109,18 +6290,19 @@ msgid "pincers"
 msgstr "pinces"
 
 # Nom de la variation (pour le saboteur des sable)
+# Peut-être sahraoui ?
 #. [variation]
 #: data/core/units/monsters/Giant_Scorpion.cfg:111
 #, fuzzy
 msgid "scuttler"
-msgstr "sapeur"
+msgstr "oasien"
 
 # Variation du scorpion géant.
 #. [variation]
 #: data/core/units/monsters/Giant_Scorpion.cfg:112
 #, fuzzy
 msgid "Sand Scuttler"
-msgstr "Sapeur des dunes"
+msgstr "Scorpion des dunes"
 
 #. [variation]
 #: data/core/units/monsters/Giant_Scorpion.cfg:117
