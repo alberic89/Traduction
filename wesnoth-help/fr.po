@@ -7168,12 +7168,12 @@ msgstr ""
 #. [race]: id=falcon
 #: data/core/units.cfg:137
 msgid "race^Falcon"
-msgstr "Humain"
+msgstr "Faucon"
 
 #. [race]: id=falcon
 #: data/core/units.cfg:138
 msgid "race+female^Falcon"
-msgstr "Humaine"
+msgstr "Fauconne"
 
 #. [race]: id=falcon
 #: data/core/units.cfg:139
