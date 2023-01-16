@@ -8,15 +8,15 @@
 # Guillaume Pascal <guillaume.pascal43@laposte.net>, 2011.
 #  Mathieu Guilbaud <mathieu@guim.info>, 2019.
 # Syll <syll-dev@laposte.net>, 2019.
-# alberic89 <alberic89@gmx.com>, 2022.
+# alberic89 <alberic89@gmx.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-12-18 01:09 UTC\n"
-"PO-Revision-Date: 2022-11-20 16:28+0100\n"
+"PO-Revision-Date: 2023-01-11 20:46+0100\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
-"Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
+"Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4473,7 +4473,7 @@ msgid ""
 "Compared to other loyalists, Javelineers have a higher resistance to "
 "‘pierce’ attacks."
 msgstr ""
-"Comparativement aux autres loyalistes, les hallebardiers possèdent une "
+"Comparé aux autres loyalistes, les javelinistes possèdent une "
 "meilleure résistance aux attaques perçantes."
 
 #. [unit_type]: id=Lieutenant, race=human
@@ -6672,8 +6672,9 @@ msgstr "foudre du désert"
 
 #. [unit_type]: id=Kraken, race=monster
 #: data/core/units/monsters/Kraken.cfg:5
+#, fuzzy
 msgid "Kraken"
-msgstr ""
+msgstr "Kraken"
 
 #. [unit_type]: id=Kraken, race=monster
 #: data/core/units/monsters/Kraken.cfg:21
@@ -6688,10 +6689,10 @@ msgid ""
 "with strong tentacles, or spit a poisonous black ink from a distance. The "
 "best way to survive an encounter with these monsters is to remain ashore."
 msgstr ""
-"Les calamars sont de gigantesques créatures des mers qui peuvent saisir "
+"Les krakens sont de gigantesques créatures des mers qui peuvent saisir "
 "leurs adversaires avec leurs puissants tentacules ou cracher à distance une "
 "encre noire toxique. La meilleure manière de survivre à une rencontre avec "
-"ces monstres est de rester sur terre."
+"ces monstres est de rester sur la terre ferme."
 
 #. [unit_type]: id=Mudcrawler, race=monster
 #: data/core/units/monsters/Mudcrawler.cfg:4
@@ -8537,6 +8538,7 @@ msgstr ""
 
 #. [attack]: type=impact
 #: data/core/units/undead/Skele_Bone_Knight.cfg:41
+#, fuzzy
 msgid "trample"
 msgstr ""
 
@@ -8599,6 +8601,7 @@ msgstr ""
 
 #. [unit_type]: id=Death Squire, race=undead
 #: data/core/units/undead/Skele_Death_Squire.cfg:5
+#, fuzzy
 msgid "Death Squire"
 msgstr ""
 
