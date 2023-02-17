@@ -8,13 +8,13 @@
 # Guillaume Pascal <guillaume.pascal43@laposte.net>, 2011.
 #  Mathieu Guilbaud <mathieu@guim.info>, 2019.
 # Syll <syll-dev@laposte.net>, 2019.
-# alberic89 <alberic89@gmx.com>, 2022.
+# alberic89 <alberic89@gmx.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-01-15 00:20 UTC\n"
-"PO-Revision-Date: 2022-11-20 16:28+0100\n"
+"PO-Revision-Date: 2023-02-17 20:16+0100\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
@@ -4476,7 +4476,7 @@ msgid ""
 "Compared to other loyalists, Javelineers have a higher resistance to "
 "‘pierce’ attacks."
 msgstr ""
-"Comparativement aux autres loyalistes, les hallebardiers possèdent une "
+"Comparés aux autres loyalistes, les javelinistes possèdent une"
 "meilleure résistance aux attaques perçantes."
 
 #. [unit_type]: id=Lieutenant, race=human
@@ -5949,14 +5949,14 @@ msgstr "feu"
 #, fuzzy
 #| msgid "Fire Ant"
 msgid "Firebane Ant"
-msgstr "Fourmi de feu"
+msgstr "Fourmi balle-de-feu"
 
 #. [unit_type]: id=Firebomb Ant, race=monster
 #: data/core/units/monsters/Ant_Firebomb.cfg:11
 #, fuzzy
 #| msgid "Fire Ant"
 msgid "Firebomb Ant"
-msgstr "Fourmi de feu"
+msgstr "Fourmi bombe-de-feu"
 
 #. [unit_type]: id=Firebomb Ant, race=monster
 #: data/core/units/monsters/Ant_Firebomb.cfg:51
@@ -5973,7 +5973,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Fire Ant"
 msgid "Soldier Ant"
-msgstr "Fourmi de feu"
+msgstr "Fourmi soldat"
 
 #. [unit_type]: id=Soldier Ant, race=monster
 #: data/core/units/monsters/Ant_Soldier.cfg:19
@@ -6059,7 +6059,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Muharib"
 msgid "Caribe"
-msgstr "Muharib"
+msgstr "Caribe"
 
 #. [unit_type]: id=Caribe, race=monster
 #: data/core/units/monsters/Caribe.cfg:28
@@ -6075,7 +6075,7 @@ msgstr ""
 #. [unit_type]: id=Hunter Caribe, race=monster
 #: data/core/units/monsters/Caribe_Hunter.cfg:8
 msgid "Hunter Caribe"
-msgstr ""
+msgstr "Caribe chasseur"
 
 #. [unit_type]: id=Hunter Caribe, race=monster
 #: data/core/units/monsters/Caribe_Hunter.cfg:29
@@ -6086,8 +6086,9 @@ msgstr ""
 
 #. [unit_type]: id=Nibbler, race=monster
 #: data/core/units/monsters/Caribe_Nibbler.cfg:8
+#, fuzzy
 msgid "Nibbler"
-msgstr ""
+msgstr "Piraia"
 
 #. [unit_type]: id=Nibbler, race=monster
 #: data/core/units/monsters/Caribe_Nibbler.cfg:41
@@ -6193,7 +6194,7 @@ msgstr "encre"
 #, fuzzy
 #| msgid "Dragoon"
 msgid "Dragonfly"
-msgstr "Dragon"
+msgstr ""
 
 #. [unit_type]: id=Dragonfly, race=monster
 #: data/core/units/monsters/Dragonfly.cfg:27
@@ -6210,7 +6211,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Dragoon"
 msgid "Grand Dragonfly"
-msgstr "Dragon"
+msgstr ""
 
 #. [unit_type]: id=Grand Dragonfly, race=monster
 #: data/core/units/monsters/Dragonfly_Grand.cfg:28
@@ -6745,8 +6746,9 @@ msgstr "foudre du désert"
 
 #. [unit_type]: id=Kraken, race=monster
 #: data/core/units/monsters/Kraken.cfg:5
+#, fuzzy
 msgid "Kraken"
-msgstr ""
+msgstr "Kraken"
 
 #. [unit_type]: id=Kraken, race=monster
 #: data/core/units/monsters/Kraken.cfg:21
@@ -6761,10 +6763,10 @@ msgid ""
 "with strong tentacles, or spit a poisonous black ink from a distance. The "
 "best way to survive an encounter with these monsters is to remain ashore."
 msgstr ""
-"Les calamars sont de gigantesques créatures des mers qui peuvent saisir "
+"Les krakens sont de gigantesques créatures des mers qui peuvent saisir "
 "leurs adversaires avec leurs puissants tentacules ou cracher à distance une "
 "encre noire toxique. La meilleure manière de survivre à une rencontre avec "
-"ces monstres est de rester sur terre."
+"ces monstres est de rester sur la terre ferme."
 
 #. [unit_type]: id=Mudcrawler, race=monster
 #: data/core/units/monsters/Mudcrawler.cfg:4
@@ -8335,7 +8337,7 @@ msgstr "Scorpion"
 #, fuzzy
 #| msgid "wc_variation^Spider"
 msgid "wc_variation^Scuttler"
-msgstr "Araignée"
+msgstr ""
 
 #. [variation]
 #: data/core/units/undead/Corpse_Soulless.cfg:317
@@ -8598,7 +8600,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Goblin Knight"
 msgid "Bone Knight"
-msgstr "Chevalier gobelin"
+msgstr ""
 
 #. [unit_type]: id=Bone Knight, race=undead
 #: data/core/units/undead/Skele_Bone_Knight.cfg:27
@@ -8792,7 +8794,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Skeleton Archer"
 msgid "Skeleton Rider"
-msgstr "Archer squelette"
+msgstr ""
 
 #. [unit_type]: id=Skeleton Rider, race=undead
 #: data/core/units/undead/Skeleton_Rider.cfg:33
