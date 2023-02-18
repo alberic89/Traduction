@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-01-15 00:20 UTC\n"
-"PO-Revision-Date: 2023-02-18 13:23+0100\n"
+"PO-Revision-Date: 2023-02-18 13:33+0100\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
@@ -8682,7 +8682,7 @@ msgstr ""
 #: data/core/units/undead/Skele_Death_Squire.cfg:5
 #, fuzzy
 msgid "Death Squire"
-msgstr "Hobereau de la mort"
+msgstr "Écuyer de la mort"
 
 #. [unit_type]: id=Death Squire, race=undead
 #: data/core/units/undead/Skele_Death_Squire.cfg:27
