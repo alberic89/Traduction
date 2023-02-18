@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-01-15 00:20 UTC\n"
-"PO-Revision-Date: 2023-02-18 13:00+0100\n"
+"PO-Revision-Date: 2023-02-18 13:23+0100\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
@@ -6074,11 +6074,13 @@ msgstr ""
 
 #. [unit_type]: id=Hunter Caribe, race=monster
 #: data/core/units/monsters/Caribe_Hunter.cfg:8
+#, fuzzy
 msgid "Hunter Caribe"
 msgstr "Caribe chasseur"
 
 #. [unit_type]: id=Hunter Caribe, race=monster
 #: data/core/units/monsters/Caribe_Hunter.cfg:29
+#, fuzzy
 msgid ""
 "As they age, the giant caribe become bigger and more dangerous. They also "
 "learn to use seaweed to ensnare prey or enemies."
@@ -6199,6 +6201,7 @@ msgstr "Libellule"
 
 #. [unit_type]: id=Dragonfly, race=monster
 #: data/core/units/monsters/Dragonfly.cfg:27
+#, fuzzy
 msgid ""
 "The giant dragonflies seen in some of the swamps, rivers, and lakes around "
 "Wesnoth enjoy a longer life cycle than the smaller, more common types. The "
@@ -6228,6 +6231,7 @@ msgstr "dard"
 
 #. [unit_type]: id=Dragonfly Naiad, race=monster
 #: data/core/units/monsters/Dragonfly_Naiad.cfg:5
+#, fuzzy
 msgid "Dragonfly Naiad"
 msgstr "Naïade monstrueuse"
 
