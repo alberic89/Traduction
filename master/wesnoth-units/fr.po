@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-01-15 00:20 UTC\n"
-"PO-Revision-Date: 2023-02-17 20:16+0100\n"
+"PO-Revision-Date: 2023-02-18 13:00+0100\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
@@ -6092,6 +6092,7 @@ msgstr "Piraia"
 
 #. [unit_type]: id=Nibbler, race=monster
 #: data/core/units/monsters/Caribe_Nibbler.cfg:41
+#, fuzzy
 msgid ""
 "Nibblers are juvenile predator fish, often more curious than dangerous. A "
 "single individual may not be a threat, but these fish seldom travel alone."
@@ -6194,7 +6195,7 @@ msgstr "encre"
 #, fuzzy
 #| msgid "Dragoon"
 msgid "Dragonfly"
-msgstr ""
+msgstr "Libellule"
 
 #. [unit_type]: id=Dragonfly, race=monster
 #: data/core/units/monsters/Dragonfly.cfg:27
@@ -6211,7 +6212,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Dragoon"
 msgid "Grand Dragonfly"
-msgstr ""
+msgstr "Libellule géante"
 
 #. [unit_type]: id=Grand Dragonfly, race=monster
 #: data/core/units/monsters/Dragonfly_Grand.cfg:28
@@ -6228,7 +6229,7 @@ msgstr "dard"
 #. [unit_type]: id=Dragonfly Naiad, race=monster
 #: data/core/units/monsters/Dragonfly_Naiad.cfg:5
 msgid "Dragonfly Naiad"
-msgstr ""
+msgstr "Naïade monstrueuse"
 
 #. [unit_type]: id=Dragonfly Naiad, race=monster
 #: data/core/units/monsters/Dragonfly_Naiad.cfg:58
@@ -7951,7 +7952,7 @@ msgstr ""
 #, fuzzy
 #| msgid "female^Saurian Flanker"
 msgid "female^Saurian Javelineer"
-msgstr "Flanqueuse saurienne"
+msgstr "Javeliniste saurienne"
 
 #. [unit_type]: id=Saurian Javelineer, race=lizard
 #: data/core/units/saurians/Javelineer.cfg:19
@@ -8032,7 +8033,7 @@ msgstr ""
 #, fuzzy
 #| msgid "female^Saurian Skirmisher"
 msgid "female^Saurian Spearthrower"
-msgstr "Tirailleuse saurienne"
+msgstr "Porte-lance saurienne"
 
 #. [unit_type]: id=Saurian Spearthrower, race=lizard
 #: data/core/units/saurians/Spearthrower.cfg:18
@@ -8337,7 +8338,7 @@ msgstr "Scorpion"
 #, fuzzy
 #| msgid "wc_variation^Spider"
 msgid "wc_variation^Scuttler"
-msgstr ""
+msgstr "Scorpion des dunes"
 
 #. [variation]
 #: data/core/units/undead/Corpse_Soulless.cfg:317
@@ -8600,7 +8601,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Goblin Knight"
 msgid "Bone Knight"
-msgstr ""
+msgstr "Kaball'os"
 
 #. [unit_type]: id=Bone Knight, race=undead
 #: data/core/units/undead/Skele_Bone_Knight.cfg:27
@@ -8612,8 +8613,9 @@ msgstr ""
 
 #. [attack]: type=impact
 #: data/core/units/undead/Skele_Bone_Knight.cfg:41
+#, fuzzy
 msgid "trample"
-msgstr ""
+msgstr "piétinement"
 
 #. [unit_type]: id=Bone Shooter, race=undead
 #: data/core/units/undead/Skele_Bone_Shooter.cfg:4
@@ -8674,8 +8676,9 @@ msgstr ""
 
 #. [unit_type]: id=Death Squire, race=undead
 #: data/core/units/undead/Skele_Death_Squire.cfg:5
+#, fuzzy
 msgid "Death Squire"
-msgstr ""
+msgstr "Hobereau de la mort"
 
 #. [unit_type]: id=Death Squire, race=undead
 #: data/core/units/undead/Skele_Death_Squire.cfg:27
@@ -8794,7 +8797,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Skeleton Archer"
 msgid "Skeleton Rider"
-msgstr ""
+msgstr "Squelette monté"
 
 #. [unit_type]: id=Skeleton Rider, race=undead
 #: data/core/units/undead/Skeleton_Rider.cfg:33
