@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-01-15 00:20 UTC\n"
-"PO-Revision-Date: 2023-02-18 13:33+0100\n"
+"PO-Revision-Date: 2023-02-20 17:55+0100\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
@@ -5960,6 +5960,7 @@ msgstr "Fourmi bombe-de-feu"
 
 #. [unit_type]: id=Firebomb Ant, race=monster
 #: data/core/units/monsters/Ant_Firebomb.cfg:51
+#, fuzzy
 msgid ""
 "More developed and specialized Fire Ants can take different forms. The "
 "firebomb ants can produce and carry large quantities of their flammable "
@@ -5967,6 +5968,12 @@ msgid ""
 "also makes them weak to physical attacks and they cannot sustain the fire as "
 "their health fails."
 msgstr ""
+"Les fourmis peuvent se spécialiser et évoluer sous différentes formes. Les"
+" fourmis incendiaires peuvent produire et transporter de grandes quantités de"
+" leur fluide inflammable dans leur abdomen gonflé, ce qui rend très"
+" dangereuses leurs attaques : mais elles sont vulnérables aux attaques au"
+" corps-à-corps et ne peuvent pas contenir le feu lorsque leur carapace est"
+" endommagée."
 
 #. [unit_type]: id=Soldier Ant, race=monster
 #: data/core/units/monsters/Ant_Soldier.cfg:4
