@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-02-20 04:03 UTC\n"
-"PO-Revision-Date: 2022-11-20 16:28+0100\n"
+"PO-Revision-Date: 2023-02-21 18:16+0100\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
@@ -2764,21 +2764,27 @@ msgstr ""
 #, fuzzy
 #| msgid "Dwarvish Fighter"
 msgid "Dwarvish Miner"
-msgstr "Combattant nain"
+msgstr "Mineur nain"
 
 #. [unit_type]: id=Dwarvish Miner, race=dwarf
 #: data/core/units/dwarves/Miner.cfg:17
+#, fuzzy
 msgid ""
 "Dwarvish miners are the grunt workers of dwarvish society. They take the "
 "precious ores out of the ground, but do not ever take part in the crafting "
 "of weapons or artifacts. They have no military training, but they can still "
 "do some damage with their picks."
 msgstr ""
+"Les mineurs nains sont les petites mains de la société naine. Ils arrachent"
+" les matières précieuses de la terre sans jamais prendre part à la"
+" fabrication des armes ou des artefacts. Ils n'ont pas d'entrainement"
+" militaire, mais peuvent causer quelques dommages avec leurs pics."
 
 #. [attack]: type=pierce
 #: data/core/units/dwarves/Miner.cfg:22
+#, fuzzy
 msgid "pick"
-msgstr ""
+msgstr "pic"
 
 #. [unit_type]: id=Dwarvish Pathfinder, race=dwarf
 #: data/core/units/dwarves/Pathfinder.cfg:4
@@ -4483,7 +4489,6 @@ msgstr ""
 
 #. [special_note]
 #: data/core/units/humans/Loyalist_Javelineer.cfg:20
-#, fuzzy
 #| msgid ""
 #| "Compared to other loyalists, Halberdiers have a higher resistance to "
 #| "‘pierce’ attacks."
@@ -6092,6 +6097,7 @@ msgstr "Caribe"
 
 #. [unit_type]: id=Caribe, race=monster
 #: data/core/units/monsters/Caribe.cfg:28
+#, fuzzy
 msgid ""
 "The giant caribe are seldom encountered in the inland rivers near Weldyn, "
 "but tales of their ferocious attacks have spread far and wide. Their angry "
@@ -6100,6 +6106,13 @@ msgid ""
 "use to extricate themselves from situations dire to most other fish. These "
 "fish are unusually clever and should not be underestimated."
 msgstr ""
+"Les caribes géants sont rarement rencontrés dans les rivières intérieures"
+" près de Weldyn, mais les récits de leurs attaques féroces se sont répandus"
+" loin à la ronde. Leurs yeux rouges de colère sont incrustés dans leur visage"
+" cuirassé. Bien que leurs dents soient une arme dangereuse, ils possèdent de"
+" petits membres osseux et des griffes, qu'ils peuvent utiliser pour se sortir"
+" de situations périlleuses pour la plupart des autres poissons. Ces poissons"
+" sont exceptionnellement intelligents et ne doivent pas être sous-estimés."
 
 #. [unit_type]: id=Hunter Caribe, race=monster
 #: data/core/units/monsters/Caribe_Hunter.cfg:8
@@ -6114,12 +6127,15 @@ msgid ""
 "As they age, the giant caribe become bigger and more dangerous. They also "
 "learn to use seaweed to ensnare prey or enemies."
 msgstr ""
+"En vieillissant, les caribes géants deviennent plus gros et plus dangereux."
+" Ils apprennent également à utiliser des algues pour piéger leurs proies ou"
+" leurs ennemis."
 
 #. [unit_type]: id=Nibbler, race=monster
 #: data/core/units/monsters/Caribe_Nibbler.cfg:8
 #, fuzzy
 msgid "Nibbler"
-msgstr "Piraia"
+msgstr "Piraya"
 
 #. [unit_type]: id=Nibbler, race=monster
 #: data/core/units/monsters/Caribe_Nibbler.cfg:41
@@ -6128,6 +6144,9 @@ msgid ""
 "Nibblers are juvenile predator fish, often more curious than dangerous. A "
 "single individual may not be a threat, but these fish seldom travel alone."
 msgstr ""
+"Les pirayas sont de jeunes poissons prédateurs, souvent plus curieux que"
+" dangereux. Un seul animal ne constitue pas nécessairement une menace, mais"
+" ces poissons voyagent rarement seuls."
 
 # Bien que nommés « Swamp Lizard », ce ne sont pas des lézards et ils peuvent marcher sur deux pattes.
 # On laisse « Lézards » en attendant le jour où le concept est clair.
@@ -6248,6 +6267,7 @@ msgstr "Libellule géante"
 
 #. [unit_type]: id=Grand Dragonfly, race=monster
 #: data/core/units/monsters/Dragonfly_Grand.cfg:28
+#, fuzzy
 msgid "Dragonflies that survive long enough grow into a final, grander form."
 msgstr ""
 
@@ -6266,6 +6286,7 @@ msgstr "Naïade monstrueuse"
 
 #. [unit_type]: id=Dragonfly Naiad, race=monster
 #: data/core/units/monsters/Dragonfly_Naiad.cfg:58
+#, fuzzy
 msgid ""
 "Young dragonflies live an aquatic life, mostly preying upon small fish or "
 "other insect nymphs. They can crawl over rocks and mud, but they need to "
@@ -6889,10 +6910,11 @@ msgstr "giclée"
 #, fuzzy
 #| msgid "Sand Scuttler"
 msgid "Sand Scamperer"
-msgstr "Scorpion des dunes"
+msgstr "Fouineur des dunes"
 
 #. [unit_type]: id=Sand Scamperer
 #: data/core/units/monsters/Sand_Scamperer.cfg:16
+#, fuzzy
 msgid ""
 "This impressive creature swiftly moves through the scorching desert sand. "
 "Its body is covered in a thick, sand-colored exoskeleton absorbing any "
@@ -6900,6 +6922,12 @@ msgid ""
 "energy, making fire and magic-based attacks the most effective way to take "
 "this venomous critter down."
 msgstr ""
+"Cette créature impressionnante se déplace rapidement dans le sable brûlant du"
+" désert. Son corps est recouvert d'un épais exosquelette couleur sable qui"
+" absorbe tous les chocs. Cependant, il est également hautement inflammable et"
+" vulnérable à l'énergie des arcanes, si bien que les attaques basées sur le"
+" feu et la magie constituent le moyen le plus efficace d'abattre cette"
+" créature venimeuse."
 
 #. [unit_type]: id=Horned Scarab, race=monster
 #: data/core/units/monsters/Scarab.cfg:4
@@ -8007,6 +8035,7 @@ msgstr "Javeliniste saurienne"
 
 #. [unit_type]: id=Saurian Javelineer, race=lizard
 #: data/core/units/saurians/Javelineer.cfg:19
+#, fuzzy
 msgid ""
 "After years of combat practice, saurians warriors that are the most talented "
 "in the skill of spear throwing might advance to the ranks of the "
@@ -8088,6 +8117,7 @@ msgstr "Porte-lance saurienne"
 
 #. [unit_type]: id=Saurian Spearthrower, race=lizard
 #: data/core/units/saurians/Spearthrower.cfg:18
+#, fuzzy
 msgid ""
 "Some saurians  with particularly good aim prefer to aid their allies from "
 "the backlines rather than to infiltrate enemy formations. Their deadly spear "
@@ -8656,6 +8686,7 @@ msgstr "Kaball'os"
 
 #. [unit_type]: id=Bone Knight, race=undead
 #: data/core/units/undead/Skele_Bone_Knight.cfg:27
+#, fuzzy
 msgid ""
 "Once great warriors across the plains, these mounted riders atop their "
 "skeletal horses were raised from the ground by unholy magic to spread fear "
@@ -8733,6 +8764,7 @@ msgstr "Écuyer de la mort"
 
 #. [unit_type]: id=Death Squire, race=undead
 #: data/core/units/undead/Skele_Death_Squire.cfg:27
+#, fuzzy
 msgid ""
 "Sometimes the mightiest warriors and generals, cursed with hate and angst, "
 "came back to this world as Death Knights. Death Squires serve them whilst "
@@ -8852,6 +8884,7 @@ msgstr "Squelette monté"
 
 #. [unit_type]: id=Skeleton Rider, race=undead
 #: data/core/units/undead/Skeleton_Rider.cfg:33
+#, fuzzy
 msgid ""
 "Once great warriors thundering across the plains, these mounted riders atop "
 "their skeletal horses were raised from the grave by unholy magic to spread "
