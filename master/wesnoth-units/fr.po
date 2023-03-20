@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-02-20 04:03 UTC\n"
-"PO-Revision-Date: 2023-02-21 18:16+0100\n"
+"PO-Revision-Date: 2023-03-20 13:31+0100\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
@@ -8682,7 +8682,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Goblin Knight"
 msgid "Bone Knight"
-msgstr "Kaball'os"
+msgstr "Saqued'os"
 
 #. [unit_type]: id=Bone Knight, race=undead
 #: data/core/units/undead/Skele_Bone_Knight.cfg:27
