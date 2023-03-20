@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-03-19 02:33 UTC\n"
-"PO-Revision-Date: 2022-11-20 16:28+0100\n"
+"PO-Revision-Date: 2023-03-20 13:45+0100\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
@@ -6245,7 +6245,7 @@ msgstr "encre"
 #, fuzzy
 #| msgid "Dragoon"
 msgid "Dragonfly"
-msgstr "Libellule"
+msgstr "Vol-de-Dragon"
 
 #. [unit_type]: id=Dragonfly, race=monster
 #: data/core/units/monsters/Dragonfly.cfg:27
@@ -6257,19 +6257,27 @@ msgid ""
 "generally territorial, but can cooperate in small groups to confront common "
 "foes or large prey."
 msgstr ""
+"Les vol-de-dragon géants que l'on trouve dans certains marais, rivières et"
+" lacs de Wesnoth ont un cycle de vie plus long que les libellules plus"
+" petites et plus courantes. Sous leur forme adulte, ils peuvent vivre"
+" indéfiniment, grandissant lentement jusqu'à la mue finale. Ils sont"
+" généralement territoriaux, mais peuvent se rassembler en petits groupes pour"
+" affronter des ennemis communs ou de grosses proies."
 
 #. [unit_type]: id=Grand Dragonfly, race=monster
 #: data/core/units/monsters/Dragonfly_Grand.cfg:5
 #, fuzzy
 #| msgid "Dragoon"
 msgid "Grand Dragonfly"
-msgstr "Libellule géante"
+msgstr "Grand Vol-de-Dragon"
 
 #. [unit_type]: id=Grand Dragonfly, race=monster
 #: data/core/units/monsters/Dragonfly_Grand.cfg:28
 #, fuzzy
 msgid "Dragonflies that survive long enough grow into a final, grander form."
 msgstr ""
+"Les vol-de-dragon qui survivent suffisamment longtemps se développent pour"
+" atteindre une forme finale plus grandiose."
 
 #. [attack]: type=pierce
 #: data/core/units/monsters/Dragonfly_Grand.cfg:43
@@ -6282,7 +6290,7 @@ msgstr "dard"
 #: data/core/units/monsters/Dragonfly_Naiad.cfg:5
 #, fuzzy
 msgid "Dragonfly Naiad"
-msgstr "Naïade monstrueuse"
+msgstr "Naïade Vol-de-Dragon"
 
 #. [unit_type]: id=Dragonfly Naiad, race=monster
 #: data/core/units/monsters/Dragonfly_Naiad.cfg:58
@@ -6293,6 +6301,12 @@ msgid ""
 "stay submerged to breathe, which explains why the giant dragonflies are "
 "usually found only near rivers, lakes, and coves."
 msgstr ""
+"Les jeunes naïades vol-de-dragon mènent une vie aquatique, s'attaquant"
+" principalement à de petits poissons ou à d'autres nymphes d'insectes. Elles"
+" peuvent ramper sur les rochers et la boue, mais elles ont besoin de rester"
+" immergées pour respirer, ce qui explique pourquoi les vol-de-dragon géants"
+" ne se trouvent généralement qu'à proximité des rivières, des lacs et des"
+" criques."
 
 #. [unit_type]: id=Elder Falcon, race=falcon
 #: data/core/units/monsters/Elder_Falcon.cfg:4
