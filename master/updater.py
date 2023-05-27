@@ -1,3 +1,10 @@
+# Ce programme permet de re-télécharger les fichiers de traduction française
+# du jeu Wesnoth depuis la branche master du dépôt GitHub.
+# Usage : lancer ce script depuis un dossier contenant des dossiers
+# dont les noms correspondent aux domaines de traduction. Le script va télécharger
+# les fichier PO correspondant et les placer dans les dossiers.
+# /!\ Ce script écrase votre travail sans confirmation !!!
+
 import os
 import requests
 
@@ -12,4 +19,5 @@ for i in filelist:
         + "/fr.po"
     )
     pofile = requests.get(url)
-    open(path + i + "/fr.po", "wb").write(pofile.content)
+    if pofile.status_code != 404:
+        open(path + i + "/fr.po", "wb").write(pofile.content)
