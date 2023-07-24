@@ -2,3 +2,6 @@
 *.my
 wesnoth-units/fr.po.old
 *.old
+index.lokalize
+main.lqa
+lokalize-scripts/scripts.rc
