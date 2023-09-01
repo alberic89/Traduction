@@ -1,3 +1,4 @@
+#! /bin/python3
 # Ce programme permet de re-télécharger les fichiers de traduction française
 # du jeu Wesnoth depuis la branche master du dépôt GitHub.
 # Usage : lancer ce script depuis un dossier contenant des dossiers
