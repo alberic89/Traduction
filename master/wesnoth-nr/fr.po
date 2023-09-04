@@ -5,7 +5,11 @@ msgstr ""
 "Project-Id-Version: Northern_Rebirth-1.16\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-07-16 03:12 UTC\n"
+<<<<<<< Updated upstream
 "PO-Revision-Date: 2023-09-03 20:26+0200\n"
+=======
+"PO-Revision-Date: 2023-09-03 19:07+0200\n"
+>>>>>>> Stashed changes
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org> \n"
 "Language: fr\n"
@@ -15,8 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 22.12.3\n"
 
+# Laisser en fuzzy tant que la campagne n'est pas complète.
+# On traduit Dwarven Doors par **les** Porte**s**  des Nains au pluriel !
 #. [campaign]: id=Northern_Rebirth
 #: data/campaigns/Northern_Rebirth/_main.cfg:9
+#, fuzzy
 msgid "Northern Rebirth"
 msgstr "La Renaissance du Nord"
 
@@ -127,7 +134,8 @@ msgstr ""
 "de la surface et achetaient de la nourriture, du bois et des tissus "
 "provenant de tout Wesnoth et de nombreux pays elfes. Les nains et les "
 "humains travaillaient et vivaient côte à côte ; même les elfes venaient y "
-"faire affaire, se mélangeant plus qu'ailleurs aux autres races. La Porte des "
+"faire affaire, se mélangeant plus qu'ailleurs aux autres races. Les Portes"
+" des "
 "Nains devint ainsi très peuplée et très riche."
 
 #. [part]
@@ -149,16 +157,14 @@ msgid ""
 msgstr ""
 "Les nains de Knalga, reconnaissant intelligemment les bénéfices apportés par "
 "les échanges commerciaux, construisirent de solides fortifications autour "
-"des Portes des Nains. Ce peuple de nains et d'hommes qui avait fait sien ce "
-"territoire savait que la bonne santé de sa cité pouvait susciter la "
+"des Portes des Nains. Les nains et les humains qui avaient fait leur ce "
+"territoire savait que l'opulence de leur cité pouvait susciter la "
 "convoitise des étrangers. Leurs armes étaient donc bien entretenues et ils "
 "se tenaient prêts à se battre contre tout groupe de bandits ou petit "
-"seigneur de guerre qui pouvait émerger des territoires du nord à l'habitat "
-"dispersé."
+"seigneur de guerre ambitieux."
 
 #. [part]
 #: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:29
-#, fuzzy
 #| msgid ""
 #| "For many years it was indeed so. Dwarven Doors was a peaceful and "
 #| "prosperous place. Until the orcs came..."
@@ -186,13 +192,14 @@ msgid ""
 "warlord of the Bloody Sword tribe, Khazg Black-Tusk, who surrounded the "
 "entirety of their defenses with a great host of warriors."
 msgstr ""
-"Les raids furent d'abord de simples reconnaissances, et les orcs venaient en "
-"petit nombre. Mais ce nombre augmenta ensuite et ils devinrent plus "
-"dangereux. Les petits groupes de raid se transformèrent en grandes bandes de "
-"guerriers, les grandes bandes de guerriers devinrent des compagnies "
-"entières. Et puis un jour, un grand chef de guerre nommé Khazg Dague-Noire "
-"émergea de la tribu de l'Épée Sanglante. Il leva une armée et assiégea les "
-"Portes des Nains."
+"Les incursions furent d'abord menées par de simples bandits, qui furent"
+" aisément repoussés. Sûrs de leur propre puissance, les habitants des Portes"
+" des Nains ignorèrent les orcs, alors que les raids devenaient de plus en"
+" plus nombreux et menaçants. Avec le temps, les petits groupes de pillards"
+" se transformèrent en grandes bandes de "
+"guerriers ; et un jour, ils se rassemblèrent autours d'un grand chef de"
+" guerre de la tribu de l'Épée Sanglante nommé Khazg Dague-Noire, qui cerna"
+" les défenses de la Porte des Nains avec ses hordes de guerriers."
 
 #. [part]
 #: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:39
@@ -213,12 +220,14 @@ msgid ""
 "away to bring unto them harm."
 msgstr ""
 "Ce fut une période d'horreurs, d'actes héroïques, de feu, de sang et de "
-"massacres. Les hommes et les nains de la cité combattirent vaillamment. Mais "
+"massacres. Les hommes et les nains combattirent vaillamment. Mais "
 "alors qu'il semblait y avoir toujours plus d'orcs pour remplacer ceux qui "
 "tombaient, les défenseurs n'obtinrent aucun secours. Leurs suppliques auprès "
-"des autres nations restèrent vaines ; fort éloignées, elles ne se sentaient "
-"pas menacées par les orcs et étaient occupées par leurs affaires et leurs "
-"luttes intestines."
+"des autres nations restèrent vaines ; les hommes, les elfes, et même les"
+" nains,"
+"étaient trop occupées par leurs affaires et leurs luttes intestines ; ou"
+" bien, étant trop éloignées, elles ne se sentaient "
+"pas menacées par les orcs."
 
 #. [part]
 #: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:44
@@ -237,11 +246,12 @@ msgid ""
 "not be averted forever."
 msgstr ""
 "La cité tomba après un an et un jour de bataille féroce. Le sang coulait "
-"dans les rues. Les nains furent repoussés dans les cavernes de Knalga, "
-"tandis que les humains survivants des Portes des Nains furent réduits en "
-"esclavage par les orcs. Coupés de tout contact avec la surface, les nains "
+"dans les rues des Portes des Nains. Les nains se replièrent dans les"
+" cavernes de Knalga, "
+"mais les humains survivants furent réduits en "
+"esclavage. Coupés de tout contact avec la surface, les nains de Knalga"
 "continuèrent à combattre, tout en sachant qu'ils ne pourraient échapper pour "
-"toujours à leur assujettissement total."
+"toujours à leur assujettissement."
 
 #. [part]
 #: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:49
@@ -257,11 +267,12 @@ msgid ""
 "been free. They might have completely forgotten were it not for a fateful "
 "day. The day that changed the lives of the people of Dwarven Doors — forever."
 msgstr ""
-"De années noires passèrent ; des générations d'humains grandirent en "
-"esclaves, oubliant presque que leurs ancêtres avaient un jour été libres. Et "
+"Des années noires passèrent ; des générations d'humains grandirent et"
+" moururent en "
+"esclaves, oubliant un peu plus chaque année que leurs ancêtres avaient un"
+" jour été libres. Et "
 "ils l'auraient peut-être totalement oublié s'il n'y avait pas eu ce "
-"fatidique jour de l'an 518 ap. W., qui changea à jamais la vie du peuple des "
-"Portes des Nains."
+"jour fatidique qui changea à jamais la vie du peuple des Portes des Nains."
 
 #. [part]
 #: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:55
@@ -279,7 +290,8 @@ msgid ""
 "mustered to gather their weapons and man their posts. Startled, the peasants "
 "looked around in alarm, and that was when they saw him."
 msgstr ""
-"C'était une journée ordinaire de début de printemps ; les humains, rendus "
+"C'était une journée ordinaire, du début du printemps de l'an 518 ap. W. ;"
+" les humains, rendus "
 "moroses par les fouets des orcs, ensemençaient tristement la terre pour "
 "l'année à venir. Tout d'un coup, les tambours de guerre des orcs "
 "commencèrent à résonner ; des cris de bataille rauques s'élevèrent alors que "
@@ -307,13 +319,13 @@ msgid ""
 "army."
 msgstr ""
 "Il sortait de la forêt en chargeant, la cape volant au vent, l'épée "
-"scintillante frappant plus rapidement que la pensée ; et les orcs tant "
-"détestés tombaient tout autour de lui. À sa droite combattait un vieux mage, "
-"dont la voix profonde lançait des incantations dominant le vacarme de la "
-"bataille et dont la puissance des sorts faisait trembler la terre. À sa "
+"scintillante frappant plus rapidement que la pensée ; et les orcs haïs"
+" tombaient tout autour de lui. À sa droite combattait un vieux mage, "
+"dont la voix profonde lançait des incantations dominant la clameur de la "
+"bataille. À sa "
 "gauche, on voyait un haut seigneur elfe resplendissant d'une lueur féerique. "
-"Derrière eux, une petite troupes d'elfes très aguerris les suivaient de près "
-"pour les soutenir."
+"Ils étaient suivis de près par une armée elfique de taille réduite mais"
+" puissante."
 
 #. [part]
 #. tyrant -> Queen Asheviere from Heir to the Throne.
@@ -391,11 +403,11 @@ msgid ""
 "weapons and a small amount of Al’Tar’s gold. He fled to an abandoned ruin in "
 "the forest to rally his fellow peasants."
 msgstr ""
-"Puis un jour, Al'tar, le « maître » du moment des Portes des Nains, fut "
+"Puis un jour, Al'Tar, le « maître » du moment des Portes des Nains, fut "
 "attaqué par une tribu voisine. Tallin saisit ce moment. Des années "
 "d'observation, d'écoute et de réflexion lui avaient donné les connaissances "
 "nécessaires pour voler quelques armes et un peu d'or appartenant à Al'Tar. "
-"Il fuit jusqu'à une ruine abandonnée dans la forêt pour rallier ses "
+"Il fuit jusqu'à une ruine abandonnée dans la forêt pour rallier à lui ses "
 "compagnons."
 
 #. [side]
@@ -461,10 +473,10 @@ msgid ""
 "them hack at each other, we can use this as our chance to get rid of this "
 "scum once and for all. Who’s with me?"
 msgstr ""
-"Ce nouveau venu a rendu les orcs négligent — j'ai réussi à me faufiler et "
+"Ce nouveau venu a rendu les orcs négligents — j'ai réussi à me faufiler et "
 "chiper la clé de la réserve. Venez avec moi et prenez des armes les gars ! "
-"Laissez les se battre en eux, c'est peut-être notre chance pour se "
-"débarrasser de ces ordures une bonne fois pour toute. Qui est avec moi ?"
+"Laissez-les se battre en eux, c'est peut-être notre chance pour se "
+"débarrasser de ces ordures une bonne fois pour toutes. Qui est avec moi ?"
 
 #. [message]: speaker=Zlex
 #: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:241
@@ -476,7 +488,7 @@ msgid ""
 msgstr ""
 "Beau discours, Tallin, si je ne te connaissais pas autant je dirais que tu "
 "as été touché par la lune. Il n'y a pas d'arme, juste des fourches et des "
-"arcs de chasse. Nous n'avons ni arme ni entraînement. Sommes-nous censé les "
+"arcs de chasse. Nous n'avons ni arme ni entraînement. Sommes-nous censés les "
 "battre avec notre mauvaise haleine et langage coloré ?"
 
 #. [message]: speaker=Tallin
@@ -491,8 +503,8 @@ msgid ""
 "wrong with pitchforks. We easily outnumber the orcs and they’re even now "
 "killing each other."
 msgstr ""
-"Ces choses vont sûrement attirer leur attention, et puis il n'y a rien de "
-"mal à se battre avec des fourches. Nous sommes largement plus nombreux que "
+"Ces choses vont sûrement attirer leur attention, mais il n'y a rien de "
+"mal à se munir de fourches. Nous sommes largement plus nombreux que "
 "les orcs, et en plus ils sont en train de s'entre-tuer."
 
 #. [message]: speaker=Zlex
@@ -527,7 +539,7 @@ msgid ""
 "But, but, but... Are you full of nothing but doubts? (<i>Sigh</i>) Yes, it "
 "will be a massacre. But would you rather live as slaves to the orcs forever?"
 msgstr ""
-"Mais, mais, mais... N'as tu que des doutes ? (<i>soupir</i>) Oui, ce sera un "
+"Mais, mais, mais... N'as-tu que des doutes ? (<i>soupir</i>) Oui, ce sera un "
 "massacre. Mais tu préfères rester esclave des orcs pour toujours ?"
 
 #. [message]: speaker=Zlex
@@ -550,7 +562,7 @@ msgid ""
 "You dare greatly, you miserable excuse for an orc! How dare you step onto my "
 "land!"
 msgstr ""
-"Quel audace, sale vermine ! Comment oses-tu t'aventurer sur mes terres !"
+"Quelle audace, sale vermine ! Comment oses-tu t'aventurer sur mes terres !"
 
 #. [message]: speaker=Garrugch
 #: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:287
@@ -559,7 +571,7 @@ msgid ""
 "of a goblin, and the brains to match. This land now belongs to my master. "
 "Surrender now and he might let you be (<i>his</i>) slave."
 msgstr ""
-"Menaces inutiles. Ton temps en tant que tortionnaire t'as rendu faible. Tu "
+"Menaces inutiles. Ton temps en tant que tortionnaire t'a rendu faible. Tu "
 "as la force d'un gobelin, et la cervelle qui va avec. Cette terre appartient "
 "désormais à mon maître ! Rends-toi maintenant et il te laissera peut-être "
 "devenir (<i>son</i>) esclave."
@@ -615,7 +627,7 @@ msgid ""
 "Garrugch failed in mission, but Al’tar dead by peasant slaves. Better tell "
 "the Master."
 msgstr ""
-"Garrugch a raté mission, mais Al'tar tué par paysans esclaves. Mieux "
+"Garrugch a raté mission, mais Al'Tar tué par paysans esclaves. Mieux "
 "prévenir Maître."
 
 #. [message]: speaker=Khrulg
@@ -635,7 +647,6 @@ msgstr ""
 
 #. [message]: speaker=Al'Tar
 #: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:421
-#, fuzzy
 #| msgid "Pah! Grunts, put the rest of those peasant rabble back in chains."
 msgid "Pah! Grunts, put the rest of that peasant rabble back in chains."
 msgstr "Bah ! Grognards, enchaînez-moi le reste de ces bouseux."
@@ -647,9 +658,10 @@ msgstr "Qu'est-ce que... (<i>gloups</i>) Hé ! Tué... par... des esclaves !"
 
 #. [message]: speaker=second_unit
 #: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:445
+#, fuzzy
 #: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:456
 msgid "(<i>Stab</i>)"
-msgstr "(<i>Stab</i>)"
+msgstr "(<i>poignarde</i>)"
 
 #. [message]: speaker=unit
 #: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:452
@@ -659,7 +671,7 @@ msgstr "Qu'est-ce que... (<i>gloups</i>) Tué... par... un grognard ?"
 #. [message]: speaker=second_unit
 #: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:463
 msgid "(<i>Smack</i>)"
-msgstr "(<i>Boum</i>)"
+msgstr "(<i>frappe</i>)"
 
 #. [message]: speaker=unit
 #: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:470
