@@ -8,21 +8,21 @@
 # Guillaume Pascal <guillaume.pascal43@laposte.net>, 2011.
 #  Mathieu Guilbaud <mathieu@guim.info>, 2019.
 # Syll <syll-dev@laposte.net>, 2019.
-# alberic89 <alberic89@gmx.com>, 2022, 2023, 2024.
+# alberic89 <alberic89@gmx.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-12-17 02:59 UTC\n"
-"PO-Revision-Date: 2024-01-20 14:25+0100\n"
+"PO-Revision-Date: 2023-05-02 18:44+0200\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
-"Language-Team: French <wesnothfr@lists.tuxfamily.org> \n"
+"Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #. [attack]: type=impact
 #: data/campaigns/Dead_Water/units/Soldier_King.cfg:30
@@ -1031,33 +1031,28 @@ msgstr "bolas"
 
 #. [effect]: type=blade
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:124
-#, fuzzy
 msgid "taunting strike"
-msgstr "coup moqueur"
+msgstr ""
 
 #. [advancement]: id=run_by_taunt
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:145
-#, fuzzy
 msgid "Run By (Taunting strike)"
-msgstr "Courir après un coup moqueur"
+msgstr ""
 
 #. [advancement]: id=strength_training
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:158
-#, fuzzy
 msgid "Strength Training"
-msgstr "Renforcement musculaire"
+msgstr ""
 
 #. [advancement]: id=bowmanship_training
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:170
-#, fuzzy
 msgid "Bowmanship Training"
-msgstr "Entraînement à l'arc"
+msgstr ""
 
 #. [advancement]: id=strong_shots
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:187
-#, fuzzy
 msgid "Strong Shots"
-msgstr "Tirs puissants"
+msgstr ""
 
 #. [advancement]: id=Bowman
 #. [unit_type]: id=Bowman, race=human
@@ -1068,21 +1063,18 @@ msgstr "Archer"
 
 #. [advancement]: id=piercing_shot
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:216
-#, fuzzy
 msgid "Piercing Shot"
-msgstr "Tir perforant"
+msgstr ""
 
 #. [effect]: type=pierce
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:224
-#, fuzzy
 msgid "piercing shot"
-msgstr "tir perforant"
+msgstr ""
 
 #. [effect]: type=pierce
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:528
-#, fuzzy
 msgid "Rain of arrows"
-msgstr "Pluie de flèches"
+msgstr ""
 
 #. [unit_type]: id=Blood Bat, race=bats
 #: data/core/units/bats/Bat_Blood.cfg:4
@@ -1292,7 +1284,7 @@ msgstr "souffle ardent"
 #, fuzzy
 #| msgid "Armageddon Drake"
 msgid "female^Armageddon Drake"
-msgstr "Dracane d’apocalypse"
+msgstr "Dracan d’apocalypse"
 
 #. [unit_type]: id=Drake Blademaster, race=drake
 #: data/core/units/drakes/Blademaster.cfg:4
@@ -1329,7 +1321,7 @@ msgstr "serres de combat"
 #, fuzzy
 #| msgid "Drake Blademaster"
 msgid "female^Drake Blademaster"
-msgstr "Maître-lame dracane"
+msgstr "Maître-lame dracan"
 
 #. [unit_type]: id=Drake Burner, race=drake
 #: data/core/units/drakes/Burner.cfg:4
@@ -1354,7 +1346,7 @@ msgstr ""
 #, fuzzy
 #| msgid "female^Dune Burner"
 msgid "female^Drake Burner"
-msgstr "Pyrodracane"
+msgstr "Enflammée"
 
 #. [unit_type]: id=Drake Clasher, race=drake
 #: data/core/units/drakes/Clasher.cfg:4
@@ -1394,7 +1386,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Drake Clasher"
 msgid "female^Drake Clasher"
-msgstr "Cogneuse dracane"
+msgstr "Cogneur dracan"
 
 #. [unit_type]: id=Drake Enforcer, race=drake
 #: data/core/units/drakes/Enforcer.cfg:4
@@ -1432,7 +1424,7 @@ msgstr "trident"
 #, fuzzy
 #| msgid "Drake Enforcer"
 msgid "female^Drake Enforcer"
-msgstr "Exécutrice dracane"
+msgstr "Exécuteur dracan"
 
 #. [unit_type]: id=Drake Fighter, race=drake
 #: data/core/units/drakes/Fighter.cfg:4
@@ -1464,7 +1456,7 @@ msgstr "lame de guerre"
 #, fuzzy
 #| msgid "Drake Fighter"
 msgid "female^Drake Fighter"
-msgstr "Combattante dracane"
+msgstr "Combattant dracan"
 
 #. [unit_type]: id=Fire Drake, race=drake
 #: data/core/units/drakes/Fire.cfg:4
@@ -1491,7 +1483,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Fire Drake"
 msgid "female^Fire Drake"
-msgstr "Dracane incendiaire"
+msgstr "Dracan incendiaire"
 
 #. [unit_type]: id=Drake Flameheart, race=drake
 #: data/core/units/drakes/Flameheart.cfg:4
@@ -1523,7 +1515,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Drake Flameheart"
 msgid "female^Drake Flameheart"
-msgstr "Dracane cœur-de-flamme"
+msgstr "Dracan cœur-de-flamme"
 
 #. [unit_type]: id=Drake Flare, race=drake
 #: data/core/units/drakes/Flare.cfg:4
@@ -1551,7 +1543,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Drake Flare"
 msgid "female^Drake Flare"
-msgstr "Dracane flamboyante"
+msgstr "Dracan flamboyant"
 
 #. [unit_type]: id=Drake Glider, race=drake
 #: data/core/units/drakes/Glider.cfg:4
@@ -1601,7 +1593,7 @@ msgstr "piqué"
 #, fuzzy
 #| msgid "Drake Glider"
 msgid "female^Drake Glider"
-msgstr "Dracane tempête"
+msgstr "Dracan tempête"
 
 #. [unit_type]: id=Hurricane Drake, race=drake
 #: data/core/units/drakes/Hurricane.cfg:4
@@ -1633,7 +1625,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Hurricane Drake"
 msgid "female^Hurricane Drake"
-msgstr "Dracane cyclone"
+msgstr "Dracan cyclone"
 
 #. [unit_type]: id=Inferno Drake, race=drake
 #: data/core/units/drakes/Inferno.cfg:4
@@ -1662,7 +1654,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Inferno Drake"
 msgid "female^Inferno Drake"
-msgstr "Dracane infernale"
+msgstr "Dracan infernal"
 
 #. [unit_type]: id=Sky Drake, race=drake
 #: data/core/units/drakes/Sky.cfg:4
@@ -1689,7 +1681,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Sky Drake"
 msgid "female^Sky Drake"
-msgstr "Dracane tornade"
+msgstr "Dracan tornade"
 
 #. [unit_type]: id=Drake Thrasher, race=drake
 #: data/core/units/drakes/Thrasher.cfg:4
@@ -1719,7 +1711,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Drake Thrasher"
 msgid "female^Drake Thrasher"
-msgstr "Rosseuse dracane"
+msgstr "Rosseur dracan"
 
 #. [unit_type]: id=Drake Warden, race=drake
 #: data/core/units/drakes/Warden.cfg:4
@@ -1760,7 +1752,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Drake Warden"
 msgid "female^Drake Warden"
-msgstr "Gardienne dracane"
+msgstr "Gardien dracan"
 
 #. [unit_type]: id=Drake Warrior, race=drake
 #: data/core/units/drakes/Warrior.cfg:4
@@ -1789,7 +1781,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Drake Warrior"
 msgid "female^Drake Warrior"
-msgstr "Guerrière dracane"
+msgstr "Guerrier dracan"
 
 #. [unit_type]: id=Dune Alchemist, race=dunefolk
 #: data/core/units/dunefolk/Alchemist.cfg:8
@@ -2689,6 +2681,7 @@ msgstr "Cuirassier ammorite"
 
 #. [unit_type]: id=Dune Sunderer, race=dunefolk
 #: data/core/units/dunefolk/Sunderer.cfg:21
+#, fuzzy
 #| msgid ""
 #| "Among the many different type of Dune horsemen, there are those who most "
 #| "enjoy the frantic melee at the heart of battle. Bearing short-ranged "
@@ -4055,21 +4048,17 @@ msgid ""
 "the orcish assassins, making a swipe from these beasts’ paws into a most "
 "deadly stroke."
 msgstr ""
-"Si la férocité et la sauvagerie des « loups noirs » en font des monstres"
-" bestiaux aux yeux de la plupart, les chétifs gobelins ont un lien"
-" inhabituel avec ces créatures barbares. Bien que les gobelins ne soient pas"
-" capables d'apprivoiser ces bêtes, une certaine forme de respect mutuel peut"
-" s'instaurer entre eux si un"
-" gobelin audacieux choisit de vivre parmi les loups et de s'occuper d'un"
-" louveteaux dès son"
-" plus jeune âge. Après avoir reconnu ce gobelin comme l'un des leurs, une de"
-" ces bêtes peut alors autoriser le gobelin à le monter.\n"
+"Les « loups noirs » ne se distinguent de la variété commune que par la "
+"taille et la couleur. Leur garrot domine généralement celui d'un cheval et "
+"leur appétit est d'autant plus grand. Seul un fou voudrait en rencontrer ; "
+"les gobelins ont réussi à les dompter et à les monter, après en avoir payé "
+"le prix.\n"
 "\n"
-"Les griffes d'un loup ne sont généralement pas considérées comme trop"
-" dangereuses, mais celles de cet animal géant sont plus grosses et plus"
-" longues que des clous d'acier. Leurs cavaliers les enduisent d'un poison"
-" semblable à celui utilisé par les orcs assassins, rendant plus mortel"
-" encore un coup de patte de ces bêtes."
+"Les griffes d'un loup ne sont généralement pas considérées comme trop "
+"dangereuses, mais celles de cet animal géant sont plus grosses et plus "
+"longues que des clous d'acier. Leurs cavaliers les enduisent d'un poison "
+"semblable à celui utilisé par les orcs assassins, rendant plus mortel encore "
+"un coup de patte de ces bêtes."
 
 #. [unit_type]: id=Goblin Impaler, race=goblin
 #: data/core/units/goblins/Impaler.cfg:4
@@ -6193,7 +6182,6 @@ msgstr ""
 "s'approche trop près."
 
 #: data/core/units/monsters/Ant_Egg.cfg:4
-#, fuzzy
 msgid ""
 "The giant ant eggs have a tough, leathery shell that takes a dedicated "
 "effort to break through. While this shell makes it difficult to know the "
@@ -6202,24 +6190,16 @@ msgid ""
 "approaches an ant egg or breaches the shell of an adjacent brood member will "
 "spur that ant to hatch as a fully formed adult."
 msgstr ""
-"Les œufs de fourmis géantes ont une coquille dure, résistante et difficile à"
-" percer. Bien que cette coquille ne permet pas d'apercevoir l'intérieur de"
-" l'œuf, elle ne cache pas le monde extérieur à la larve de fourmi qui se"
-" développe rapidement à l'intérieur. Tout danger qui s'approche d'un de ces"
-" œufs ou qui brise la coquille d'un de ses voisins incitera cette fourmi à"
-" éclore pour donner naissance à un adulte complètement formé."
 
 #. [unit_type]: id=Giant Ant Egg, race=monster
 #: data/core/units/monsters/Ant_Egg.cfg:9
 #, fuzzy
 #| msgid "Giant Ant"
 msgid "Giant Ant Egg"
-msgstr "Œuf de fourmi géante"
+msgstr "Fourmi géante"
 
-# Si la pluaprt des œufs viennent de l'une des reines de la colonie (qui a plusieurs reines ???), d'où viennent les autres ?
 #. [unit_type]: id=Giant Ant Egg, race=monster
 #: data/core/units/monsters/Ant_Egg.cfg:71
-#, fuzzy
 msgid ""
 "Giant Ants are common in almost any environment, and the eggs from which "
 "they emerge can often be found in caves or any sheltered environment. Most "
@@ -6227,34 +6207,22 @@ msgid ""
 "any suitable location.\n"
 "\n"
 msgstr ""
-"Les fourmis géantes sont présentes dans presque tous les environnements, et"
-" les œufs dont elles sortent se cachent souvent dans des grottes ou tout"
-" autre lieu abrité. La plupart des œufs sont pondus par l'une des reines de"
-" la colonie, mais les ouvrières les transportent dans n'importe quel endroit"
-" approprié.\n"
-"\n"
 
 #. [unit_type]: id=Fire Ant Egg
 #: data/core/units/monsters/Ant_Egg.cfg:169
 #, fuzzy
 #| msgid "Fire Ant"
 msgid "Fire Ant Egg"
-msgstr "Œuf de fourmi de feu"
+msgstr "Fourmi de feu"
 
 #. [unit_type]: id=Fire Ant Egg
 #: data/core/units/monsters/Ant_Egg.cfg:174
-#, fuzzy
 msgid ""
 "In large numbers, Fire Ants can be a real menace, and those threatening "
 "numbers start with their eggs. Most Fire Ant eggs come from one of the "
 "colony queens, but the workers transport them to any suitable location.\n"
 "\n"
 msgstr ""
-"En grand nombre, les fourmis de feu peuvent constituer une menace sérieuse,"
-" et cette menace trouve son origine dans les œufs de la fourmi. La plupart"
-" des œufs de fourmis de feu proviennent de l'une des reines de la colonie,"
-" mais les ouvrières les transportent vers n'importe quel endroit approprié.\n"
-"\n"
 
 #. [unit_type]: id=Fire Ant, race=monster
 #: data/core/units/monsters/Ant_Fire.cfg:11
@@ -6290,18 +6258,14 @@ msgstr "feu"
 #, fuzzy
 #| msgid "Fire Ant"
 msgid "Fire Ant Queen"
-msgstr "Reine des fourmis de feu"
+msgstr "Fourmi de feu"
 
 #. [unit_type]: id=Fire Ant Queen, race=monster
 #: data/core/units/monsters/Ant_Fire_Queen.cfg:54
-#, fuzzy
 msgid ""
 "Fire ants possess fierce fangs and an unusual ability to generate fire, and "
 "the queen is no different."
 msgstr ""
-"Les fourmis de feu possèdent des crocs redoutables et une capacité"
-" inhabituelle à produire du feu, et leur reine n'est pas différente d'eux"
-" sur ce point là."
 
 #. [unit_type]: id=Firebane Ant, race=monster
 #: data/core/units/monsters/Ant_Firebane.cfg:11
@@ -6333,11 +6297,10 @@ msgstr ""
 #, fuzzy
 #| msgid "Giant Ant"
 msgid "Giant Ant Queen"
-msgstr "Reine des fourmis géantes"
+msgstr "Fourmi géante"
 
 #. [unit_type]: id=Giant Ant Queen, race=monster
 #: data/core/units/monsters/Ant_Queen.cfg:19
-#, fuzzy
 msgid ""
 "Giant Ants are common in almost any environment, from caverns deep under the "
 "earth to the tops of tall mountains. The queens are not royalty as many "
@@ -6348,15 +6311,6 @@ msgid ""
 "a very short continued existence — and if their flesh is warm and "
 "nourishing, they can host an ant egg."
 msgstr ""
-"Les fourmis géantes sont présentes dans presque tous les environnements, des"
-" cavernes aux sommets des grandes montagnes. Les reines ne sont pas des"
-" membres de la royauté comme le conçoivent les autres races, mais elles"
-" constituent le cœur de tout nid actif et sont défendues à tout prix. En"
-" tant que noyau du nid, elles doivent être d'habiles tacticiennes, et en"
-" tant que cible des nids rivaux, elles doivent également être d'habiles"
-" guerrières. L'humain ou l'orque qui rencontre une de ces reines peut"
-" s'attendre à une existence très brève — et si sa chair est chaude et"
-" nourrissante, il peut accueillir un œuf."
 
 #. [unit_type]: id=Soldier Ant, race=monster
 #: data/core/units/monsters/Ant_Soldier.cfg:4
@@ -6747,7 +6701,7 @@ msgstr "griffes de feu"
 #: data/core/units/monsters/Fire_Wraith.cfg:8
 #, fuzzy
 msgid "Fire Wraith"
-msgstr "Gardien du feu"
+msgstr "souffle ardent"
 
 #. [unit_type]: id=Fire Wraith, race=monster
 #: data/core/units/monsters/Fire_Wraith.cfg:47
@@ -6758,11 +6712,11 @@ msgid ""
 "their bidding. The odd armor they wear hints at a former life or creator, "
 "but whatever ancient civilization was involved has been lost to history."
 msgstr ""
-"Les gardiens du feu sont faits de flammes et de fumée. Personne ne sait"
-" exactement d'où ils viennent, mais ils peuvent être invoqués et commandés"
-" par des mages puissants. L'étrange armure qu'ils portent laisse penser"
-" qu'ils ont eu un créateur ou une vie antérieure, dernière trace d'une"
-" civilisation ancienne inconnue des historiens."
+"Les esprits du feu sont faits de flammes et de fumée. Personne ne sait "
+"exactement d'où ils viennent, mais ils peuvent être invoqués et commandés "
+"par des mages puissants. L'étrange armure qu'ils portent laisse penser "
+"qu'ils ont eu un créateur ou une vie antérieure, dernière trace d'une "
+"civilisation ancienne inconnue des historiens."
 
 #. [unit_type]: id=Frost Stoat, race=monster
 #: data/core/units/monsters/Frost_Stoat.cfg:20
@@ -7193,13 +7147,11 @@ msgstr ""
 
 #. [unit_type]: id=Raven, race=raven
 #: data/core/units/monsters/Raven.cfg:4
-#, fuzzy
 msgid "Raven"
-msgstr "Corbeau"
+msgstr ""
 
 #. [unit_type]: id=Raven, race=raven
 #: data/core/units/monsters/Raven.cfg:18
-#, fuzzy
 msgid ""
 "Ravens follow armies to feast upon the refuse and corpses that are the fruit "
 "of war. For this reason, they are often associated with death, war, and "
@@ -7207,22 +7159,14 @@ msgid ""
 "vivacious behavior ties them to the legacy of battle and its consequences "
 "for the living, rather than rot and the finality of the tomb."
 msgstr ""
-"Les corbeaux suivent les armées pour se repaître des détritus et des"
-" cadavres qui sont le produit de la guerre. C'est pourquoi ils sont souvent"
-" associés à la mort, à la guerre et au destin. Ils ne sont généralement pas"
-" associés à la nécromancie, car leur comportement effronté et vif les lie à"
-" de la bataille et à ses conséquences pour les vivants, plutôt qu'à la"
-" pourriture et à la finalité de la tombe."
 
 #. [unit_type]: id=War Harbinger, race=raven
 #: data/core/units/monsters/Raven_Harbinger.cfg:4
-#, fuzzy
 msgid "War Harbinger"
-msgstr "Présage de guerre"
+msgstr ""
 
 #. [unit_type]: id=War Harbinger, race=raven
 #: data/core/units/monsters/Raven_Harbinger.cfg:19
-#, fuzzy
 msgid ""
 "Ravens follow armies to feast upon the refuse and corpses that are the fruit "
 "of war. This leads to folk wisdom that the dark birds are agents of the "
@@ -7230,34 +7174,23 @@ msgid ""
 "been seen to wear crude ornaments and lead groups in a noisy chorus of calls "
 "and cries, a reliable sign that war is imminent."
 msgstr ""
-"Les corbeaux suivent les armées pour se repaître des détritus et des"
-" cadavres qui sont le produit de la guerre. La sagesse populaire veut donc"
-" que ces oiseaux sombres soient des agents des forces surnaturelles"
-" associées aux conflits. Certains des plus grands corbeaux ont été vus"
-" portant des ornements grossiers et menant des groupes dans un chœur bruyant"
-" d'appels et de cris, présage de l'imminence d'une guerre."
 
+# À vérifier avec la description (Ils ne laissent aucun signe)
 #. [unit_type]: id=Dark Omen, race=raven
 #: data/core/units/monsters/Raven_Omen.cfg:4
 #, fuzzy
 #| msgid "Dark Horse"
 msgid "Dark Omen"
-msgstr "Noir présage"
+msgstr "Cheval des ténèbres"
 
 #. [unit_type]: id=Dark Omen, race=raven
 #: data/core/units/monsters/Raven_Omen.cfg:18
-#, fuzzy
 msgid ""
 "Ravens follow armies to feast upon the refuse and corpses that are the fruit "
 "of war. This leads to folk wisdom that the dark birds are agents of the "
 "supernatural forces associated with conflict. The unusual abilities "
 "displayed by some have only supported this notion."
 msgstr ""
-"Les corbeaux suivent les armées pour se repaître des détritus et des"
-" cadavres qui sont le produit de la guerre. La sagesse populaire veut donc"
-" que ces oiseaux sombres soient des agents des forces surnaturelles"
-" associées aux conflits. Les capacités inhabituelles manifestées par"
-" certains d'entre eux n'ont fait que confirmer cette idée."
 
 #. [unit_type]: id=Roc, race=monster
 #: data/core/units/monsters/Roc.cfg:4
@@ -7284,9 +7217,8 @@ msgstr ""
 
 #. [attack]: type=impact
 #: data/core/units/monsters/Roc.cfg:75
-#, fuzzy
 msgid "rock"
-msgstr "rocher"
+msgstr ""
 
 #. [unit_type]: id=Rock Scorpion, race=monster
 #: data/core/units/monsters/Rock_Scorpion.cfg:4
@@ -8845,7 +8777,7 @@ msgstr ""
 #, fuzzy
 #| msgid "wc_variation^Rat"
 msgid "wc_variation^Ant"
-msgstr "Fourmi zombie"
+msgstr "Rat"
 
 #. [variation]
 #: data/core/units/undead/Corpse_Soulless.cfg:159
