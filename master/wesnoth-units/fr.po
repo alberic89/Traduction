@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2024-01-21 01:57 UTC\n"
-"PO-Revision-Date: 2024-01-20 17:46+0100\n"
+"PO-Revision-Date: 2024-02-13 18:32+0100\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org> \n"
 "Language: fr\n"
@@ -7595,7 +7595,7 @@ msgstr ""
 "taille et la couleur. Ils sont généralement plus grands qu'un cheval au "
 "garrot et ont un appétit qui va de pair. Ils représentent une menace "
 "considérable, même pour les soldats expérimentés, et sont évités de tous, "
-"hors les fous."
+"hormis les fous."
 
 #. [unit_type]: id=Great Wolf, race=wolf
 #: data/core/units/monsters/Wolf_Great.cfg:4
@@ -8876,7 +8876,7 @@ msgstr ""
 #, fuzzy
 #| msgid "wc_variation^Rat"
 msgid "wc_variation^Ant"
-msgstr "Fourmi zombie"
+msgstr "Fourmi"
 
 #. [variation]
 #: data/core/units/undead/Corpse_Soulless.cfg:159
@@ -8884,7 +8884,7 @@ msgstr "Fourmi zombie"
 #, fuzzy
 #| msgid "wc_variation^Bat"
 msgid "wc_variation^Bug"
-msgstr "Chauve-souris"
+msgstr "Insecte"
 
 #. [variation]
 #: data/core/units/undead/Corpse_Soulless.cfg:175
@@ -8910,7 +8910,7 @@ msgstr "Faucon"
 #, fuzzy
 #| msgid "wc_variation^Wose"
 msgid "wc_variation^Fish"
-msgstr "Wose"
+msgstr "Poisson"
 
 #. [variation]
 #: data/core/units/undead/Corpse_Soulless.cfg:259
