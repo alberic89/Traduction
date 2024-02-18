@@ -1,13 +1,13 @@
 # Émile Enguehard <zerbugug@gmail.com>, 2020.
-# alberic89 <alberic89@gmx.com>, 2023.
+# alberic89 <alberic89@gmx.com>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Northern_Rebirth-1.18\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-09-17 03:32 UTC\n"
-"PO-Revision-Date: 2024-01-22 08:57+0100\n"
+"PO-Revision-Date: 2024-02-18 17:14+0100\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
-"Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
+"Language-Team: French <wesnothfr@lists.tuxfamily.org> \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -94,7 +94,6 @@ msgstr "Conception graphique"
 # De #wesnoth-ei
 #. [about]
 #: data/campaigns/Northern_Rebirth/_main.cfg:49
-#, fuzzy
 msgid "Prose and Story Editing"
 msgstr "Relecture et correction des textes"
 
@@ -2296,7 +2295,6 @@ msgstr "Intrus ! Arrêtez les avant qu'ils ne libèrent les prisonniers !"
 
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:505
-#, fuzzy
 msgid "Good luck with that."
 msgstr "Vous pouvez toujours essayer !"
 
@@ -5616,11 +5614,11 @@ msgstr ""
 "Castel-Amer. Les orcs n'ont toujours pas abandonné leurs attaques sur les "
 "galeries sud."
 
+# À vérifier dans la campagnes, ce ne sont peut-être pas des soldats.
 #. [story]
 #: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:88
-#, fuzzy
 msgid "Then to arms, men!"
-msgstr "Aux armes, soldats !"
+msgstr "Aux armes, compagnons !"
 
 #. [side]: type=Orcish Warlord, id=Atul
 #: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:118
@@ -7421,7 +7419,6 @@ msgstr ""
 
 #. [part]
 #: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:36
-#, fuzzy
 msgid ""
 "There were some survivors. Father Morvin oversaw their healing, while Tallin "
 "followed Eryssa as she anxiously walked among the dead."
@@ -7431,10 +7428,9 @@ msgstr ""
 
 #. [part]
 #: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:39
-#, fuzzy
 msgid "Suddenly, Eryssa cried out. In front of her lay Hidel."
 msgstr ""
-"Soudain un cri s'éleva. C'était Eryssa déchirée par la douleur. Devant elle "
+"Soudain un cri s'éleva. C'était Eryssa déchirée par la douleur. Devant elle, "
 "le corps inanimé de Hidel."
 
 #. [part]
@@ -7556,7 +7552,6 @@ msgstr ""
 
 #. [story]
 #: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:73
-#, fuzzy
 msgid "I will."
 msgstr "Je vous le promets."
 
@@ -7571,13 +7566,11 @@ msgstr ""
 
 #. [part]
 #: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:78
-#, fuzzy
 msgid "Then Hidel closed his eyes and took one last breath."
 msgstr "Alors Hidel ferma les yeux et rendit son dernier soupir."
 
 #. [part]
 #: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:82
-#, fuzzy
 msgid ""
 "Slowly Tallin approached her. He hesitated before wrapping her gently in his "
 "arms."
@@ -7610,7 +7603,6 @@ msgstr ""
 
 #. [part]
 #: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:92
-#, fuzzy
 msgid ""
 "As Tallin comforted Eryssa, the surviving elves gathered all of the fallen "
 "warriors, and with the humans’ help, laid them to rest. For Hidel, the "
@@ -8197,7 +8189,6 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:1041
-#, fuzzy
 msgid ""
 "Father Morvin and his wife saw to the wounded as the rest set about "
 "preparing a victory feast."
