@@ -6293,8 +6293,8 @@ msgid ""
 "the queen is no different."
 msgstr ""
 "Les fourmis de feu possèdent des mandibules redoutables et une capacité "
-"inhabituelle à produire du feu, et leur reine n'est pas différente d'eux sur "
-"ce point là."
+"inhabituelle à produire du feu, et leur reine n'est pas différente d'elles "
+"sur ce point là."
 
 #. [unit_type]: id=Firebane Ant, race=monster
 #: data/core/units/monsters/Ant_Firebane.cfg:11
