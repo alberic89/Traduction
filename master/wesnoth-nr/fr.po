@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Northern_Rebirth-1.18\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-09-17 03:32 UTC\n"
-"PO-Revision-Date: 2024-02-18 19:38+0100\n"
+"PO-Revision-Date: 2024-02-19 20:41+0100\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org> \n"
 "Language: fr\n"
@@ -5611,11 +5611,10 @@ msgstr ""
 "Castel-Amer. Les orcs n’ont toujours pas abandonné leurs attaques sur les "
 "galeries sud."
 
-# À vérifier dans la campagnes, ce ne sont peut-être pas des soldats.
 #. [story]
 #: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:88
 msgid "Then to arms, men!"
-msgstr "Aux armes, compagnons !"
+msgstr "Aux armes, soldats !"
 
 #. [side]: type=Orcish Warlord, id=Atul
 #: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:118
