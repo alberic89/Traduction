@@ -23,7 +23,7 @@ do
   out=$(posieve -q -b check-tp-wesnoth "$file")
 
   if [ "$out" != "" ]; then
-    notify-send -u critical "Error à la vérification de $file" "$out" 2> /dev/null || :
+    notify-send -u critical "Erreur à la vérification de $file" "$out" 2> /dev/null || :
     echo -e "$out"
     exit 1
   fi
@@ -33,8 +33,8 @@ do
 
   # Check for errors
   if [ $? -ne 0 ]; then
-    notify-send -u critical "Error lors du reformatage de $file" "$out" 2> /dev/null || :
-    echo "Error lors du reformatage de $file"
+    notify-send -u critical "Erreur lors du reformatage de $file" "$out" 2> /dev/null || :
+    echo "Erreur lors du reformatage de $file"
     echo -e "$out"
     exit 1
   fi
