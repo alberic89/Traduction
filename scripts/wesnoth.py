@@ -11,6 +11,7 @@ inspired from other sieves
 
 import re
 
+from typing import List
 from pology import _, n_
 from pology.report import report
 from pology.sieve import add_param_filter
@@ -31,28 +32,38 @@ def setup_sieve(p):
         ),
     )
 
-    p.add_param(
-        "correct",
-        bool,
-        defval=False,
-        desc=_(
-            "@info sieve parameter description",
-            "Enforces correction even if another parameter disables it",
-        ),
-    )
+    # ~ p.add_param(
+        # ~ "level",
+        # ~ list,
+        # ~ defval=[],
+        # ~ desc=_(
+            # ~ "@info sieve parameter description",
+            # ~ "Set level of correction (1, 2 and 3). You can use mutliple levels, for example level:12",
+        # ~ ),
+    # ~ )
 
     p.add_param(
         "extra_spaces",
-        bool,
-        defval=False,
+        list,
+        defval=[],
         desc=_(
             "@info sieve parameter description",
-            "Replace all extra spaces by punctuation space rather than correct typo",
+            "Replace all extra spaces by punctuation space on the message of the numero given. You can specify multiple message with comma-separated list.",
         ),
     )
 
     p.add_param(
-        "ellipses",
+        "ellipses3points",
+        bool,
+        defval=False,
+        desc=_(
+            "@info sieve parameter description",
+            "Replace all Unicode ellipsis (…) by three point (...)",
+        ),
+    )
+
+    p.add_param(
+        "ellipsesUnicode",
         bool,
         defval=False,
         desc=_(
@@ -79,7 +90,7 @@ class SpecialFilter:
 
 
 class Sieve(object):
-    """Correct according to BFW french standard"""
+    """Correct traduction according to BFW french standard"""
 
     # apostrophe typographique "’" : \u2019
     # espace insécable " " : \u00A0
@@ -88,16 +99,32 @@ class Sieve(object):
     def __init__(self, params):
         self.nmatch = 0
         self.p = params
+        # ~ print(params.extra_spaces)
+        nums = [0]
+        for _ in params.extra_spaces:
+            if _.isdigit():
+                nums.append(nums.pop()*10+int(_))
+            else:
+                nums.append(0)
+        if nums[-1] == 0:
+            nums.pop()
+        # ~ print(nums)
+        self.nums = nums
         self.space_start = re.compile(r"^ +")
         self.space_end = re.compile(r" +$")
         self.regex_replacements = (
-            (re.compile("=('[^']*)\\\\'([^']*')"), "=\\1\u2019\\2"),
-            (re.compile("\b'(?!=[^']*'[^']*')"), "\u2019"),
-            (re.compile("(\s+)(?=%(?=$| |\.|,))"), "\u00A0"),  # %
-            (re.compile("(\s+)(?=:|»)"), "\u00A0"),  # : »
-            (re.compile("(?<=«)(\s+)"), "\u00A0"),  # «
-            (re.compile("(\s+)(?=;|!|\?)"), "\u202F"),  # ; ! ?
-            # ~ (re.compile("=’([^’]+)’"), r"='\1'"),
+            (re.compile(r"(?<==')([^\\']*(\b\\'\b))*([^\\']*)(?=')"), lambda m: _replace_group(m,2,"\u2019")),
+            (re.compile(r"\b(')(?=$|\s?\b|\s[:;!?]|[.,])"), "\u2019"), # '
+            (re.compile(r"(?<=\d)(\s+)(?=%(?=$| |\.|,))"), "\u00A0"),  # %
+            (re.compile(r"\b(\s+)(?=:|»)"), "\u00A0"),  # : »
+            (re.compile(r"(?<=«)(\s+)\b"), "\u00A0"),  # «
+            (re.compile(r"\b(\s+)(?=;|!|\?)"), "\u202F"),  # ; ! ?
+            (re.compile(r"\b(  )\b"), " "), # double space
+            # \b ([\.,]) remove space before point and virgule
+        )
+        self.replacements = (
+            # ~ ("\\'", "’"),  # escaped '
+            # ~ ("'", "’"),
         )
         self.filters = (
             SpecialFilter(
@@ -106,25 +133,33 @@ class Sieve(object):
                 self.replace_extra_spaces,
             ),
             SpecialFilter(
-                "ellipses",
-                params.ellipses,
-                self.replace_ellipses,
+                "ellipses3points",
+                params.ellipses3points,
+                lambda text: text.replace("…", "..."),
+            ),
+            SpecialFilter(
+                "ellipsesUnicode",
+                params.ellipsesUnicode,
+                lambda text: text.replace("...", "…"),
             ),
         )  # in future, add other specials filters
         self.used_filters = [_ for _ in self.filters if _.value]
 
     def process(self, msg, cat):
         oldcount = msg.modcount
-
+        # ~ if msg.refentry in self.nums:
+            # ~ print(f"#{msg.refentry}:{msg.msgstr}")
+        # ~ if len(msg.msgstr)!= 1:
+            # ~ print(msg.msgstr)
         for i in range(len(msg.msgstr)):
             if self.used_filters:
                 for _ in self.used_filters:
-                    if _.value:
+                    if _.value and msg.refentry in self.nums:
                         msg.msgstr[i] = _.action(msg.msgstr[i])
-                if self.p.correct:
-                    msg.msgstr[i] = self.correctTypo(msg.msgstr[i])
-            else:
-                msg.msgstr[i] = self.correctTypo(msg.msgstr[i])
+                # ~ if self.p.correct:
+                    # ~ msg.msgstr[i] = self.correctTypo(msg.msgstr[i])
+            # ~ else:
+            msg.msgstr[i] = self.correctTypo(msg.msgstr[i])
 
         if oldcount < msg.modcount:
             self.nmatch += 1
@@ -140,14 +175,11 @@ class Sieve(object):
                 )
             )
 
+
     def correctTypo(self, text):
         """Set correct typo"""
-        replacements = (
-            # ~ ("\\'", "’"),  # escaped '
-            # ~ ("'", "’"),
-        )
 
-        for _ in replacements:
+        for _ in self.replacements:
             text = text.replace(_[0], _[1])
         for _ in self.regex_replacements:
             text = _[0].sub(_[1], text)
@@ -168,7 +200,13 @@ class Sieve(object):
 
         return text
 
-    def replace_ellipses(self, text):
-        """Replace all three point (...) by a Unicode ellipsis (…)"""
-        # ellipsis "…" : \u2026
-        return text.replace("...", "\u2026")
+    # ~ def replace_ellipses(self, text):
+    # ~ """Replace all three point (...) by a Unicode ellipsis (…)"""
+    # ~ # ellipsis "…" : \u2026
+    # ~ return text.replace("...", "\u2026")
+
+def _replace_group(match,group,replacement):
+    if (groupn:=match.group(group)):
+        return match.group().replace(groupn, replacement)
+    else:
+        return match.group()
