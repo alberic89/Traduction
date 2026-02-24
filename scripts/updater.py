@@ -6,9 +6,10 @@
 # ...) contenant des fichiers .po aux noms des domaines de traduction. Le
 # script va télécharger les fichier PO correspondant et les placer dans
 # les dossiers.
+# La commande `git hook run pre-commit`` sera lancée si on passe `check` en argument
 # /!\ Ce script écrase votre travail sans confirmation !!!
 
-
+import sys
 import os
 import concurrent.futures
 import requests
@@ -110,18 +111,19 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
         else:
             future_to_url[future].store()
 
-print(f"\n{term.OKCYAN}=== Lancement du formatage automatique ==={term.ENDC}\n")
-try:
-    subprocess.run(
-        [
-            "git",
-            "hook",
-            "run",
-            "pre-commit",
-        ],
-        check=True,
-    )
-except subprocess.CalledProcessError:
-    print(f"\n{term.FAIL}{term.CROSS}{term.WARNING} Le formatage automatique a échoué !{term.ENDC}")
-else:
-    print(f"\n{term.OKGREEN}{term.CHECK}{term.ENDC} Formatage automatique terminé")
+if "check" in sys.argv:
+    print(f"\n{term.OKCYAN}=== Lancement du formatage automatique ==={term.ENDC}\n")
+    try:
+        subprocess.run(
+            [
+                "git",
+                "hook",
+                "run",
+                "pre-commit",
+            ],
+            check=True,
+        )
+    except subprocess.CalledProcessError:
+        print(f"\n{term.FAIL}{term.CROSS}{term.WARNING} Le formatage automatique a échoué !{term.ENDC}")
+    else:
+        print(f"\n{term.OKGREEN}{term.CHECK}{term.ENDC} Formatage automatique terminé")
