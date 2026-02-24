@@ -2,6 +2,8 @@
 
 # ~ sed '/[’]/a id="apostrophe"' pology/lang/fr/rules/typography.rules > typography.tmp && mv typography.tmp pology/lang/fr/rules/typography.rules
 
+error=0
+
 # Get a list of modified files in the index
 modified_files=($(git diff --name-only --cached --diff-filter=AMT | grep '\.po$'))
 modified_files_string=$(printf "%s\n" "${modified_files[@]}")
@@ -11,12 +13,12 @@ for file in "${modified_files[@]}"
 do
 
   # Reformat with posieve custom rules
-  out=$(posieve -q -b fr:wesnoth "$file" -s quiet)
+  out=$(posieve -q -b fr:wesnoth "$file" -s quiet -s level:1)
 
   if [ "$out" != "" ]; then # error will return code 0 with posieve, so check output
     notify-send -u critical "Erreur à la correction de $file" "$out" 2> /dev/null || :
     echo -e "$out"
-    exit 1
+    error=1
   fi
   # Check with bfw rules
 
@@ -25,7 +27,7 @@ do
   if [ "$out" != "" ]; then
     notify-send -u critical "Erreur à la vérification de $file" "$out" 2> /dev/null || :
     echo -e "$out"
-    exit 1
+    error=1
   fi
 
   # Reformat the file using msgcat
@@ -36,14 +38,17 @@ do
     notify-send -u critical "Erreur lors du reformatage de $file" "$out" 2> /dev/null || :
     echo "Erreur lors du reformatage de $file"
     echo -e "$out"
-    exit 1
+    error=1
   fi
 
   git add "$file"
 
 done
 
-# If we reach here, formatting succeeded
-notify-send -e "Formatage des fichiers PO terminé" "$modified_files_string" 2> /dev/null || :
-echo "Formatage des fichiers PO terminé avec succès !"
-exit 0
+
+if [ $error -ne 1 ]; then
+  notify-send -e "Formatage des fichiers PO terminé" "$modified_files_string" 2> /dev/null || :
+  echo "Formatage des fichiers PO terminé avec succès !"
+fi
+
+exit $error
